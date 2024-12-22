@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/let.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/let.md
 
-% let, linux
+% let, common
 
 # Evaluate a simple arithmetic expression
 let "<result = a + b>"
