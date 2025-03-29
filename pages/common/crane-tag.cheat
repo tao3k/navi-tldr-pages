@@ -7,4 +7,4 @@
 crane tag <image_name> <tag_name>
 
 # Display help
-crane tag <-h|--help>
+crane tag <[-h|--help]>

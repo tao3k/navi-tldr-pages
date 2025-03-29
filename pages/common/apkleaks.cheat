@@ -3,11 +3,11 @@
 
 % apkleaks, common
 
-# Scan an APK [f]ile for URIs, endpoints, and secrets
-apkleaks --file <path_to_file.apk>
+# Scan an APK file for URIs, endpoints, and secrets
+apkleaks <[-f|--file]> <path_to_file.apk>
 
-# Scan and save the [o]utput to a specific file
-apkleaks --file <path_to_file.apk> --output <path_to_output.txt>
+# Scan and save the output to a specific file
+apkleaks <[-f|--file]> <path_to_file.apk> <[-o|--output]> <path_to_output.txt>
 
-# Pass `jadx` disassembler [a]rguments
-apkleaks --file <path_to_file.apk> --args "<--threads-count 5 --deobf>"
+# Pass `jadx` disassembler arguments
+apkleaks <[-f|--file]> <path_to_file.apk> <[-a|--args]> "<--threads-count 5 --deobf>"

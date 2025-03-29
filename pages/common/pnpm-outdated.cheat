@@ -7,13 +7,13 @@
 pnpm outdated
 
 # Check for outdated dependencies found in every workspace package
-pnpm outdated -r
+pnpm outdated <[-r|--recursive]>
 
 # Filter outdated packages using a package selector
 pnpm outdated --filter <package_selector>
 
-# List outdated packages [g]lobally
-pnpm outdated --global
+# List outdated packages globally
+pnpm outdated <[-g|--global]>
 
 # Print details of outdated packages
 pnpm outdated --long
@@ -24,5 +24,5 @@ pnpm outdated --format <format>
 # Print only versions that satisfy specifications in `package.json`
 pnpm outdated --compatible
 
-# Check only outdated [D]ev dependencies
-pnpm outdated --dev
+# Check only outdated dev dependencies
+pnpm outdated <[-D|--dev]>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/o.md
+
+% o, common
+
+# Open a file in editor
+o <path_to_file>
+
+# Open a file as read-only
+o <[-m|-monitor]> <path_to_file>
+
+# Save the file
+<Ctrl s>
+
+# Quit Orbiton
+<Ctrl q>
+
+# Display help
+o <[-h|--help]>

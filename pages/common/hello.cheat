@@ -7,7 +7,7 @@
 hello
 
 # Print "hello, world", the traditional type
-hello --traditional
+hello <[-t|--traditional]>
 
 # Print a text message
-hello --greeting="<greeting_text>"
+hello <[-g|--greeting]> "<greeting_text>"

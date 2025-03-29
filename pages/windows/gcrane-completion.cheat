@@ -16,4 +16,4 @@ gcrane completion powershell | Out-String | Invoke-Expression
 gcrane completion powershell | Out-String | Invoke-Expression
 
 # Display help
-gcrane completion <shell_name> <-h|--help>
+gcrane completion <shell_name> <[-h|--help]>

@@ -13,7 +13,7 @@ docker update --restart=on-failure:3 <container_name>
 docker update --cpus <count> <container_name>
 
 # Update the memory limit in [M]egabytes for a specific container
-docker update --memory <limit>M <container_name>
+docker update <[-m|--memory]> <limit>M <container_name>
 
 # Update the maximum number of process IDs allowed inside a specific container (use `-1` for unlimited)
 docker update --pids-limit <count> <container_name>

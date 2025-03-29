@@ -7,7 +7,7 @@
 sudo grub-mkconfig
 
 # Generate the configuration file
-sudo grub-mkconfig --output=<boot_grub_grub.cfg>
+sudo grub-mkconfig <[-o|--output]> <boot_grub_grub.cfg>
 
 # Display help
 grub-mkconfig --help

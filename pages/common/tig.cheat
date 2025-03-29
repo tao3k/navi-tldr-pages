@@ -22,4 +22,4 @@ tig --all
 tig stash
 
 # Display help in TUI
-h
+<h>

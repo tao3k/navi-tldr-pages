@@ -9,8 +9,8 @@ ddgr
 # Search DuckDuckGo for a keyword
 ddgr <keyword>
 
-# Limit the number of search results to `N`
-ddgr -n <N> <keyword>
+# Limit the number of search results to `n`
+ddgr -n <n> <keyword>
 
 # Display the complete URL in search results
 ddgr -x <keyword>
@@ -25,4 +25,4 @@ ddgr -w <site> <keyword>
 ddgr <keyword> filetype:<filetype>
 
 # Display help in interactive mode
-?
+<?>

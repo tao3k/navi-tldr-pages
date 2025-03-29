@@ -3,20 +3,20 @@
 
 % whatwaf, common
 
-# Detect protection on a single [u]RL, optionally use verbose output
-whatwaf --url <https:__example.com> --verbose
+# Detect protection on a single URL, optionally use verbose output
+whatwaf <[-u|--url]> <https:__example.com> --verbose
 
-# Detect protection on a [l]ist of URLs in parallel from a file (one URL per line)
-whatwaf --threads <number> --list <path_to_file>
+# Detect protection on a list of URLs in parallel from a file (one URL per line)
+whatwaf <[-t|--threads]> <number> <[-l|--list]> <path_to_file>
 
 # Send requests through a proxy and use custom payload list from a file (one payload per line)
-whatwaf --proxy <http:__127.0.0.1:8080> --pl <path_to_file> -u <https:__example.com>
+whatwaf --proxy <http:__127.0.0.1:8080> --pl <path_to_file> <[-u|--url]> <https:__example.com>
 
-# Send requests through Tor (Tor must be installed) using custom [p]ayloads (comma-separated)
-whatwaf --tor --payloads '<payload1,payload2,...>' -u <https:__example.com>
+# Send requests through Tor (Tor must be installed) using custom payloads (comma-separated)
+whatwaf --tor <[-p|--payloads]> '<payload1,payload2,...>' <[-u|--url]> <https:__example.com>
 
-# Use a random user-agent, set throttling and timeout, send a [P]OST request, and force HTTPS connection
-whatwaf --ra --throttle <seconds> --timeout <seconds> --post --force-ssl -u <http:__example.com>
+# Use a random user-agent, set throttling and timeout, send a POST request, and force HTTPS connection
+whatwaf --ra --throttle <seconds> --timeout <seconds> <[-P|--post]> --force-ssl <[-u|--url]> <http:__example.com>
 
 # List all WAFs that can be detected
 whatwaf --wafs

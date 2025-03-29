@@ -6,8 +6,8 @@
 # Pretty print an HTML file
 tidy <path_to_file.html>
 
-# Enable [i]ndentation, [w]rapping lines in 100, saving to `output.html`
-tidy --indent y --wrap 100 -output <path_to_output.html> <path_to_file.html>
+# Enable indentation, wrapping lines in 100, saving to `output.html`
+tidy <[-i|--indent]> y <[-w|--wrap]> 100 <[-o|-output]> <path_to_output.html> <path_to_file.html>
 
 # Modify an HTML file in-place using a configuration file
-tidy -config <path_to_configuration> -modify <path_to_file.html>
+tidy -config <path_to_configuration> <[-m|-modify]> <path_to_file.html>

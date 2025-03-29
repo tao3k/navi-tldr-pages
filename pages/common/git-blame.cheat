@@ -7,10 +7,16 @@
 git blame <path_to_file>
 
 # Print file with author email and commit hash on each line
-git blame <-e|--show-email> <path_to_file>
+git blame <[-e|--show-email]> <path_to_file>
 
 # Print file with author name and commit hash on each line at a specific commit
 git blame <commit> <path_to_file>
 
 # Print file with author name and commit hash on each line before a specific commit
 git blame <commit>~ <path_to_file>
+
+# Print author name and commit hash information for a specific line range
+git blame -L <start_line>,<end_line> <path_to_file>
+
+# Ignore whitespaces and line moves
+git blame -w -C -C -C <path_to_file>

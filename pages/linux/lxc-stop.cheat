@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lxc-stop.md
+
+% lxc-stop, linux
+
+# Stop a container
+sudo lxc-stop <container_name>
+
+# Display help
+lxc-stop <[-?|--help]>

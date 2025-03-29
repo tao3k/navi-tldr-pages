@@ -7,7 +7,7 @@
 mktemp
 
 # Use a custom directory (defaults to `$TMPDIR`, or `/tmp`)
-mktemp --tmpdir=<path_to_tempdir>
+mktemp <[-p |--tmpdir=]><path_to_tempdir>
 
 # Use a custom path template (`X`s are replaced with random alphanumeric characters)
 mktemp <tmp_example.XXXXXXXX>
@@ -19,4 +19,4 @@ mktemp -t <example.XXXXXXXX>
 mktemp --suffix <.ext>
 
 # Create an empty temporary directory and print its absolute path
-mktemp --directory
+mktemp <[-d|--directory]>

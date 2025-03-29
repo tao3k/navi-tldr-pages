@@ -7,7 +7,7 @@
 blkdiscard <dev_device>
 
 # Securely discard all blocks on a device, removing all data
-blkdiscard --secure <dev_device>
+blkdiscard <[-s|--secure]> <dev_device>
 
 # Discard the first 100 MB of a device
-blkdiscard --length <100MB> <dev_device>
+blkdiscard <[-l|--length]> <100MB> <dev_device>

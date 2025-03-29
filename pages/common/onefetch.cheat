@@ -22,7 +22,7 @@ onefetch --no-art
 onefetch --number-of-<authors|languages|file-churns> <n>
 
 # Ignore the specified files and directories
-onefetch <-e|--exclude> <path_to_file_or_directory|regular_expression>
+onefetch <[-e|--exclude]> <path_to_file_or_directory|regular_expression>
 
 # Only detect languages from the specified categories (default: programming and markup)
-onefetch <-T|--type> <programming|markup|prose|data>
+onefetch <[-T|--type]> <programming|markup|prose|data>

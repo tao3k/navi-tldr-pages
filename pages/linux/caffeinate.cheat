@@ -3,5 +3,5 @@
 
 % caffeinate, linux
 
-# Prevent desktop from sleeping (use `Ctrl + C` to exit)
+# Prevent desktop from sleeping (use `<Ctrl c>` to exit)
 caffeinate

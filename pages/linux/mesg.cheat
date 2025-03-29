@@ -12,5 +12,5 @@ mesg n
 # Allow receiving messages from other users
 mesg y
 
-# Enable [v]erbose mode, printing a warning if the command is not executed from a terminal
-mesg --verbose
+# Enable verbose mode, printing a warning if the command is not executed from a terminal
+mesg <[-v|--verbose]>

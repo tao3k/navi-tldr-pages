@@ -6,5 +6,5 @@
 # Download the contents of a URL to a file
 ruget <https:__example.com_file>
 
-# Download the contents of a URL to a specified [o]utput file
-ruget --output <file_name> <https:__example.com_file>
+# Download the contents of a URL to a specified output file
+ruget <[-o|--output]> <file_name> <https:__example.com_file>

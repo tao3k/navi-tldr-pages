@@ -6,8 +6,8 @@
 # Display system information (hostname, kernel, uptime, etc.)
 nitch
 
-# Display [h]elp
-nitch --help
+# Display help
+nitch <[-h|--help]>
 
-# Display [v]ersion
-nitch --version
+# Display version
+nitch <[-v|--version]>

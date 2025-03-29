@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/steamos-chroot.md
+
+% steamos-chroot, linux
+
+# Switch to the other A/B partition
+steamos-chroot <[-p|--partset]> other
+
+# Switch to a partition on another drive
+steamos-chroot <[-d|--disk]> <dev_sdX> <[-p|--partset]> <A|B>
+
+# Display help
+steamos-chroot <[-h|--help]>

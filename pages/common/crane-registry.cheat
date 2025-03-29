@@ -13,7 +13,7 @@ crane registry serve --address <address_name>
 crane registry serve --disk <path_to_store_dir>
 
 # Display help for `crane registry`
-crane registry <-h|--help>
+crane registry <[-h|--help]>
 
 # Display help for `crane registry serve`
-crane registry serve <-h|--help>
+crane registry serve <[-h|--help]>

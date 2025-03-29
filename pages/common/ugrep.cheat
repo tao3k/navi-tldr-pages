@@ -3,7 +3,7 @@
 
 % ugrep, common
 
-# Start a query TUI to search files in the current directory recursively (CTRL-Z for help)
+# Start a query TUI to search files in the current directory recursively (`<Ctrl z>` for help)
 ugrep --query
 
 # Search the current directory recursively for files containing a regex search pattern

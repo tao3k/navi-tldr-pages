@@ -7,10 +7,10 @@
 bison <path_to_file.y>
 
 # Compile in debug mode, which causes the resulting parser to write additional information to `stdout`
-bison --debug <path_to_file.y>
+bison <[-t|--debug]> <path_to_file.y>
 
 # Specify the output filename
-bison --output <path_to_output.c> <path_to_file.y>
+bison <[-o|--output]> <path_to_output.c> <path_to_file.y>
 
 # Be verbose when compiling
-bison --verbose
+bison <[-v|--verbose]>

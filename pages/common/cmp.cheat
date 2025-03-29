@@ -7,10 +7,10 @@
 cmp <path_to_file1> <path_to_file2>
 
 # Output info of the first difference: char, line number, bytes, and values
-cmp --print-bytes <path_to_file1> <path_to_file2>
+cmp <[-b|--print-bytes]> <path_to_file1> <path_to_file2>
 
 # Output the byte numbers and values of every difference
-cmp --verbose <path_to_file1> <path_to_file2>
+cmp <[-l|--verbose]> <path_to_file1> <path_to_file2>
 
 # Compare files but output nothing, yield only the exit status
-cmp --quiet <path_to_file1> <path_to_file2>
+cmp <[-s|--quiet]> <path_to_file1> <path_to_file2>

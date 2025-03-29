@@ -16,4 +16,4 @@ crane validate --remote <image_name>
 crane validate --tarball <path_to_tarball>
 
 # Display help
-crane validate <-h|--help>
+crane validate <[-h|--help]>

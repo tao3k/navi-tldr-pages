@@ -3,23 +3,23 @@
 
 % nextclade, common
 
-# Align sequences to user provided [r]eference, [o]utputting the alignment to a file
-nextclade run <path_to_sequences.fa> -r <path_to_reference.fa> -o <path_to_alignment.fa>
+# Align sequences to user provided reference, outputting the alignment to a file
+nextclade run <path_to_sequences.fa> <[-r|--input-ref]> <path_to_reference.fa> <[-o|--output-fasta]> <path_to_alignment.fa>
 
-# Create a [t]SV report, auto-downloading the latest [d]ataset
-nextclade run <path_to_fasta> -d <dataset_name> -t <path_to_report.tsv>
+# Create a TSV report, auto-downloading the latest dataset
+nextclade run <path_to_fasta> <[-d|--dataset-name]> <dataset_name> <[-t|--output-tsv]> <path_to_report.tsv>
 
 # List all available datasets
 nextclade dataset list
 
 # Download the latest SARS-CoV-2 dataset
-nextclade dataset get --name sars-cov-2 --output-dir <path_to_directory>
+nextclade dataset get <[-n|--name]> sars-cov-2 <[-o|--output-dir]> <path_to_directory>
 
-# Use a downloaded [D]ataset, producing all [O]utputs
-nextclade run -D <path_to_dataset_dir> -O <path_to_output_dir> <path_to_sequences.fasta>
+# Use a downloaded dataset, producing all outputs
+nextclade run <[-D|--input-dataset]> <path_to_dataset_dir> <[-O|--output-all]> <path_to_output_dir> <path_to_sequences.fasta>
 
 # Run on multiple files
-nextclade run -d <dataset_name> -t <path_to_output_tsv> -- <path_to_input_fasta_1 path_to_input_fasta_2 ...>
+nextclade run <[-d|--dataset-name]> <dataset_name> <[-t|--output-tsv]> <path_to_output_tsv> -- <path_to_input_fasta_1 path_to_input_fasta_2 ...>
 
 # Try reverse complement if sequence does not align
-nextclade run --retry-reverse-complement -d <dataset_name> -t <path_to_output_tsv> <path_to_input_fasta>
+nextclade run --retry-reverse-complement <[-d|--dataset-name]> <dataset_name> <[-t|--output-tsv]> <path_to_output_tsv> <path_to_input_fasta>

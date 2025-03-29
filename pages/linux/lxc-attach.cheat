@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lxc-attach.md
+
+% lxc-attach, linux
+
+# Attach to a container
+sudo lxc-attach <container_name>
+
+# Display help
+lxc-attach <[-?|--help]>

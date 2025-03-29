@@ -7,10 +7,13 @@
 xgettext <path_to_input_file>
 
 # Use a different output filename
-xgettext --output <path_to_output_file> <path_to_input_file>
+xgettext <[-o|--output]> <path_to_output_file> <path_to_input_file>
 
 # Append new strings to an existing file
-xgettext --join-existing --output <path_to_output_file> <path_to_input_file>
+xgettext <[-j|--join-existing]> <[-o|--output]> <path_to_output_file> <path_to_input_file>
 
 # Don't add a header containing metadata to the output file
 xgettext --omit-header <path_to_input_file>
+
+# Display help
+xgettext <[-h|--help]>

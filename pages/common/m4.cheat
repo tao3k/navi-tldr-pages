@@ -7,4 +7,4 @@
 m4 <path_to_file>
 
 # Define a macro before processing files
-m4 -D<macro_name>=<macro_value> <path_to_file>
+m4 <[-D|--define]> <macro_name>=<macro_value> <path_to_file>

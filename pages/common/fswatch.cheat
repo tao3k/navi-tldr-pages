@@ -13,4 +13,4 @@ fswatch <path_to_file> <path_to_directory> <path_to_another_directory_**_*.js> |
 fswatch <path_to_directory> | xargs -n 1 -I {} echo {}
 
 # Filter by event type
-fswatch --event <Updated|Deleted|Created> <path_to_directory> | xargs -n 1 <bash_command>
+fswatch --event <Updated|Removed|Created|...> <path_to_directory> | xargs -n 1 <bash_command>

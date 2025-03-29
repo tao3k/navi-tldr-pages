@@ -6,11 +6,11 @@
 # Set a specific login shell for the current user interactively
 chsh
 
-# Set a specific login [s]hell for the current user
-chsh --shell <path_to_shell>
+# List available shells
+chsl <[-l|--list-shells]>
 
-# Set a login [s]hell for a specific user
-sudo chsh --shell <path_to_shell> <username>
+# Set a specific login shell for the current user
+chsh <[-s|--shell]> <path_to_shell>
 
-# [l]ist available shells
-chsh --list-shells
+# Set a login shell for a specific user
+sudo chsh <[-s|--shell]> <path_to_shell> <username>

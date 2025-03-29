@@ -13,4 +13,4 @@ crane push <path_to_tarball> <image_name> --image-refs <path_to_filename>
 crane push <path_to_tarball> <image_name> --index
 
 # Display help
-crane push <-h|--help>
+crane push <[-h|--help]>

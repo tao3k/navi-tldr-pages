@@ -19,4 +19,4 @@ wol --port=<port_number> <mac_address>
 wol --file=<path_to_file>
 
 # Turn on verbose output
-wol --verbose <mac_address>
+wol <[-v|--verbose]> <mac_address>

@@ -4,7 +4,7 @@
 % eject, linux
 
 # Display the default device
-eject -d
+eject <[-d|--default]>
 
 # Eject the default device
 eject
@@ -13,13 +13,16 @@ eject
 eject <dev_cdrom>
 
 # Toggle whether a device's tray is open or closed
-eject -T <dev_cdrom>
+eject <[-T|--traytoggle]> <dev_cdrom>
 
 # Eject a cd drive
-eject -r <dev_cdrom>
+eject <[-r|--cdrom]> <dev_cdrom>
 
 # Eject a floppy drive
-eject -f <mnt_floppy>
+eject <[-f|--floppy]> <mnt_floppy>
 
 # Eject a tape drive
-eject -q <mnt_tape>
+eject <[-q|--tape]> <mnt_tape>
+
+# Set whether the physical eject button is [i]gnored (`on` prevents ejecting)
+eject <[-i|--manualeject]> <on|off>

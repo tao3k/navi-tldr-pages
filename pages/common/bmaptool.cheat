@@ -3,8 +3,8 @@
 
 % bmaptool, common
 
-# [o]utput a blockmap file from image file
-bmaptool create -o <blockmap.bmap> <source.img>
+# Output a blockmap file from image file
+bmaptool create <[-o|--output]> <blockmap.bmap> <source.img>
 
 # Copy an image file into sdb
 bmaptool copy --bmap <blockmap.bmap> <source.img> <dev_sdb>

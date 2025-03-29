@@ -6,8 +6,8 @@
 # Terminate a program using the default SIGTERM (terminate) signal
 kill <process_id>
 
-# List signal values and their corresponding names (to be used without the `SIG` prefix)
-kill -L
+# List signal values and their corresponding names (to be used without the `SIG` prefix). The available options may depend on the `kill` implementation
+kill <-l|-L|--table>
 
 # Terminate a background job
 kill %<job_id>
@@ -15,7 +15,7 @@ kill %<job_id>
 # Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating
 kill -<1|HUP> <process_id>
 
-# Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`
+# Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `<Ctrl c>`
 kill -<2|INT> <process_id>
 
 # Signal the operating system to immediately terminate a program (which gets no chance to capture the signal)

@@ -3,14 +3,14 @@
 
 % setfacl, linux
 
-# [M]odify ACL of a file for user with read and write access
-setfacl --modify u:<username>:rw <path_to_file_or_directory>
+# Modify ACL of a file for user with read and write access
+setfacl <[-m|--modify]> u:<username>:rw <path_to_file_or_directory>
 
-# [M]odify [d]efault ACL of a file for all users
-setfacl --modify --default u::rw <path_to_file_or_directory>
+# Modify default ACL of a file for all users
+setfacl <[-m|--modify]> <[-d|--default]> u::rw <path_to_file_or_directory>
 
 # Remove ACL of a file for a user
-setfacl --remove u:<username> <path_to_file_or_directory>
+setfacl <[-x|--remove]> u:<username> <path_to_file_or_directory>
 
 # Remove all ACL entries of a file
-setfacl --remove-all <path_to_file_or_directory>
+setfacl <[-X|--remove-all]> <path_to_file_or_directory>

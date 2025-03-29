@@ -3,17 +3,17 @@
 
 % bup, common
 
-# Initialize a backup repository in a given local [d]irectory
-bup -d <path_to_repository> init
+# Initialize a backup repository in a given local directory
+bup <[-d|--bup-dir]> <path_to_repository> init
 
-# Prepare a given [d]irectory before taking a backup
-bup -d <path_to_repository> index <path_to_directory>
+# Prepare a given directory before taking a backup
+bup <[-d|--bup-dir]> <path_to_repository> index <path_to_directory>
 
-# Backup a [d]irectory to the repository specifying its [n]ame
-bup -d <path_to_repository> save -n <backup_name> <path_to_directory>
+# Backup a directory to the repository specifying its name
+bup <[-d|--bup-dir]> <path_to_repository> save <[-n|--name]> <backup_name> <path_to_directory>
 
 # Show the backup snapshots currently stored in the repository
-bup -d <path_to_repository> ls
+bup <[-d|--bup-dir]> <path_to_repository> ls
 
-# Restore a specific backup snapshot to a target dire[C]tory
-bup -d <path_to_repository> restore -C <path_to_target_directory> <backup_name>
+# Restore a specific backup snapshot to a target directory
+bup <[-d|--bup-dir]> <path_to_repository> restore <[-C|--outdir]> <path_to_target_directory> <backup_name>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aurpublish.md
+
+% aurpublish, linux
+
+# Verify `PKGBUILD` integrity, generate `.SRCINFO`, create a commit message template, and publish the package to the AUR
+aurpublish <package_name>
+
+# Add githooks to the current repository
+aurpublish setup
+
+# Display help
+aurpublish <[-h|--help]>

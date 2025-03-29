@@ -22,4 +22,4 @@ ansible-galaxy role info <role_name>
 ansible-galaxy collection <install|remove> <collection_name1 collection_name2 ...>
 
 # Display help about roles or collections
-ansible-galaxy <role|collection> <-h|--help>
+ansible-galaxy <role|collection> <[-h|--help]>

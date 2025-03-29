@@ -3,17 +3,17 @@
 
 % dpigs, linux
 
-# Display the N largest packages on the system
-dpigs --lines=<N>
+# Display the `n` largest packages on the system
+dpigs <[-n|--lines]> <n>
 
-# Use the specified file instead of the default dpkg [s]tatus file
-dpigs --status=<path_to_file>
+# Use the specified file instead of the default dpkg status file
+dpigs <[-s|--status]> <path_to_file>
 
-# Display the largest [S]ource packages of binary packages installed on the system
-dpigs --source
+# Display the largest source packages of binary packages installed on the system
+dpigs <[-S|--source]>
 
-# Display package sizes in [H]uman-readable format
-dpigs --human-readable
+# Display package sizes in human-readable format
+dpigs <[-H|--human-readable]>
 
 # Display help
-dpigs --help
+dpigs <[-h|--help]>

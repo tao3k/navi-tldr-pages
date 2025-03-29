@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/snmpnetstat.md
+
+% snmpnetstat, common
+
+# Fetch the networking status
+snmpnetstat -v <version> -c <community> <ip>
+
+# Display help
+snmpnetstat <[-h|--help]>

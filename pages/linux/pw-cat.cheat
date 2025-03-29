@@ -14,3 +14,6 @@ pw-cat --record --volume <1.25> <path_to_file.wav>
 
 # Record a sample recording using a different sample rate
 pw-cat --record --rate <6000> <path_to_file.wav>
+
+# Display help
+pw-cat <[-h|--help]>

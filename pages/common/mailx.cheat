@@ -3,7 +3,7 @@
 
 % mailx, common
 
-# Send mail (the content should be typed after the command, and ended with `Ctrl+D`)
+# Send mail (the content should be typed after the command, and ended with `<Ctrl d>`)
 mailx -s "<subject>" <to_addr>
 
 # Send mail with content passed from another command

@@ -7,10 +7,10 @@
 pydocstyle <file.py|path_to_directory>
 
 # Show an explanation of each error
-pydocstyle <-e|--explain> <file.py|path_to_directory>
+pydocstyle <[-e|--explain]> <file.py|path_to_directory>
 
 # Show debug information
-pydocstyle <-d|--debug> <file.py|path_to_directory>
+pydocstyle <[-d|--debug]> <file.py|path_to_directory>
 
 # Display the total number of errors
 pydocstyle --count <file.py|path_to_directory>

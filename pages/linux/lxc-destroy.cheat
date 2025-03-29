@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lxc-destroy.md
+
+% lxc-destroy, linux
+
+# Delete a container
+sudo lxc-destroy <container_name>
+
+# Display help
+lxc-destroy <[-?|--help]>

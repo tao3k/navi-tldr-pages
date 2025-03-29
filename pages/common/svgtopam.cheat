@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/svgtopam.md
+
+% svgtopam, common
+
+# Convert an SVG file to Netpbm format
+svgtopam <path_to_file.svg> > <path_to_output.pam>
+
+# Emit textual output describing the input image
+svgtopam -trace <path_to_file.svg>

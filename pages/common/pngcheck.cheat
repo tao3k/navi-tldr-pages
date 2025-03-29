@@ -3,7 +3,7 @@
 
 % pngcheck, common
 
-# Print a summary for an image (width, height, and color depth)
+# Verify the integrity of an image file (width, height, and color depth)
 pngcheck <path_to_image.png>
 
 # Print information for an image with [c]olorized output

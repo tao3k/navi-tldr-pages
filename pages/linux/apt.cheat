@@ -6,7 +6,7 @@
 # Update the list of available packages and versions (it's recommended to run this before other `apt` commands)
 sudo apt update
 
-# Search for a given package
+# Search for a given package (use `apt search -n package` to search within package name only)
 apt search <package>
 
 # Show information for a package

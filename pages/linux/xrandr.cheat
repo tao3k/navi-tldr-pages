@@ -4,7 +4,7 @@
 % xrandr, linux
 
 # Display the current state of the system (known screens, resolutions, ...)
-xrandr --query
+xrandr <[-q|--query]>
 
 # Disable disconnected outputs and enable connected ones with default settings
 xrandr --auto
@@ -22,4 +22,4 @@ xrandr --output <VGA1> --off
 xrandr --output <LVDS1> --brightness <0.5>
 
 # Display the current state of any X server
-xrandr --display :<0> --query
+xrandr <[-d|--display]> :<0> <[-q|--query]>

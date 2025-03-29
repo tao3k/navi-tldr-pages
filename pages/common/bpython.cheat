@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/bpython.md
+
+% bpython, common
+
+# Start a REPL (interactive shell)
+bpython
+
+# Execute a specific Python file
+bpython <path_to_file.py>
+
+# Execute a specific Python file and start a REPL
+bpython <[-i|--interactive]> <path_to_file.py>
+
+# Use the specified config file instead of the default config
+bpython --config <path_to_file.conf>

@@ -10,4 +10,4 @@ wordgrinder
 wordgrinder <path_to_file>
 
 # Show the menu
-<Alt> + M
+<Alt m>

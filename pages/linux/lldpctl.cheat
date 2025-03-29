@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lldpctl.md
+
+% lldpctl, linux
+
+# Start the lldp daemon
+systemctl start lldpd
+
+# Display collected neighbor data
+sudo lldpctl
+
+# Display help
+lldpctl <[-h|--help]>

@@ -3,8 +3,8 @@
 
 % act, common
 
-# [l]ist the available jobs
-act -l
+# List the available jobs
+act <[-l|--list]>
 
 # Run the default event
 act
@@ -12,14 +12,14 @@ act
 # Run a specific event
 act <event_type>
 
-# Run a specific [j]ob
-act -j <job_id>
+# Run a specific job
+act <[-j|--job]> <job_id>
 
 # Do [n]ot actually run the actions (i.e. a dry run)
-act -n
+act <[-n|--dryrun]>
 
-# Show [v]erbose logs
-act -v
+# Show verbose logs
+act <[-v|--verbose]>
 
-# Run a specific [W]orkflow with the push event
-act push -W <path_to_workflow>
+# Run a specific workflow with the push event
+act push <[-W|--workflows]> <path_to_workflow>

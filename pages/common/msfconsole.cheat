@@ -6,14 +6,17 @@
 # Launch the console
 msfconsole
 
-# Launch the console [q]uietly without any banner
-msfconsole --quiet
+# Launch the console quietly without any banner
+msfconsole <[-q|--quiet]>
 
-# Do [n]ot enable database support
-msfconsole --no-database
+# Do not enable database support
+msfconsole <[-n|--no-database]>
 
-# E[x]ecute console commands (Note: use `;` for passing multiple commands)
-msfconsole --execute-command "<use auxiliary_server_capture_ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run>"
+# Execute console commands (Note: use `;` for passing multiple commands)
+msfconsole <[-x|--execute-command]> "<use auxiliary_server_capture_ftp; set SRVHOST 0.0.0.0; set SRVPORT 21; run>"
 
-# Display [v]ersion
-msfconsole --version
+# Display help
+msfconsole <[-h|--help]>
+
+# Display version
+msfconsole <[-v|--version]>

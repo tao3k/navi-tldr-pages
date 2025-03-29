@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msginit.md
+
+% msginit, common
+
+# Generate Portable Object files in system locale from `messages.pot`
+msginit
+
+# Define locale to generate from a specific template
+msginit <[-l|--locale]> <locale> <[-i|--input]> <path_to_messages.pot>
+
+# Display help
+msginit <[-h|--help]>

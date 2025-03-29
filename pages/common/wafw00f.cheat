@@ -6,20 +6,20 @@
 # Check if a website is using any WAF
 wafw00f <https:__www.example.com>
 
-# Test for [a]ll detectable WAFs without stopping at the first match
-wafw00f --findall <https:__www.example.com>
+# Test for all detectable WAFs without stopping at the first match
+wafw00f <[-a|--findall]> <https:__www.example.com>
 
-# Pass requests through a [p]roxy (such as BurpSuite)
-wafw00f --proxy <http:__localhost:8080> <https:__www.example.com>
+# Pass requests through a proxy (such as BurpSuite)
+wafw00f <[-p|--proxy]> <http:__localhost:8080> <https:__www.example.com>
 
-# [t]est for a specific WAF product (run `wafw00f -l` to get list of all supported WAFs)
-wafw00f --test <Cloudflare|Cloudfront|Fastly|ZScaler|...> <https:__www.example.com>
+# Test for a specific WAF product (run `wafw00f -l` to get list of all supported WAFs)
+wafw00f <[-t|--test]> <Cloudflare|Cloudfront|Fastly|ZScaler|...> <https:__www.example.com>
 
-# Pass custom [H]eaders from a file
-wafw00f --headers <path_to_headers.txt> <https:__www.example.com>
+# Pass custom headers from a file
+wafw00f <[-H|--headers]> <path_to_headers.txt> <https:__www.example.com>
 
-# Read target [i]nputs from a file and show verbose output (multiple `v` for more verbosity)
-wafw00f --input <path_to_urls.txt> -v<v>
+# Read target inputs from a file and show verbose output (multiple `v` for more verbosity)
+wafw00f <[-i|--input]> <path_to_urls.txt> -<vv>
 
-# [l]ist all WAFs that can be detected
-wafw00f --list
+# List all WAFs that can be detected
+wafw00f <[-l|--list]>

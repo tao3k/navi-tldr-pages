@@ -10,7 +10,7 @@ grim
 grim -o <path_to_output_file>
 
 # Screenshot a specific region
-grim -g "<<x_position>,<y_position> <width>x<height>>"
+grim -g "<x_position>,<y_position> <width>x<height>"
 
 # Select a specific region and screenshot it, (using slurp)
 grim -g "<$(slurp)>"

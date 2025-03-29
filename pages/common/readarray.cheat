@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/readarray.md
+
+% readarray, common
+
+# Interactively input lines into an array
+readarray <array_name>
+
+# Read lines from a file and insert them in an array
+readarray <array_name> < <path_to_file.txt>
+
+# Remove trailing deliminators (newline by default)
+readarray -t <array_name> < <path_to_file.txt>
+
+# Copy at most `n` lines
+readarray -n <n> <array_name> < <path_to_file.txt>
+
+# Display help
+help mapfile

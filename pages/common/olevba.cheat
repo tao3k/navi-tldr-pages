@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/olevba.md
+
+% olevba, common
+
+# Analyze a file, showing both macro code and analysis results
+olevba <path_to_file>
+
+# Recursively analyze all supported files in a directory
+olevba -r <path_to_directory>
+
+# Provide a password for encrypted Microsoft Office files (may be repeated)
+olevba --password <password> <path_to_encrypted_file>
+
+# Display only analysis results, without showing macro source code
+olevba -a <path_to_file>
+
+# Display only macro source code
+olevba -c <path_to_file>
+
+# Show obfuscated strings and their decoded content
+olevba --decode <path_to_file>

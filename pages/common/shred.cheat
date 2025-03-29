@@ -7,16 +7,16 @@
 shred <path_to_file>
 
 # Overwrite a file and show progress on the screen
-shred --verbose <path_to_file>
+shred <[-v|--verbose]> <path_to_file>
 
-# Overwrite a file, leaving [z]eros instead of random data
-shred --zero <path_to_file>
+# Overwrite a file, leaving zeros instead of random data
+shred <[-z|--zero]> <path_to_file>
 
-# Overwrite a file a specific [n]umber of times
-shred --iterations <25> <path_to_file>
+# Overwrite a file a specific number of times
+shred <[-n|--iterations]> <25> <path_to_file>
 
 # Overwrite a file and remove it
 shred --remove <path_to_file>
 
-# Overwrite a file 100 times, add a final overwrite with [z]eros, remove the file after overwriting it and show [v]erbose progress on the screen
-shred -vzun 100 <path_to_file>
+# Overwrite a file 100 times, add a final overwrite with zeros, remove the file after overwriting it and show verbose progress on the screen
+shred <[-vzun|--verbose --zero -u --iterations]> 100 <path_to_file>

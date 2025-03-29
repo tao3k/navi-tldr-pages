@@ -24,5 +24,5 @@ rclone --dry-run delete <remote_name>:<path_to_file_or_directory>
 # Mount rclone remote (experimental)
 rclone mount <remote_name>:<path_to_directory> <path_to_mount_point>
 
-# Unmount rclone remote if CTRL-C fails (experimental)
+# Unmount rclone remote if `<Ctrl c>` fails (experimental)
 fusermount -u <path_to_mount_point>

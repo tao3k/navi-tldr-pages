@@ -22,4 +22,4 @@ atop -y
 atop -au
 
 # Display help about interactive commands
-?
+<?>

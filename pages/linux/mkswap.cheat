@@ -7,7 +7,7 @@
 sudo mkswap <path_to_file>
 
 # Check a partition for bad blocks before creating the swap area
-sudo mkswap -c <path_to_file>
+sudo mkswap <[-c|--check]> <path_to_file>
 
 # Specify a label for the partition (to allow `swapon` to use the label)
-sudo mkswap -L <label> <dev_sda1>
+sudo mkswap <[-L|--label]> <label> <dev_sda1>

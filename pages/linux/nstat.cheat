@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/nstat.md
+
+% nstat, linux
+
+# View network statistics since last time `nstat` was run
+nstat
+
+# View all-time network statistics
+nstat <[-a|--ignore]>
+
+# Display help
+nstat <[-h|--help]>

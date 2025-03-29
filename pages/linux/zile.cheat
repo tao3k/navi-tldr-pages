@@ -10,13 +10,13 @@ zile
 zile <path_to_file>
 
 # Save a file
-<Ctrl> + X, <Ctrl> + S
+<Ctrl x><Ctrl s>
 
 # Quit
-<Ctrl> + X, <Ctrl> + C
+<Ctrl x><Ctrl c>
 
 # Open a file at a specified line number
 zile +<line_number> <path_to_file>
 
 # Undo changes
-<Ctrl> + X, U
+<Ctrl x><u>

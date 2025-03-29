@@ -3,8 +3,14 @@
 
 % w, common
 
-# Show logged-in users info
+# Display information about all users who are currently logged in
 w
 
-# Show logged-in users info without a header
-w -h
+# Display information about a specific user
+w <username>
+
+# Display logged-in user information without a header
+w <[-h|--no-header]>
+
+# Display information without including the login, JCPU and PCPU columns
+w <[-s|--short]>

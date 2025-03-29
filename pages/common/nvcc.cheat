@@ -4,13 +4,13 @@
 % nvcc, common
 
 # Compile a CUDA program
-nvcc <path_to_source.cu> -o <path_to_executable>
+nvcc <path_to_source.cu> <[-o|--output-file]> <path_to_executable>
 
-# Generate debu[g] information
-nvcc <path_to_source.cu> -o <path_to_executable> --debug --device-debug
+# Generate debug information
+nvcc <path_to_source.cu> <[-o|--output-file]> <path_to_executable> <[-g|--debug]> <[-G|--device-debug]>
 
 # Include libraries from a different path
-nvcc <path_to_source.cu> -o <path_to_executable> -I<path_to_includes> -L<path_to_library> -l<library_name>
+nvcc <path_to_source.cu> <[-o|--output-file]> <path_to_executable> <[-I|--include-path]> <path_to_includes> <[-L|--library-path]> <path_to_library> <[-l|--library]> <library_name>
 
 # Specify the compute capability for a specific GPU architecture
-nvcc <path_to_source.cu> -o <path_to_executable> --generate-code arch=<arch_name>,code=<gpu_code_name>
+nvcc <path_to_source.cu> <[-o|--output-file]> <path_to_executable> <[-gencode|--generate-code]> arch=<arch_name>,code=<gpu_code_name>

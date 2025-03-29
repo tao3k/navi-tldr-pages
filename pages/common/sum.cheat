@@ -7,4 +7,4 @@
 sum <path_to_file>
 
 # Compute a checksum with System V-compatible algorithm and 512-byte blocks
-sum --sysv <path_to_file>
+sum <[-s|--sysv]> <path_to_file>

@@ -19,4 +19,4 @@ unopkg gui
 unopkg reinstall
 
 # Display help
-unopkg <-h|--help>
+unopkg <[-h|--help]>

@@ -10,10 +10,10 @@ unexpand <path_to_file>
 unexpand
 
 # Convert all blanks, instead of just initial blanks
-unexpand -a <path_to_file>
+unexpand <[-a|--all]> <path_to_file>
 
 # Convert only leading sequences of blanks (overrides -a)
 unexpand --first-only <path_to_file>
 
 # Have tabs a certain number of characters apart, not 8 (enables -a)
-unexpand -t <number> <path_to_file>
+unexpand <[-t|--tabs]> <number> <path_to_file>

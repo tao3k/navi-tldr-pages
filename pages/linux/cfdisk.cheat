@@ -7,4 +7,4 @@
 cfdisk <dev_sdX>
 
 # Create a new partition table for a specific device and manage it
-cfdisk --zero <dev_sdX>
+cfdisk <[-z|--zero]> <dev_sdX>

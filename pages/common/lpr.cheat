@@ -12,7 +12,7 @@ lpr -# <2> <path_to_file>
 # Print to a named printer
 lpr -P <printer> <path_to_file>
 
-# Print either a single page (e.g. 2) or a range of pages (e.g. 2–16)
+# Print either a single page (e.g. 2) or a range of pages (e.g. 2-16)
 lpr -o page-ranges=<2|2-16> <path_to_file>
 
 # Print double-sided either in portrait (long) or in landscape (short)

@@ -10,4 +10,4 @@ qcp <source_file>
 qcp <*.jpg>
 
 # Copy files, but swap the positions of the source and the target filenames in the editor
-qcp --option swap <*.jpg>
+qcp <[-o|--option]> swap <*.jpg>

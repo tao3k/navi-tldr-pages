@@ -3,14 +3,14 @@
 
 % qalc, common
 
-# Launch in [i]nteractive mode
-qalc <--interactive>
+# Launch in interactive mode
+qalc <[-i|--interactive]>
 
-# Launch in [t]erse mode (print the results only)
-qalc --terse
+# Launch in terse mode (print the results only)
+qalc <[-t|--terse]>
 
-# Update currency [e]xchange rates
-qalc --exrates
+# Update currency exchange rates
+qalc <[-e|--exrates]>
 
 # Perform calculations non-interactively
 qalc <66+99|2^4|6 feet to cm|1 bitcoin to USD|20 kmph to mph|...>
@@ -18,5 +18,5 @@ qalc <66+99|2^4|6 feet to cm|1 bitcoin to USD|20 kmph to mph|...>
 # List all supported functions/prefixes/units/variables
 qalc --<list-functions|list-prefixes|list-units|list-variables>
 
-# Execute commands from a [f]ile
-qalc --file <path_to_file>
+# Execute commands from a file
+qalc <[-f|--file]> <path_to_file>

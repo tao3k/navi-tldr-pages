@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/img2sixel.md
+
+% img2sixel, common
+
+# Display an image in the terminal
+img2sixel <path_to_image>
+
+# Resize the image to the specified width and height before displaying it
+img2sixel <[-w|--width]> <number> <[-h|--height]> <number> <path_to_image>

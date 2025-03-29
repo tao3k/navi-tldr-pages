@@ -4,10 +4,10 @@
 % libtool, linux
 
 # Compile a source file into a `libtool` object
-libtool --mode=compile gcc -c <path_to_source.c> -o <path_to_source.lo>
+libtool --mode=compile gcc <[-c|--compile]> <path_to_source.c> <[-o|--output]> <path_to_source.lo>
 
 # Create a library or an executable
-libtool --mode=link gcc -o <path_to_library.lo> <path_to_source.lo>
+libtool --mode=link gcc <[-o|--output]> <path_to_library.lo> <path_to_source.lo>
 
 # Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries
 libtool --mode=execute gdb <path_to_program>

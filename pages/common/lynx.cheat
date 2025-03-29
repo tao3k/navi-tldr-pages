@@ -19,10 +19,10 @@ lynx -color <example.com>
 lynx -cookie_file=<path_to_file> <example.com>
 
 # Navigate forwards and backwards through the links on a page
-<Up arrow key|Down arrow key>
+<<ArrowUp>|<ArrowDown>>
 
 # Go back to the previously displayed page
-<Left arrow key|u>
+<<ArrowLeft>|<u>>
 
 # Exit
-q + y
+<q><y>

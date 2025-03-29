@@ -6,20 +6,20 @@
 # Compress a file
 bzip2 <path_to_file_to_compress>
 
-# [d]ecompress a file
-bzip2 -d <path_to_compressed_file.bz2>
+# Decompress a file
+bzip2 <[-d|--decompress]> <path_to_compressed_file.bz2>
 
-# [d]ecompress a file to `stdout`
-bzip2 -dc <path_to_compressed_file.bz2>
+# Decompress a file to `stdout`
+bzip2 <[-dc|--decompress --stdout]> <path_to_compressed_file.bz2>
 
 # Test the integrity of each file inside the archive file
-bzip2 --test <path_to_compressed_file.bz2>
+bzip2 <[-t|--test]> <path_to_compressed_file.bz2>
 
 # Show the compression ratio for each file processed with detailed information
-bzip2 --verbose <path_to_compressed_files.bz2>
+bzip2 <[-v|--verbose]> <path_to_compressed_files.bz2>
 
 # Decompress a file overwriting existing files
-bzip2 --force <path_to_compressed_file.bz2>
+bzip2 <[-f|--force]> <path_to_compressed_file.bz2>
 
 # Display help
-bzip2 -h
+bzip2 <[-h|--help]>

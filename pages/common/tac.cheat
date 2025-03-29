@@ -9,11 +9,11 @@ tac <path_to_file1 path_to_file2 ...>
 # Display `stdin` in reversed order
 <cat path_to_file> | tac
 
-# Use a specific [s]eparator
-tac -s <separator> <path_to_file1 path_to_file2 ...>
+# Use a specific separator
+tac <[-s|--separator]> <separator> <path_to_file1 path_to_file2 ...>
 
-# Use a specific [r]egex as a [s]eparator
-tac -r -s <separator> <path_to_file1 path_to_file2 ...>
+# Use a specific regex as a separator
+tac <[-r|--regex]> <[-s|--separator]> <separator> <path_to_file1 path_to_file2 ...>
 
-# Use a separator [b]efore each file
-tac -b <path_to_file1 path_to_file2 ...>
+# Use a separator before each file
+tac <[-b|--before]> <path_to_file1 path_to_file2 ...>

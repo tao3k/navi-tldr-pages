@@ -7,4 +7,4 @@
 rmdir <path_to_directory1 path_to_directory2 ...>
 
 # Remove specific nested directories recursively
-rmdir -p <path_to_directory1 path_to_directory2 ...>
+rmdir <[-p|--parents]> <path_to_directory1 path_to_directory2 ...>

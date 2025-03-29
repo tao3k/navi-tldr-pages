@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/snmptable.md
+
+% snmptable, common
+
+# Fetch data
+snmptable -v <version> -c <community> <ip> <oid>
+
+# Display help
+snmptable <[-h|--help]>

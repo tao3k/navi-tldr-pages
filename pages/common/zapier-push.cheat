@@ -10,4 +10,4 @@ zapier push
 zapier push --disable-dependency-detection
 
 # Show extra debugging output
-zapier push <-d|--debug>
+zapier push <[-d|--debug]>

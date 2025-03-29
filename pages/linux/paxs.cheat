@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/paxs.md
+
+% paxs, linux
+
+# Search for a package
+paxs <search_term>
+
+# Upgrade all packages
+paxs -u
+
+# Install a package (prompting for the source)
+paxs -i <package>
+
+# Remove a package (prompting for the source)
+paxs -r <package>
+
+# Check for updates across all package managers
+paxs -c
+
+# Display help
+paxs -h

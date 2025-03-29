@@ -10,16 +10,16 @@ mpg123 <path_to_file1.mp3 path_to_file2.mp3 ...>
 cat <file.mp3> | mpg123 -
 
 # Jump forward to the next song
-f
+<f>
 
 # Jump back to the beginning for the song
-b
+<b>
 
 # Stop or replay the current file
-s
+<s>
 
 # Fast forward
-.
+<.>
 
 # Quit
-q
+<q>

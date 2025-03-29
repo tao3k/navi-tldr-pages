@@ -10,10 +10,10 @@ crane pull <image_name> <path_to_tarball>
 crane pull <image_name> <path_to_tarball> --annotate-ref
 
 # Path to cache image layers
-crane pull <image_name> <path_to_tarball> <-c|--cache_path> <path_to_cache>
+crane pull <image_name> <path_to_tarball> <[-c|--cache_path]> <path_to_cache>
 
 # Format in which to save images (default 'tarball')
 crane pull <image_name> <path_to_tarball> <-format> <format_name>
 
 # Display help
-crane pull <-h|--help>
+crane pull <[-h|--help]>

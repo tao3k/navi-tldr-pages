@@ -25,4 +25,4 @@ ssh -L <9999>:<example.org>:<80> -N -T <username>@<remote_host>
 ssh -J <username>@<jump_host> <username>@<remote_host>
 
 # Close a hanged session
-<Enter> ~ .
+<Enter><~><.>

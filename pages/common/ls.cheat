@@ -6,23 +6,23 @@
 # List files one per line
 ls -1
 
-# List [a]ll files, including hidden files
-ls -a
+# List all files, including hidden files
+ls <[-a|--all]>
 
 # List files with a trailing symbol to indicate file type (directory/, symbolic_link@, executable*, ...)
-ls -F
+ls <[-F|--classify]>
 
-# List [a]ll files in [l]ong format (permissions, ownership, size, and modification date)
-ls -la
+# List all files in [l]ong format (permissions, ownership, size, and modification date)
+ls <[-la|-l --all]>
 
-# List files in [l]ong format with size displayed using [h]uman-readable units (KiB, MiB, GiB)
-ls -lh
+# List files in [l]ong format with size displayed using human-readable units (KiB, MiB, GiB)
+ls <[-lh|-l --human-readable]>
 
-# List files in [l]ong format, sorted by [S]ize (descending) [R]ecursively
-ls -lSR
+# List files in [l]ong format, sorted by [S]ize (descending) recursively
+ls <[-lSR|-lS --recursive]>
 
-# List files in [l]ong format, sorted by [t]ime the file was modified and in [r]everse order (oldest first)
-ls -ltr
+# List files in [l]ong format, sorted by [t]ime the file was modified and in reverse order (oldest first)
+ls <[-ltr|-lt --reverse]>
 
-# Only list [d]irectories
-ls -d */
+# Only list directories
+ls <[-d|--directory]> */

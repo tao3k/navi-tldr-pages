@@ -12,7 +12,7 @@ scrot <capture.png>
 # Capture a screenshot interactively
 scrot --select
 
-# Capture a screenshot interactively without exiting on keyboard input, press `ESC` to exit
+# Capture a screenshot interactively without exiting on keyboard input, press `<Esc>` to exit
 scrot --select --ignorekeyboard
 
 # Capture a screenshot interactively delimiting the region with a colored line

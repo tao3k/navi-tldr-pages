@@ -13,4 +13,4 @@ crane digest <image_name> --full-ref
 crane digest <image_name> --tarball <path_to_tarball>
 
 # Display help
-crane digest <-h|--help>
+crane digest <[-h|--help]>

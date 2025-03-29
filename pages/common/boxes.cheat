@@ -6,20 +6,20 @@
 # Draw a box around a string
 echo "<string>" | boxes
 
-# [r]emove a box from a string
-echo "<string>" | boxes -r
+# Remove a box from a string
+echo "<string>" | boxes <[-r|--remove]>
 
-# Specify the box [d]esign
-echo "<string>" | boxes -d <parchment>
+# Specify the box design
+echo "<string>" | boxes <[-d|--design]> <parchment>
 
-# Specify the box [s]ize (in columns by lines)
-echo "<string>" | boxes -s <10>x<5>
+# Specify the box size (in columns by lines)
+echo "<string>" | boxes <[-s|--size]> <10>x<5>
 
-# [a]lign the box text [h]orizonally (at [l]eft, [c]enter or [r]ight)
-echo "<string>" | boxes -a h<l|c|r>
+# Align the box text [h]orizonally (at [l]eft, [c]enter or [r]ight)
+echo "<string>" | boxes <[-a|--align]> h<l|c|r>
 
-# [a]lign the box text [v]ertically (at [t]op, [c]enter or [b]ottom)
-echo "<string>" | boxes -a v<t|c|b>
+# Align the box text [v]ertically (at [t]op, [c]enter or [b]ottom)
+echo "<string>" | boxes <[-a|--align]> v<t|c|b>
 
 # [j]ustify the box text (at [l]eft, [c]enter or [r]ight)
-echo "<string>" | boxes -a j<l|c|r><vt>
+echo "<string>" | boxes <[-a|--align]> j<l|c|r><vt>

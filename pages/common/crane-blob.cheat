@@ -7,4 +7,4 @@
 crane blob <blob_identifier>
 
 # Display help
-crane blob <-h|--help>
+crane blob <[-h|--help]>

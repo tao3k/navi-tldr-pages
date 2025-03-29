@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gtk-launch.md
+
+% gtk-launch, linux
+
+# Launch an application
+gtk-launch <Application_name>
+
+# Display help
+gtk-launch <[-h|--help]>

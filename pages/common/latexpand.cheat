@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/latexpand.md
+
+% latexpand, common
+
+# Simplify the specified source file and save the result to the specified output file
+latexpand <[-o|--output]> <path_to_output.tex> <path_to_file.tex>
+
+# Do not remove comments
+latexpand --keep-comments <[-o|--output]> <path_to_output.tex> <path_to_file.tex>
+
+# Do not expand `\include`s, `\input`s etc.
+latexpand --keep-includes <[-o|--output]> <path_to_output.tex> <path_to_file.tex>
+
+# Expand `\usepackage`s as far as the corresponding STY files can be found
+latexpand --expand-usepackage <[-o|--output]> <path_to_output.tex> <path_to_file.tex>
+
+# Inline the specified BBL file
+latexpand --expand-bbl <path_to_bibliography.bbl> <[-o|--output]> <path_to_output.tex> <path_to_file.tex>

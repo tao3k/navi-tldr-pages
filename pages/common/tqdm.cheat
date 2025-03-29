@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/tqdm.md
+
+% tqdm, common
+
+# Create a progress bar
+seq 10000000 | tqdm --total 10000000 --null

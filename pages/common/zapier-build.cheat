@@ -10,4 +10,4 @@ zapier build
 zapier build --disable-dependency-detection
 
 # Show extra debugging output
-zapier build <-d|--debug>
+zapier build <[-d|--debug]>

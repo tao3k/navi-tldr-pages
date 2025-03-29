@@ -10,10 +10,10 @@ expand <path_to_file>
 expand
 
 # Do not convert tabs after non blanks
-expand -i <path_to_file>
+expand <[-i|--initial]> <path_to_file>
 
 # Have tabs a certain number of characters apart, not 8
-expand -t <number> <path_to_file>
+expand <[-t|--tabs]> <number> <path_to_file>
 
 # Use a comma separated list of explicit tab positions
-expand -t <1,4,6>
+expand <[-t|--tabs]> <1,4,6>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/lxc-info.md
+
+% lxc-info, linux
+
+# Query information from a container
+sudo lxc-info <container_name>
+
+# Display help
+lxc-info <[-?|--help]>

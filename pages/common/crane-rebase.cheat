@@ -13,7 +13,7 @@ crane rebase --new_base <image_name>
 crane rebase --old_base <image_name>
 
 # Tag to apply to rebased image
-crane rebase <-t|--tag> <tag_name>
+crane rebase <[-t|--tag]> <tag_name>
 
 # Display help
-crane rebase <-h|--help>
+crane rebase <[-h|--help]>

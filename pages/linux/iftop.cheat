@@ -19,4 +19,4 @@ sudo iftop -b
 sudo iftop -n
 
 # Display help
-?
+<?>

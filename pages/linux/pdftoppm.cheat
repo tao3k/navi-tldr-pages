@@ -3,8 +3,8 @@
 
 % pdftoppm, linux
 
-# Specify the range of pages to convert (N-first page, M-last page)
-pdftoppm -f <N> -l <M> <path_to_file.pdf> <image_name_prefix>
+# Specify the range of pages to convert (`n` - first page, `m` - last page)
+pdftoppm -f <n> -l <m> <path_to_file.pdf> <image_name_prefix>
 
 # Convert only the first page of a PDF
 pdftoppm -singlefile <path_to_file.pdf> <image_name_prefix>

@@ -10,4 +10,4 @@ crane catalog <registry_address>
 crane catalog <registry_address> --full-ref
 
 # Display help
-crane catalog <-h|--help>
+crane catalog <[-h|--help]>

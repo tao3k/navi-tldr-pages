@@ -3,8 +3,8 @@
 
 % mpg321, common
 
-# Play an audio source exactly N times (N=0 means forever)
-mpg321 -l <N> <path_to_file_a|URL> <path_to_file_b|URL> <...>
+# Play an audio source exactly `n` times (0 means forever)
+mpg321 -l <n> <path_to_file_a|URL> <path_to_file_b|URL> <...>
 
 # Play a directory recursively
 mpg321 -B <path_to_directory>

@@ -4,7 +4,7 @@
 % sfdisk, linux
 
 # Back up the partition layout to a file
-sudo sfdisk <-d|--dump> <path_to_device> > <path_to_file.dump>
+sudo sfdisk <[-d|--dump]> <path_to_device> > <path_to_file.dump>
 
 # Restore a partition layout
 sudo sfdisk <path_to_device> < <path_to_file.dump>
@@ -16,4 +16,4 @@ sfdisk --part-type <path_to_device>} <partition_number> <swap>
 sfdisk --delete <path_to_device> <partition_number>
 
 # Display help
-sfdisk <-h|--help>
+sfdisk <[-h|--help]>

@@ -10,13 +10,13 @@ apx subsystems new
 apx subsystems list
 
 # Reset a specific subsystem to its initial state
-apx subsystems reset --name <string>
+apx subsystems reset <[-n|--name]> <string>
 
-# [f]orce reset a specific subsystem
-apx subsystems reset --name <string> --force
+# Force reset a specific subsystem
+apx subsystems reset <[-n|--name]> <string> <[-f|--force]>
 
 # Remove a specific subsystem
-apx subsystems rm --name <string>
+apx subsystems rm <[-n|--name]> <string>
 
-# [f]orce remove a specific subsystem
-apx subsystems rm --name <string> --force
+# Force remove a specific subsystem
+apx subsystems rm <[-n|--name]> <string> <[-f|--force]>

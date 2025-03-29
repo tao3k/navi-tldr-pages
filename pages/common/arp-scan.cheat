@@ -4,7 +4,7 @@
 % arp-scan, common
 
 # Scan the current local network
-arp-scan --localnet
+arp-scan <[-l|--localnet]>
 
 # Scan an IP network with a custom bitmask
 arp-scan <192.168.1.1>/<24>

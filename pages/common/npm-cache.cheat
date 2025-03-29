@@ -21,8 +21,8 @@ npm cache ls
 # Verify the integrity of the npm cache
 npm cache verify
 
-# Show information about the npm cache location and configuration
-npm cache dir
+# Show the cache path
+npm config get cache
 
 # Change the cache path
 npm config set cache <path_to_directory>

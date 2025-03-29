@@ -10,4 +10,4 @@ raw /dev/raw/raw<1> <dev_block_device>
 raw /dev/raw/raw<1>
 
 # Query all bound raw devices
-raw -qa
+raw <[-qa|--query --all]>

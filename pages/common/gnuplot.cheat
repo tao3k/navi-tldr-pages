@@ -13,4 +13,4 @@ gnuplot <path_to_definition.plt>
 gnuplot -e "<set output "path_to_filename.png" size 1024,768>" <path_to_definition.plt>
 
 # Persist the graph plot preview window after gnuplot exits
-gnuplot --persist <path_to_definition.plt>
+gnuplot <[-p|--persist]> <path_to_definition.plt>

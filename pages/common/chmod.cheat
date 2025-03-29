@@ -22,7 +22,7 @@ chmod o=g <path_to_file>
 chmod o= <path_to_file>
 
 # Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite
-chmod -R g+w,o+w <path_to_directory>
+chmod <[-R|--recursive]> g+w,o+w <path_to_directory>
 
 # Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory
-chmod -R a+rX <path_to_directory>
+chmod <[-R|--recursive]> a+rX <path_to_directory>

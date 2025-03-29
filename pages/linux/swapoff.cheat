@@ -7,7 +7,7 @@
 swapoff <path_to_file>
 
 # Disable all swap areas in `/proc/swaps`
-swapoff --all
+swapoff <[-a|--all]>
 
 # Disable a swap partition by its label
 swapoff -L <label>

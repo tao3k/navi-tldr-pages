@@ -3,5 +3,11 @@
 
 % msgfmt, common
 
+# Compile a file to `messages.mo`
+msgfmt <file.po>
+
 # Convert a `.po` file to a `.mo` file
-msgfmt <path_to_file.po> -o <path_to_file.mo>
+msgfmt <path_to_file.po> <[-o|--output-file]> <path_to_file.mo>
+
+# Display help
+msgfmt <[-h|--help]>

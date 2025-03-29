@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/fincore.md
+
+% fincore, linux
+
+# Display cache details for a file
+fincore <path_to_file>
+
+# Display all possible data columns
+fincore --output-all <path_to_file>
+
+# Display help
+fincore <[-h|--help]>

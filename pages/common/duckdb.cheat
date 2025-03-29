@@ -13,7 +13,7 @@ duckdb <path_to_dbfile>
 duckdb -c "<SELECT * FROM 'data_source.[csv|csv.gz|json|json.gz|parquet]'>"
 
 # Run an SQL script
-duckdb -c ".read <path_to_script.sql>"
+duckdb -f <path_to_script.sql>
 
 # Run query on database file and keep the interactive shell open
 duckdb <path_to_dbfile> -cmd "<SELECT DISTINCT * FROM tbl>"

@@ -16,7 +16,7 @@ sudo udevadm monitor --udev
 sudo udevadm info --attribute-walk <dev_sda>
 
 # Reload all `udev` rules
-sudo udevadm control --reload-rules
+sudo udevadm control --reload
 
 # Trigger all `udev` rules to run
 sudo udevadm trigger

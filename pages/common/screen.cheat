@@ -19,10 +19,10 @@ screen -ls
 screen -r <session_name>
 
 # Detach from inside a screen
-<Ctrl> + A, D
+<Ctrl a><d>
 
 # Kill the current screen session
-<Ctrl> + A, K
+<Ctrl a><k>
 
 # Kill a detached screen
 screen -X -S <session_name> quit

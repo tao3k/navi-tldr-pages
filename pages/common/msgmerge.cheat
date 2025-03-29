@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msgmerge.md
+
+% msgmerge, common
+
+# Update a translation file
+msgmerge <[-U|--update]> <path_to_file.po> <path_to_messages.pot>
+
+# Display help
+msgmerge <[-h|--help]>

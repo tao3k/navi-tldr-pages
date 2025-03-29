@@ -7,4 +7,4 @@
 crane config <image_name>
 
 # Display help
-crane config <-h|--help>
+crane config <[-h|--help]>

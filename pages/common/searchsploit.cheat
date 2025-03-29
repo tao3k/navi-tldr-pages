@@ -10,16 +10,16 @@ searchsploit <search_terms>
 searchsploit sudo 1.8.27
 
 # Show the exploit-db link to the found resources
-searchsploit --www <search_terms>
+searchsploit <[-w|--www]> <search_terms>
 
-# Copy ([m]irror) the resource to the current directory (requires the number of the exploit)
-searchsploit --mirror <exploit_number>
+# Copy the resource to the current directory (requires the number of the exploit)
+searchsploit <[-m|--mirror]> <exploit_number>
 
-# E[x]amine the resource, using the pager defined in the `$PAGER` environment variable
-searchsploit --examine <exploit_number>
+# Examine the resource, using the pager defined in the `$PAGER` environment variable
+searchsploit <[-x|--examine]> <exploit_number>
 
-# [u]pdate the local Exploit Database
-searchsploit --update
+# Update the local Exploit Database
+searchsploit <[-u|--update]>
 
 # Search for the [c]ommon [v]ulnerabilities and [e]xposures (CVE) value
 searchsploit --cve <2021-44228>

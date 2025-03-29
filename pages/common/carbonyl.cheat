@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/carbonyl.md
+
+% carbonyl, common
+
+# Open an `about:blank` page
+carbonyl
+
+# Open a webpage
+carbonyl <https:__example.com>
+
+# Exit carbonyl
+<Ctrl c>
+
+# Display help
+carbonyl <[-h|--help]>

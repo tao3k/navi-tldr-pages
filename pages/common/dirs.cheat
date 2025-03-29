@@ -9,8 +9,8 @@ dirs
 # Display the directory stack with one entry per line
 dirs -p
 
-# Display only the nth entry in the directory stack, starting at 0
-dirs +<N>
+# Display only the `n`th entry in the directory stack, starting at 0
+dirs +<n>
 
 # Clear the directory stack
 dirs -c

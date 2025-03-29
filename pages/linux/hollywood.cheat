@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/hollywood.md
+
+% hollywood, linux
+
+# Fill the console
+hollywood
+
+# Exit `hollywood`
+<Ctrl c><Ctrl c>
+
+# Display help
+hollywood -h

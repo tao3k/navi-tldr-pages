@@ -3,11 +3,11 @@
 
 % bb, common
 
-# [e]valuate an expression
-bb -e "(+ 1 2 3)"
+# Evaluate an expression
+bb <[-e|--eval]> "(+ 1 2 3)"
 
-# Evaluate a script [f]ile
-bb -f <path_to_script.clj>
+# Evaluate a script file
+bb <[-f|--file]> <path_to_script.clj>
 
 # Bind [i]nput to a sequence of lines from `stdin`
 printf "first\nsecond" | bb -i "(map clojure.string/capitalize *input*)"

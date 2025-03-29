@@ -9,5 +9,5 @@ namcap <path_to_pkgbuild>
 # Check a specific package file
 namcap <path_to_package.pkg.tar.zst>
 
-# Check a file, printing extra [i]nformational messages
-namcap -i <path_to_file>
+# Check a file, printing extra informational messages
+namcap <[-i|--info]> <path_to_file>

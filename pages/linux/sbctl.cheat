@@ -16,7 +16,7 @@ sbctl enroll-keys --microsoft
 sbctl setup --setup
 
 # Sign an EFI binary with the created key and save the file to the database
-sbctl sign <-s|--save> <path_to_efi_binary>
+sbctl sign <[-s|--save]> <path_to_efi_binary>
 
 # Re-sign all the saved files
 sbctl sign-all

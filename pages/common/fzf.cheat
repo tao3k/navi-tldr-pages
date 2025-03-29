@@ -9,7 +9,7 @@ find <path_to_directory> -type f | fzf
 # Start `fzf` for running processes
 ps aux | fzf
 
-# Select multiple files with `Shift + Tab` and write to a file
+# Select multiple files with `<Shift Tab>` and write to a file
 find <path_to_directory> -type f | fzf --multi > <path_to_file>
 
 # Start `fzf` with a specified query

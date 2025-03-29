@@ -12,11 +12,11 @@ pnpm audit fix
 # Generate a security report in JSON format
 pnpm audit --json > <path_to_audit-report.json>
 
-# Audit only [D]ev dependencies
-pnpm audit --dev
+# Audit only dev dependencies
+pnpm audit <[-D|--dev]>
 
-# Audit only [P]roduction dependencies
-pnpm audit --prod
+# Audit only production dependencies
+pnpm audit <[-P|--prod]>
 
 # Exclude optional dependencies from the audit
 pnpm audit --no-optional

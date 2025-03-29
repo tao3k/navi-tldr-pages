@@ -7,10 +7,10 @@
 waybar
 
 # Use a different configuration file
-waybar <-c|--config> <path_to_config.jsonc>
+waybar <[-c|--config]> <path_to_config.jsonc>
 
 # Use a different stylesheet file
-waybar <-s|--style> <path_to_stylesheet.css>
+waybar <[-s|--style]> <path_to_stylesheet.css>
 
 # Set the logging level
-waybar <-l|--log-level> <trace|debug|info|warning|error|critical|off>
+waybar <[-l|--log-level]> <trace|debug|info|warning|error|critical|off>

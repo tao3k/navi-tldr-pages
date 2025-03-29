@@ -4,4 +4,4 @@
 % insmod, linux
 
 # Insert a kernel module into the Linux kernel
-insmod <path_to_module.ko>
+sudo insmod <path_to_module.ko>

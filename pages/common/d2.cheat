@@ -6,8 +6,8 @@
 # Compile and render a D2 source file into an output file
 d2 <path_to_input_file.d2> <path_to_output_file.ext>
 
-# [w]atch live changes made to a D2 source file in the default web browser
-d2 --watch <path_to_input_file.d2> <path_to_output_file.ext>
+# Watch live changes made to a D2 source file in the default web browser
+d2 <[-w|--watch]> <path_to_input_file.d2> <path_to_output_file.ext>
 
 # Format a D2 source file
 d2 fmt <path_to_input_file.d2>
@@ -15,8 +15,8 @@ d2 fmt <path_to_input_file.d2>
 # List available themes
 d2 themes
 
-# Use a different [t]heme for the output file (list available themes first to get the desired `theme_id`)
-d2 --theme <theme_id> <path_to_input_file.d2> <path_to_output_file.ext>
+# Use a different theme for the output file (list available themes first to get the desired `theme_id`)
+d2 <[-t|--theme]> <theme_id> <path_to_input_file.d2> <path_to_output_file.ext>
 
-# Make rendered diagrams look like hand [s]ketches
-d2 --sketch true <path_to_input_file.d2> <path_to_output_file.ext>
+# Make rendered diagrams look like hand sketches
+d2 <[-s|--sketch]> true <path_to_input_file.d2> <path_to_output_file.ext>
