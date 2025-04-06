@@ -7,4 +7,4 @@
 pbmmask <path_to_image.pbm> > <path_to_output.pbm>
 
 # Expand the generated mask by one pixel
-pbmmask -expand <path_to_image.pbm> > <path_to_output.pbm>
+pbmmask <[-r|-expand]> <path_to_image.pbm> > <path_to_output.pbm>

@@ -7,4 +7,4 @@
 giftopnm <path_to_input.gif> > <path_to_output.pnm>
 
 # Display version
-giftopnm -version
+giftopnm <[-v|-version]>

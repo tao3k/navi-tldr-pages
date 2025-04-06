@@ -7,4 +7,4 @@
 pamstretch <n> <path_to_image.pam> > <path_to_output.pam>
 
 # Scale up a PAM image by the specified factors in the horizontal and vertical directions
-pamstretch -xscale <xn> -yscale <yn> <path_to_image.pam> > <path_to_output.pam>
+pamstretch <[-x|-xscale]> <xn> <[-y|-yscale]> <yn> <path_to_image.pam> > <path_to_output.pam>

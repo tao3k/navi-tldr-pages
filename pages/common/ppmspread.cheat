@@ -7,4 +7,4 @@
 ppmspread <a> <path_to_input_file.ppm> > <path_to_output_file.ppm>
 
 # Specify a seed to a the pseudo-random number generator
-ppmspread <a> <path_to_input_file.ppm> -randomseed <seed> > <path_to_output_file.ppm>
+ppmspread <a> <path_to_input_file.ppm> <[-r|-randomseed]> <seed> > <path_to_output_file.ppm>

@@ -7,4 +7,4 @@
 pamexec <command> <path_to_image.pam>
 
 # Stop processing if a command terminates with a nonzero exit status
-pamexec <command> <path_to_image.pam> -check
+pamexec <command> <path_to_image.pam> <[-c|-check]>

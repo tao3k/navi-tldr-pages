@@ -10,7 +10,7 @@ pnmgamma -<bt709tolinear|bt709tosrgb> <path_to_image.pnm> > <path_to_output.pnm>
 pnmgamma -<lineartobt709|srgbtobt709> <path_to_image.pnm> > <path_to_output.pnm>
 
 # Specify the gamma value used for the gamma transfer function
-pnmgamma -gamma <value> <path_to_image.pnm> > <path_to_output.pnm>
+pnmgamma <[-ga|-gamma]> <value> <path_to_image.pnm> > <path_to_output.pnm>
 
 # Specify the gamma value used for the gamma transfer function per color component
-pnmgamma -rgamma <value> -ggamma <value> -bgamma <value> <path_to_image.pnm> > <path_to_output.pnm>
+pnmgamma <[-rg|-rgamma]> <value> <[-gg|-ggamma]> <value> <[-bg|-bgamma]> <value> <path_to_image.pnm> > <path_to_output.pnm>

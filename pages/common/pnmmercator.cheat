@@ -7,4 +7,4 @@
 pnmmercator <path_to_image.pnm> > <path_to_output.pnm>
 
 # Convert a Mercator projection worldmap to rectangular projection
-pnmmercator -inverse <path_to_image.pnm> > <path_to_output.pnm>
+pnmmercator <[-i|-inverse]> <path_to_image.pnm> > <path_to_output.pnm>

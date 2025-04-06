@@ -13,4 +13,4 @@ ppmcie -<cie|ebu|hdtv|ntsc|smpte> > <path_to_output.ppm>
 ppmcie -<red|green|blue> <xpos ypos> > <path_to_output.ppm>
 
 # Do not dim the area outside the Maxwell triangle
-ppmcie -full > <path_to_output.ppm>
+ppmcie <[-f|-full]> > <path_to_output.ppm>

@@ -10,4 +10,4 @@ pbmclean <path_to_image.pbm> > <path_to_output.pbm>
 pbmclean -<black|white> <path_to_image.pbm> > <path_to_output.pbm>
 
 # Specify the minimum number of neighbouring pixels of the same color in order for a pixel not to be considered isolated
-pbmclean -minneighbours <3> <path_to_image.pbm> > <path_to_output.pbm>
+pbmclean <[-m|-minneighbours]> <3> <path_to_image.pbm> > <path_to_output.pbm>

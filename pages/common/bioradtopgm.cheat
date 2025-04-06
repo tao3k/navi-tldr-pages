@@ -10,4 +10,4 @@ bioradtopgm -<n> <path_to_file.pic> > <path_to_file.pgm>
 bioradtopgm <path_to_file.pic>
 
 # Display version
-bioradtopgm -version
+bioradtopgm <[-v|-version]>

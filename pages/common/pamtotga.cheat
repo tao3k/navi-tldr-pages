@@ -10,4 +10,4 @@ pamtotga <path_to_file.pam> > <path_to_output.tga>
 pamtotga -<cmap|cmap16|mono|rgb> <path_to_file.pam> > <path_to_output.tga>
 
 # Display version
-pamtotga -version
+pamtotga <[-v|-version]>

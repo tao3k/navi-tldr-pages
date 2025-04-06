@@ -7,10 +7,10 @@
 pnmindex <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
 
 # Specify the size of the (quadratic) thumbnails
-pnmindex -size <50> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
+pnmindex <[-s|-size]> <50> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
 
 # Specify the number of thumbnails per row
-pnmindex -across <10> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
+pnmindex <[-a|-across]> <10> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
 
 # Specify the maximum number of colors in the output
-pnmindex -colors <512> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>
+pnmindex <[-c|-colors]> <512> <path_to_input1.pnm path_to_input2.pnm ...> > <path_to_output.pnm>

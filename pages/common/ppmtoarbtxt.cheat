@@ -13,4 +13,4 @@ ppmtoarbtxt <path_to_template> -hd <path_to_head_template> <path_to_image.ppm> >
 ppmtoarbtxt <path_to_template> -hd <path_to_tail_template> <path_to_image.ppm> > <path_to_output_file.txt>
 
 # Display version
-ppmtoarbtxt -version
+ppmtoarbtxt <[-v|-version]>

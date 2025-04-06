@@ -7,7 +7,7 @@
 pnmrotate <angle> <path_to_input.pnm> > <path_to_output.pnm>
 
 # Specify the background color exposed by rotating the input image
-pnmrotate -background <color> <angle> <path_to_input.pnm> > <path_to_output.pnm>
+pnmrotate <[-b|-background]> <color> <angle> <path_to_input.pnm> > <path_to_output.pnm>
 
 # Disable anti-aliasing, improving performance but decreasing quality
-pnmrotate -noantialias <angle> <path_to_input.pnm> > <path_to_output.pnm>
+pnmrotate <[-n|-noantialias]> <angle> <path_to_input.pnm> > <path_to_output.pnm>

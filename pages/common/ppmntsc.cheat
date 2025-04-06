@@ -10,7 +10,7 @@ ppmntsc <path_to_input_file.ppm> > <path_to_output_file.ppm>
 ppmntsc --pal <path_to_input_file.ppm> > <path_to_output_file.ppm>
 
 # Print the number of illegal pixels in the input image to `stderr`
-ppmntsc --verbose <path_to_input_file.ppm> > <path_to_output_file.ppm>
+ppmntsc <[--verb|--verbose]> <path_to_input_file.ppm> > <path_to_output_file.ppm>
 
 # Output only legal/illegal/corrected pixels, set other pixels to black
 ppmntsc --<legalonly|illegalonly|correctedonly> <path_to_input_file.ppm> > <path_to_output_file.ppm>

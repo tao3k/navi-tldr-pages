@@ -17,3 +17,6 @@
 
 # Clear the file contents or create a new empty file
 > <path_to_file>
+
+# Redirect `stderr` to `stdout` for piping them together
+<command1> 2>&1 | <command2>

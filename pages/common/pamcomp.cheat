@@ -7,10 +7,10 @@
 pamcomp <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
 
 # Set the horizontal alignment of the overlay
-pamcomp -align <left|center|right|beyondleft|beyondright> -xoff <x_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+pamcomp <[-ali|-align]> <left|center|right|beyondleft|beyondright> <[-x|-xoff]> <x_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
 
 # Set the vertical alignment of the overlay
-pamcomp -valign <top|middle|bottom|above|below> -yoff <y_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+pamcomp <[-va|-valign]> <top|middle|bottom|above|below> <[-y|-yoff]> <y_offset> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
 
 # Set the opacity of the overlay
-pamcomp -opacity <0.7> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>
+pamcomp <[-o|-opacity]> <0.7> <path_to_overlay.pam> <path_to_underlay.pam> > <path_to_output.pam>

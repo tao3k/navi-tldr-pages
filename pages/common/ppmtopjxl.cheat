@@ -7,10 +7,10 @@
 ppmtopjxl <path_to_image.ppm> > <path_to_output.pjxl>
 
 # Resize the input image
-ppmtopjxl -xsize <10cm> -ysize <5cm> <path_to_image.ppm> > <path_to_output.pjxl>
+ppmtopjxl <[-xsi|-xsize]> <10cm> <[-ysi|-ysize]> <5cm> <path_to_image.ppm> > <path_to_output.pjxl>
 
 # Shift the input image
-ppmtopjxl -xshift <10pt> -yshift <5pt> <path_to_image.ppm> > <path_to_output.pjxl>
+ppmtopjxl <[-xsh|-xshift]> <10pt> <[-ysh|-yshift]> <5pt> <path_to_image.ppm> > <path_to_output.pjxl>
 
 # Do not use the normal TIFF 4.0 compression method
-ppmtopjxl -nopack <path_to_image.ppm> > <path_to_output.pjxl>
+ppmtopjxl <[-n|-nopack]> <path_to_image.ppm> > <path_to_output.pjxl>

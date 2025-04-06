@@ -7,7 +7,7 @@
 pnmhisteq <path_to_input.pnm> > <path_to_output.pnm>
 
 # Only modify grey pixels
-pnmhisteq -grey <path_to_input.pnm> > <path_to_output.pnm>
+pnmhisteq <[-g|-grey]> <path_to_input.pnm> > <path_to_output.pnm>
 
 # Do not include black or white pixels in the histogram equalization
 pnmhisteq -no<black|white> <path_to_input.pnm> > <path_to_output.pnm>

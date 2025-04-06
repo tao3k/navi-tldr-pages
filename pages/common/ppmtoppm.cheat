@@ -7,4 +7,4 @@
 ppmtoppm < <path_to_image.ppm> > <path_to_output.ppm>
 
 # Display version
-ppmtoppm -version
+ppmtoppm <[-v|-version]>

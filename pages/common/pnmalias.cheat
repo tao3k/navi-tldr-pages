@@ -10,7 +10,7 @@ pnmalias <path_to_input.pnm> > <path_to_output.ppm>
 pnmalias -bcolor <background_color> -fcolor <foreground_color> <path_to_input.pnm> > <path_to_output.ppm>
 
 # Apply altialiasing to foreground pixels only
-pnmalias -fonly <path_to_input.pnm> > <path_to_output.ppm>
+pnmalias <[-fo|-fonly]> <path_to_input.pnm> > <path_to_output.ppm>
 
 # Apply antialiasing to all surrounding pixels of background pixels
-pnmalias -balias <path_to_input.pnm> > <path_to_output.ppm>
+pnmalias <[-ba|-balias]> <path_to_input.pnm> > <path_to_output.ppm>

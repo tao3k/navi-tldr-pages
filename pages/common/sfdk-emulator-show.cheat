@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sfdk-emulator-show.md
+
+% sfdk-emulator-show, common
+
+# View documentation for `sfdk emulator set`
+tldr sfdk emulator set

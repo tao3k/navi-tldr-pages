@@ -10,7 +10,7 @@ pnmtofiasco <path_to_file.pnm> > <path_to_file.fiasco>
 pnmtofiasco <[-i|--image-name]> "<img[01-09+1].pnm>" > <path_to_file.fiasco>
 
 # Specify the compression quality
-pnmtofiasco <[-q|--quality]> <quality_level> <path_to_file.pnm> > <path_to_file.fiasco>
+pnmtofiasco <[-qua|--quality]> <quality_level> <path_to_file.pnm> > <path_to_file.fiasco>
 
 # Load the options to be used from the specified configuration file
 pnmtofiasco <[-f|--config]> <path_to_fiascorc> <path_to_file.pnm> > <path_to_file.fiasco>

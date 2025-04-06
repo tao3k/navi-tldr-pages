@@ -7,7 +7,7 @@
 pnmcolormap <n_colors> <path_to_input.pnm> > <path_to_output.ppm>
 
 # Use the splitspread strategy for determining the output colors, possibly producing a better result for images with small details
-pnmcolormap -splitspread <n_colors> <path_to_input.pnm> > <path_to_output.ppm>
+pnmcolormap <[-splits|-splitspread]> <n_colors> <path_to_input.pnm> > <path_to_output.ppm>
 
 # Sort the resulting colormap, which is useful for comparing colormaps
-pnmcolormap -sort <path_to_input.pnm> > <path_to_output.ppm>
+pnmcolormap <[-so|-sort]> <path_to_input.pnm> > <path_to_output.ppm>

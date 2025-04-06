@@ -13,4 +13,4 @@ pbmtoascii <path_to_input_file.pbm> > <path_to_output_file>
 pbmtoascii -<1x2|2x4> <path_to_input_file.pbm>
 
 # Display version
-pbmtoascii -version
+pbmtoascii <[-v|-version]>

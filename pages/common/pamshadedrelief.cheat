@@ -7,4 +7,4 @@
 pamshadedrelief < <path_to_input.pam> > <path_to_output.pam>
 
 # Gamma adjust the image by the specified factor
-pamshadedrelief -gamma <factor> < <path_to_input.pam> > <path_to_output.pam>
+pamshadedrelief <[-g|-gamma]> <factor> < <path_to_input.pam> > <path_to_output.pam>

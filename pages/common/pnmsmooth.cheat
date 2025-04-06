@@ -7,4 +7,4 @@
 pnmsmooth <path_to_input.pnm> > <path_to_output.pnm>
 
 # Smooth out a PNM image using a convolution matrix of size width times height
-pnmsmooth -width <width> -height <height> <path_to_input.pnm> > <path_to_output.pnm>
+pnmsmooth <[-w|-width]> <width> <[-h|-height]> <height> <path_to_input.pnm> > <path_to_output.pnm>

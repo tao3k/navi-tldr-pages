@@ -7,7 +7,7 @@
 pbmreduce <n> <path_to_image.pbm> > <path_to_output.pbm>
 
 # Use simple thresholding when reducing
-pbmreduce -threshold <n> <path_to_image.pbm> > <path_to_output.pbm>
+pbmreduce <[-t|-threshold]> <n> <path_to_image.pbm> > <path_to_output.pbm>
 
 # Use the specified threshold for all quantizations
-pbmreduce -value <0.6> <n> <path_to_image.pbm> > <path_to_output.pbm>
+pbmreduce <[-va|-value]> <0.6> <n> <path_to_image.pbm> > <path_to_output.pbm>

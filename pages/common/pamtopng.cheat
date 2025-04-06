@@ -7,10 +7,10 @@
 pamtopng <path_to_image.pam> > <path_to_output.png>
 
 # Mark the specified color as transparent in the output image
-pamtopng -transparent <color> <path_to_image.pam> > <path_to_output.png>
+pamtopng <[-t|-transparent]> <color> <path_to_image.pam> > <path_to_output.png>
 
 # Include the text in the specified file as tEXt chunks in the output
-pamtopng -text <path_to_file.txt> <path_to_image.pam> > <path_to_output.png>
+pamtopng <[-te|-text]> <path_to_file.txt> <path_to_image.pam> > <path_to_output.png>
 
 # Cause the output file to be interlaced in Adam7 format
-pamtopng -interlace <path_to_image.pam> > <path_to_output.png>
+pamtopng <[-in|-interlace]> <path_to_image.pam> > <path_to_output.png>

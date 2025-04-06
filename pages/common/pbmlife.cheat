@@ -7,4 +7,4 @@
 pbmlife <path_to_file.pbm>
 
 # Display version
-pbmlife -version
+pbmlife <[-v|-version]>

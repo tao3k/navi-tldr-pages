@@ -7,7 +7,7 @@
 ppmwheel <diameter> > <path_to_output.ppm>
 
 # Generate a color wheel of type `Hue-value`
-ppmwheel -huevalue <diameter> > <path_to_output.ppm>
+ppmwheel <[-huev|-huevalue]> <diameter> > <path_to_output.ppm>
 
 # Generate a color wheel of type `Hue-saturation`
-ppmwheel -huesaturation <diameter> > <path_to_output.ppm>
+ppmwheel <[-hues|-huesaturation]> <diameter> > <path_to_output.ppm>

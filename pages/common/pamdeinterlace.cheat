@@ -7,4 +7,4 @@
 pamdeinterlace <path_to_image.ppm> > <path_to_output.ppm>
 
 # Produce an image consisting of the input's odd-numbered rows
-pamdeinterlace -takeodd <path_to_image.ppm> > <path_to_output.ppm>
+pamdeinterlace <[-takeo|-takeodd]> <path_to_image.ppm> > <path_to_output.ppm>

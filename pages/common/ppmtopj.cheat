@@ -7,7 +7,7 @@
 ppmtopj <path_to_input.ppm> > <path_to_output.pj>
 
 # Move the image in the x and y direction
-ppmtopj -xpos <dx> -ypos <dy> <path_to_input.ppm> > <path_to_output.pj>
+ppmtopj <[-x|-xpos]> <dx> <[-y|-ypos]> <dy> <path_to_input.ppm> > <path_to_output.pj>
 
 # Explicitly specify a gamma value
-ppmtopj -gamma <gamma> <path_to_input.ppm> > <path_to_output.pj>
+ppmtopj <[-g|-gamma]> <gamma> <path_to_input.ppm> > <path_to_output.pj>

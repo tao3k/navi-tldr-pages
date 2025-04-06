@@ -7,4 +7,4 @@
 ppmflash <flashfactor> <path_to_file.ppm> > <path_to_file.ppm>
 
 # Display version
-ppmflash -version
+ppmflash <[-v|-version]>

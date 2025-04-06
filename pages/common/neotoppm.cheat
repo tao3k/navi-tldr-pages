@@ -7,4 +7,4 @@
 neotoppm <path_to_file.neo>
 
 # Display version
-neotoppm -version
+neotoppm <[-v|-version]>

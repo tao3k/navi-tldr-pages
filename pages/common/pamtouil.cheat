@@ -7,4 +7,4 @@
 pamtouil <path_to_input.pnm|pam> > <path_to_output.uil>
 
 # Specify a prefix string to be printed in the output UIL file
-pamtouil -name <uilname> <path_to_input.pnm|pam> > <path_to_output.uil>
+pamtouil <[-n|-name]> <uilname> <path_to_input.pnm|pam> > <path_to_output.uil>

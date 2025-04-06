@@ -7,7 +7,7 @@
 xwdtopnm <path_to_input_file.xwd> > <path_to_output_file.pnm>
 
 # Display information about the conversion process
-xwdtopnm -verbose <path_to_input_file.xwd> > <path_to_output_file.pnm>
+xwdtopnm <[-verb|-verbose]> <path_to_input_file.xwd> > <path_to_output_file.pnm>
 
 # Display the contents of the X11 header of the input file
-xwdtopnm -headerdump <path_to_input_file.xwd> > <path_to_output_file.pnm>
+xwdtopnm <[-h|-headerdump]> <path_to_input_file.xwd> > <path_to_output_file.pnm>

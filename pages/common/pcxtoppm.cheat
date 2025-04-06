@@ -7,7 +7,7 @@
 pcxtoppm <path_to_file.pcx> > <path_to_file.ppm>
 
 # Use a predefined standard palette even if the PCX file provides one
-pcxtoppm -stdpalette <path_to_file.pcx> > <path_to_file.ppm>
+pcxtoppm <[-s|-stdpalette]> <path_to_file.pcx> > <path_to_file.ppm>
 
 # Print information on the PCX header to `stdout`
-pcxtoppm -verbose <path_to_file.pcx> > <path_to_file.ppm>
+pcxtoppm <[-verb|-verbose]> <path_to_file.pcx> > <path_to_file.ppm>

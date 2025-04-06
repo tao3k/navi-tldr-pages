@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sfdk-emulator-exec.md
+
+% sfdk-emulator-exec, common
+
+# Execute a command on an emulator
+sfdk emulator exec <emulator> <command>
+
+# Run an interactive shell on an emulator
+sfdk emulator exec <emulator>

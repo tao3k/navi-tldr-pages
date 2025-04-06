@@ -10,4 +10,4 @@ pamtotiff <path_to_input_file.pam> > <path_to_output_file.tiff>
 pamtotiff -<none|packbits|lzw|g3|g4|flate|adobeflate> <path_to_input_file.pam> > <path_to_output_file.tiff>
 
 # Always produce a color TIFF image, even if the input image is greyscale
-pamtotiff -color <path_to_input_file.pam> > <path_to_output_file.tiff>
+pamtotiff <[-c|-color]> <path_to_input_file.pam> > <path_to_output_file.tiff>

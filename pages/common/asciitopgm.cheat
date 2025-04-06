@@ -7,4 +7,4 @@
 asciitopgm <path_to_input_file> > <path_to_output_file.pgm>
 
 # Display version
-asciitopgm -version
+asciitopgm <[-v|-version]>

@@ -7,4 +7,4 @@
 pamtopam < <path_to_image.pam> > <path_to_output.pam>
 
 # Display version
-pamtopam -version
+pamtopam <[-v|-version]>
