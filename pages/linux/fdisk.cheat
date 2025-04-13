@@ -4,7 +4,7 @@
 % fdisk, linux
 
 # List partitions
-sudo fdisk -l
+sudo fdisk <[-l|--list]>
 
 # Start the partition manipulator
 sudo fdisk <dev_sdX>

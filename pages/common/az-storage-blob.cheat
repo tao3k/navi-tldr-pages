@@ -6,7 +6,7 @@
 # Download a blob to a file path specifying a source container
 az storage blob download --account-name <storage_account_name> --account-key <storage_account_key> <[-c|--container-name]> <container_name> <[-n|--name]> <path_to_blob> <[-f|--file]> <path_to_local_file>
 
-# [d]ownload blobs from a blob container recursively
+# Download blobs from a blob container recursively
 az storage blob download-batch --account-name <storage_account_name> --account-key <storage_account_key> <[-s|--source]> <container_name> <[-d|--destination]> <path_to_remote> --pattern <filename_regex> <[-d|--destination]> <path_to_destination>
 
 # Upload a local file to blob storage

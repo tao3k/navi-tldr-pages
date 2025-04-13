@@ -15,6 +15,9 @@ mpv <url|path_to_file>
 # Decrease or increase playback speed by 10%
 <<[>|<]>>
 
+# Add subtitles from a file
+mpv --sub-file=<path_to_file>
+
 # Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default)
 <s>
 
@@ -23,6 +26,3 @@ mpv --speed <0.01..100> <path_to_file>
 
 # Play a file using a profile defined in the `mpv.conf` file
 mpv --profile <profile_name> <path_to_file>
-
-# Display the output of webcam or other video input device
-mpv <dev_video0>

@@ -10,7 +10,7 @@ sfdk emulator install <name>
 sfdk emulator remove <name>
 
 # Display the available emulators
-sfdk emulator list -a
+sfdk emulator list <[-a|--available]>
 
 # Display the installed emulators
 sfdk emulator list

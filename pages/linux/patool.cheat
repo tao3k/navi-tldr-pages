@@ -6,6 +6,9 @@
 # Extract an archive
 patool extract <path_to_archive>
 
+# Create an archive
+patool create <path_to_archive> <path_to_file1> <path_to_file2> <path_to_dir1_> <path_to_dir2_>
+
 # List contents of an archive
 patool list <path_to_archive>
 
