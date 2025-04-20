@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/eclean-kernel.md
+
+% eclean-kernel, linux
+
+# List all kernel files
+sudo eclean-kernel <[-l|--list-kernels]>
+
+# Remove all kernels except for the two newest ones
+sudo eclean-kernel <[-n|--num]> 2
+
+# Remove all kernels except for the two newest ones and ask before removal
+sudo eclean-kernel <[-a|--all]> <[-n|--num]> 2

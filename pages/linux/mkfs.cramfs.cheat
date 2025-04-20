@@ -3,8 +3,8 @@
 
 % mkfs.cramfs, linux
 
-# Create a ROM filesystem inside partition 1 on device b (`sdb1`)
-mkfs.cramfs <dev_sdb1>
+# Create a ROM filesystem inside partition Y on device X
+mkfs.cramfs <dev_sdXY>
 
 # Create a ROM filesystem with a volume-name
-mkfs.cramfs -n <volume_name> <dev_sdb1>
+mkfs.cramfs -n <volume_name> <dev_sdXY>

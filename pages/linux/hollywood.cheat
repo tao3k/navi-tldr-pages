@@ -10,4 +10,4 @@ hollywood
 <Ctrl c><Ctrl c>
 
 # Display help
-hollywood -h
+hollywood <[-h|--help]>

@@ -7,4 +7,4 @@
 ifdown <eth0>
 
 # Disable all interfaces which are enabled
-ifdown -a
+ifdown <[-a|--all]>

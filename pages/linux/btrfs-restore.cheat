@@ -7,7 +7,7 @@
 sudo btrfs restore <path_to_btrfs_device> <path_to_target_directory>
 
 # List (don't write) files to be restored from a btrfs filesystem
-sudo btrfs restore --dry-run <path_to_btrfs_device> <path_to_target_directory>
+sudo btrfs restore <[-D|--dry-run]> <path_to_btrfs_device> <path_to_target_directory>
 
 # Restore files matching a given regex ([c]ase-insensitive) files to be restored from a btrfs filesystem (all parent directories of target file(s) must match as well)
 sudo btrfs restore --path-regex <regex> -c <path_to_btrfs_device> <path_to_target_directory>
@@ -16,4 +16,4 @@ sudo btrfs restore --path-regex <regex> -c <path_to_btrfs_device> <path_to_targe
 sudo btrfs restore -t <bytenr> <path_to_btrfs_device> <path_to_target_directory>
 
 # Restore files from a btrfs filesystem (along with metadata, extended attributes, and Symlinks), overwriting files in the target
-sudo btrfs restore --metadata --xattr --symlinks --overwrite <path_to_btrfs_device> <path_to_target_directory>
+sudo btrfs restore <[-m|--metadata]> <[-x|--xattr]> <[-S|--symlinks]> <[-o|--overwrite]> <path_to_btrfs_device> <path_to_target_directory>

@@ -10,4 +10,4 @@ dget <package>
 dget <http:__deb.debian.org_debian_pool_main_h_haskell-tldr_haskell-tldr_0.4.0-2.dsc>
 
 # Download a package source tarball from its `.dsc` file but don't extract it
-dget -d <http:__deb.debian.org_debian_pool_main_h_haskell-tldr_haskell-tldr_0.4.0-2.dsc>
+dget <[-d|--download-only]> <http:__deb.debian.org_debian_pool_main_h_haskell-tldr_haskell-tldr_0.4.0-2.dsc>

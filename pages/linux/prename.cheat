@@ -7,10 +7,10 @@
 rename <'s_foo_bar_'> <*>
 
 # Dry-run - display which renames would occur without performing them
-rename -n <'s_foo_bar_'> <*>
+rename <[-n|--nono]> <'s_foo_bar_'> <*>
 
 # Force renaming even if the operation would remove existing destination files
-rename -f <'s_foo_bar_'> <*>
+rename <[-f|--force]> <'s_foo_bar_'> <*>
 
 # Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors)
 rename 'y/A-Z/a-z/' <*>

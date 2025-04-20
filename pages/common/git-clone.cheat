@@ -13,7 +13,7 @@ git clone --recursive <remote_repository_location>
 git clone <[-n|--no-checkout]> <remote_repository_location>
 
 # Clone a local repository
-git clone {{[-l|--local]]} <path_to_local_repository>
+git clone <[-l|--local]> <path_to_local_repository>
 
 # Clone quietly
 git clone <[-q|--quiet]> <remote_repository_location>

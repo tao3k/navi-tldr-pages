@@ -19,4 +19,4 @@ dd bs=<1M> count=<1024> if=/dev/zero of=<path_to_file_1GB>
 dd if=<dev_drive_device> of=<path_to_file.img> status=progress
 
 # Check the progress of an ongoing `dd` operation (run this command from another shell)
-kill -USR1 $(pgrep -x dd)
+kill -USR1 $(pgrep <[-x|--exact]> dd)

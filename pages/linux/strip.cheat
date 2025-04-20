@@ -10,4 +10,4 @@ strip <path_to_file>
 strip <path_to_input_file> -o <path_to_output_file>
 
 # Strip debug symbols only
-strip --strip-debug <path_to_file.o>
+strip <[-d|--strip-debug]> <path_to_file.o>

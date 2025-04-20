@@ -3,8 +3,8 @@
 
 % mkfs.xfs, linux
 
-# Create an XFS filesystem inside partition 1 on a device (`X`)
-sudo mkfs.xfs <dev_sdX1>
+# Create an XFS filesystem inside partition Y on device X
+sudo mkfs.xfs <dev_sdXY>
 
 # Create an XFS filesystem with a volume label
-sudo mkfs.xfs -L <volume_label> <dev_sdX1>
+sudo mkfs.xfs -L <volume_label> <dev_sdXY>

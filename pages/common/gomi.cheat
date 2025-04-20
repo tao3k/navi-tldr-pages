@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/gomi.md
+
+% gomi, common
+
+# Safely delete specific files or folders
+gomi <path_to_file1 path_to_file2 path_to_folder1 path_to_folder2 ...>
+
+# Open an interactive menu to restore one or more files
+gomi <[-b|--restore]>
+
+# Remove files that have been in the trashcan longer than the specified time ([d]ay, [w]eek, [m]onth, [y]ear)
+gomi --prune <1d|1w|1m|1y|...>
+
+# Remove orphaned `.trashinfo` files
+gomi --prune <orphans>

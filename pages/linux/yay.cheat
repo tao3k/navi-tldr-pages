@@ -12,8 +12,8 @@ yay
 # Synchronize and update only AUR packages
 yay -Sua
 
-# Install a new package from the repos and AUR
-yay -S <package>
+# Install a new package from the repos and AUR and do not ask to confirm transactions
+yay -S <package> --noconfirm
 
 # Remove an installed package and both its dependencies and configuration files
 yay -Rns <package>

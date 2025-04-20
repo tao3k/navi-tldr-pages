@@ -10,10 +10,10 @@ rankmirrors <etc_pacman.d_mirrorlist>
 rankmirrors -n <number> <etc_pacman.d_mirrorlist>
 
 # Be verbose when generating the mirrorlist
-rankmirrors -v <etc_pacman.d_mirrorlist>
+rankmirrors <[-v|--verbose]> <etc_pacman.d_mirrorlist>
 
 # Test only a specific URL
-rankmirrors --url <url>
+rankmirrors <[-u|--url]> <url>
 
 # Output only the response times instead of a full mirrorlist
-rankmirrors --times <etc_pacman.d_mirrorlist>
+rankmirrors <[-t|--times]> <etc_pacman.d_mirrorlist>

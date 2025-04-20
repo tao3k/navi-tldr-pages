@@ -4,10 +4,10 @@
 % mkfs, linux
 
 # Build a Linux ext2 filesystem on a partition
-mkfs <path_to_partition>
+mkfs <dev_sdXY>
 
 # Build a filesystem of a specified type
-mkfs <[-t|--type]> <ext4> <path_to_partition>
+mkfs <[-t|--type]> <ext4> <dev_sdXY>
 
 # Build a filesystem of a specified type and check for bad blocks
-mkfs -c <[-t|--type]> <ntfs> <path_to_partition>
+mkfs -c <[-t|--type]> <ntfs> <dev_sdXY>

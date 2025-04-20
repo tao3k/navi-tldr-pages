@@ -10,7 +10,7 @@ nsxiv <path_to_file1 path_to_file2 ...>
 nsxiv <path_to_directory1 path_to_directory2 ...>
 
 # Search directories recursively for images to view
-nsxiv -r <path_to_directory1 path_to_directory2 ...>
+nsxiv <[-r|--recursive]> <path_to_directory1 path_to_directory2 ...>
 
 # Quit nsxiv
 <q>

@@ -7,7 +7,7 @@
 rename <'s_foo_bar_'> <*>
 
 # Dry-run - display which renames would occur without performing them
-rename -n <'s_foo_bar_'> <*>
+rename <[-n|--no-act]> <'s_foo_bar_'> <*>
 
 # Force renaming even if the operation would remove existing destination files
 rename -f <'s_foo_bar_'> <*>

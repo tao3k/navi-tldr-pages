@@ -14,3 +14,6 @@ source <path_to_virtual_environment>/bin/activate
 
 # Deactivate the virtual environment
 deactivate
+
+# Create an alias that generates a `venv` folder and automatically activates it
+alias venv='python -m venv .venv && source <.venv_bin_activate|.venv\Scripts\activate.bat>'

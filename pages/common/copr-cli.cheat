@@ -12,5 +12,5 @@ copr-cli build <repository> <path_to_spec_file>
 # Check status of builds
 copr-cli list-builds <repository>
 
-# Trigger a copr build of a spec-file from public (git) repository
+# Trigger a copr build of a spec-file from public (Git) repository
 copr-cli buildscm <repository> --clone-url <https:__git.example.org_repo> --spec <spec_file_name>

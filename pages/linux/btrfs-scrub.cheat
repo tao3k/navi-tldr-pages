@@ -19,4 +19,4 @@ sudo btrfs scrub resume <path_to_btrfs_mount>
 sudo btrfs scrub start -B <path_to_btrfs_mount>
 
 # Start a scrub in quiet mode (does not print errors or statistics)
-sudo btrfs scrub start -q <path_to_btrfs_mount>
+sudo btrfs scrub start <[-q|--quiet]> <path_to_btrfs_mount>

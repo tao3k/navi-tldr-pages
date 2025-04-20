@@ -19,4 +19,4 @@ protonvpn <[c|connect]> <[-r|--random]> -p <udp|tcp>
 protonvpn <[c|connect]> --tor
 
 # Display help
-protonvpn connect --help
+protonvpn <[c|connect]> --help

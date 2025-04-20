@@ -4,13 +4,13 @@
 % nm, common
 
 # List global (extern) functions in a file (prefixed with T)
-nm -g <path_to_file.o>
+nm <[-g|--extern-only]> <path_to_file.o>
 
 # List only undefined symbols in a file
-nm -u <path_to_file.o>
+nm <[-u|--undefined-only]> <path_to_file.o>
 
 # List all symbols, even debugging symbols
-nm -a <path_to_file.o>
+nm <[-a|--debug-syms]> <path_to_file.o>
 
 # Demangle C++ symbols (make them readable)
-nm --demangle <path_to_file.o>
+nm <[-C|--demangle]> <path_to_file.o>

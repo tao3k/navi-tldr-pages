@@ -13,4 +13,4 @@ ltrace -c <path_to_program>
 ltrace -e malloc+free-@libc.so* <path_to_program>
 
 # Write to file instead of terminal
-ltrace -o <file> <path_to_program>
+ltrace <[-o|--output]> <file> <path_to_program>

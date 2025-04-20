@@ -10,7 +10,7 @@ goaccess <path_to_logfile1 path_to_file2 ...>
 goaccess <path_to_logfile> --log-format=<format>
 
 # Analyze a log from `stdin`
-tail -f <path_to_logfile> | goaccess -
+tail <[-f|--follow]> <path_to_logfile> | goaccess -
 
 # Analyze a log and write it to an HTML file in real-time
-goaccess <path_to_logfile> --output <path_to_file.html> --real-time-html
+goaccess <path_to_logfile> <[-o|--output]> <path_to_file.html> --real-time-html

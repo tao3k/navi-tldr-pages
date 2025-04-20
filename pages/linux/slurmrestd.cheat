@@ -4,7 +4,7 @@
 % slurmrestd, linux
 
 # Change the group ID (and drop supplemental groups) before processing client requests
-slurmrestd --g <group_id> <[host]:port | unix:_path_to_socket>
+slurmrestd -g <group_id> <[host]:port | unix:_path_to_socket>
 
 # Comma-delimited list of authentication plugins to load
 slurmrestd -a <authentication_plugins> <[host]:port | unix:_path_to_socket>

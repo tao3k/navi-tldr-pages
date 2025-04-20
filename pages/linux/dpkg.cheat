@@ -4,22 +4,22 @@
 % dpkg, linux
 
 # Install a package
-dpkg -i <path_to_file.deb>
+dpkg <[-i|--install]> <path_to_file.deb>
 
 # Remove a package
-dpkg -r <package>
+dpkg <[-r|--remove]> <package>
 
 # List installed packages
-dpkg -l <pattern>
+dpkg <[-l|--list]> <pattern>
 
 # List a package's contents
-dpkg -L <package>
+dpkg <[-L|--listfiles]> <package>
 
 # List contents of a local package file
-dpkg -c <path_to_file.deb>
+dpkg <[-c|--contents]> <path_to_file.deb>
 
 # Find out which package owns a file
-dpkg -S <path_to_file>
+dpkg <[-S|--search]> <path_to_file>
 
 # Purge an installed or already removed package, including configuration
-dpkg -P <package>
+dpkg <[-P|--purge]> <package>

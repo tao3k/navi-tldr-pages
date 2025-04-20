@@ -3,8 +3,8 @@
 
 % mkfs.bcachefs, linux
 
-# Create a `bcachefs` filesystem inside partition 1 on a device (`X`)
-sudo mkfs.bcachefs <dev_sdX1>
+# Create a `bcachefs` filesystem inside partition `Y` on a device `X`
+sudo mkfs.bcachefs <dev_sdXY>
 
 # Create a `bcachefs` filesystem with a volume label
-sudo mkfs.bcachefs <[-L|--fs_label]> <volume_label> <dev_sdX1>
+sudo mkfs.bcachefs <[-L|--fs_label]> <volume_label> <dev_sdXY>
