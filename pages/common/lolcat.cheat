@@ -10,7 +10,7 @@ lolcat <path_to_file>
 <fortune> | lolcat
 
 # Print a file to the console with animated rainbow colors
-lolcat -a <path_to_file>
+lolcat <[-a|--animate]> <path_to_file>
 
 # Print a file to the console with 24-bit (truecolor) rainbow colors
-lolcat -t <path_to_file>
+lolcat <[-t|--truecolor]> <path_to_file>

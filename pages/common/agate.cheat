@@ -10,4 +10,4 @@ agate --content <path_to_content_> --addr <[::]:1965> --addr <0.0.0.0:1965> --ho
 agate <path_to_file>
 
 # Display help
-agate -h
+agate <[-h|--help]>

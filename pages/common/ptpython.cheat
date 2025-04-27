@@ -10,7 +10,7 @@ ptpython
 ptpython <path_to_file.py>
 
 # Execute a specific Python file and start a REPL
-ptpython -i <path_to_file.py>
+ptpython <[-i|--interactive]> <path_to_file.py>
 
 # Open the menu
 <F2>

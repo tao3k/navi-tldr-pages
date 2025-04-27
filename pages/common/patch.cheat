@@ -10,10 +10,10 @@ patch < <patch.diff>
 patch <path_to_file> < <patch.diff>
 
 # Patch a file writing the result to a different file
-patch <path_to_input_file> -o <path_to_output_file> < <patch.diff>
+patch <path_to_input_file> <[-o|--output]> <path_to_output_file> < <patch.diff>
 
 # Apply a patch to the current directory
-patch -p1 < <patch.diff>
+patch <[-p|--strip]> 1 < <patch.diff>
 
 # Apply the reverse of a patch
-patch -R < <patch.diff>
+patch <[-R|--reverse]> < <patch.diff>

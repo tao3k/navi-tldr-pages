@@ -7,7 +7,7 @@
 http-server
 
 # Start an HTTP server on a specific port to serve a specific directory
-http-server <path_to_directory> --port <port>
+http-server <path_to_directory> <[-p|--port]> <port>
 
 # Start an HTTP server using basic authentication
 http-server --username <username> --password <password>
@@ -16,7 +16,7 @@ http-server --username <username> --password <password>
 http-server -d <false>
 
 # Start an HTTPS server on the default port using the specified certificate
-http-server --ssl --cert <path_to_cert.pem> --key <path_to_key.pem>
+http-server <[-S|--ssl]> <[-C|--cert]> <path_to_cert.pem> <[-K|--key]> <path_to_key.pem>
 
 # Start an HTTP server and include the client's IP address in the output logging
 http-server --log-ip
@@ -25,4 +25,4 @@ http-server --log-ip
 http-server --cors
 
 # Start an HTTP server with logging disabled
-http-server --silent
+http-server <[-s|--silent]>

@@ -10,7 +10,7 @@ sort <path_to_file>
 sort <[-r|--reverse]> <path_to_file>
 
 # Sort a file in case-insensitive way
-sort <-f|--ignore-case> <path_to_file>
+sort <[-f|--ignore-case]> <path_to_file>
 
 # Sort a file using numeric rather than alphabetic order
 sort <[-n|--numeric-sort]> <path_to_file>

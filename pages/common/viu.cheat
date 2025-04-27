@@ -7,13 +7,13 @@
 viu <path_to_file>
 
 # Render an image or GIF from the internet using `curl`
-curl -s <https:__example.com_image.png> | viu -
+curl <[-s|--silent]> <https:__example.com_image.png> | viu -
 
 # Render an image with a transparent background
-viu -t <path_to_file>
+viu <[-t|--transparent]> <path_to_file>
 
 # Render an image with a specific width and height in pixels
-viu -w <width> -h <height> <path_to_file>
+viu <[-w|--width]> <width> <[-h|--height]> <height> <path_to_file>
 
 # Render an image or GIF and display its file name
-viu -n <path_to_file>
+viu <[-n|--name]> <path_to_file>

@@ -10,10 +10,10 @@ phive list
 phive install <alias|url>
 
 # Install a specified Phar globally
-phive install <alias|url> --global
+phive install <alias|url> <[-g|--global]>
 
 # Install a specified Phar to a target directory
-phive install <alias|url> --target <path_to_directory>
+phive install <alias|url> <[-t|--target]> <path_to_directory>
 
 # Update all Phar files to the latest version
 phive update

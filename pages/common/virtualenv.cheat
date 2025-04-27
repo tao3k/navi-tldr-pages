@@ -7,10 +7,10 @@
 virtualenv <path_to_venv>
 
 # Customize the prompt prefix
-virtualenv --prompt=<prompt_prefix> <path_to_venv>
+virtualenv --prompt <prompt_prefix> <path_to_venv>
 
 # Use a different version of Python with virtualenv
-virtualenv --python=<path_to_pythonbin> <path_to_venv>
+virtualenv <[-p|--python]> <path_to_pythonbin> <path_to_venv>
 
 # Start (select) the environment
 source <path_to_venv>/bin/activate

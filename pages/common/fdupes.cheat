@@ -10,16 +10,16 @@ fdupes <path_to_directory>
 fdupes <directory1> <directory2>
 
 # Search a directory recursively
-fdupes -r <path_to_directory>
+fdupes <[-r|--recurse]> <path_to_directory>
 
 # Search multiple directories, one recursively
-fdupes <directory1> -R <directory2>
+fdupes <path_to_irectory1> <[-R|--recurse:]> <path_to_directory2>
 
 # Search recursively, considering hardlinks as duplicates
-fdupes -rH <path_to_directory>
+fdupes <[-rH|--recurse --hardlinks]> <path_to_directory>
 
 # Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others
-fdupes -rd <path_to_directory>
+fdupes <[-rd|--recurse --delete]> <path_to_directory>
 
 # Search recursively and delete duplicates without prompting
-fdupes -rdN <path_to_directory>
+fdupes <[-rdN|--recurse --delete --noprompt]> <path_to_directory>

@@ -7,7 +7,7 @@
 pageres <https:__example.com_> <https:__example2.com_> <1366x768> <1600x900>
 
 # Provide specific options for a URL, overriding global options
-pageres [<https:__example.com_> <1366x768> --no-crop] [<https:__example2.com_> <1024x768>] --crop
+pageres [<https:__example.com_> <1366x768> --no-crop] [<https:__example2.com_> <1024x768>] <[-c|--crop]>
 
 # Provide a custom filename template
 pageres <https:__example.com_> <1024x768> --filename=<'<%= date %> - <%= url %>'>

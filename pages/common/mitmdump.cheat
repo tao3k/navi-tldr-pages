@@ -4,10 +4,10 @@
 % mitmdump, common
 
 # Start a proxy and save all output to a file
-mitmdump -w <path_to_file>
+mitmdump <[-w|--wfile]> <path_to_file>
 
 # Filter a saved traffic file to just POST requests
-mitmdump -nr <input_filename> -w <output_filename> "<~m post>"
+mitmdump <[-nr|--no-server --read-flows]> <input_filename> <[-w|--wfile]> <output_filename> "<~m post>"
 
 # Replay a saved traffic file
-mitmdump -nc <path_to_file>
+mitmdump <[-nc|--no-server --client-replay]> <path_to_file>

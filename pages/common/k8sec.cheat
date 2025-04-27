@@ -19,7 +19,7 @@ k8sec set --base64 <secret_name> <key=encoded_value>
 k8sec unset <secret_name>
 
 # Load secrets from a file
-k8sec load -f <path_to_file> <secret_name>
+k8sec load <[-f|--filename]> <path_to_file> <secret_name>
 
 # Dump secrets to a file
-k8sec dump -f <path_to_file> <secret_name>
+k8sec dump <[-f|--filename]> <path_to_file> <secret_name>

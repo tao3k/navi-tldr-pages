@@ -7,7 +7,7 @@
 jq '.' <path_to_file.json>
 
 # Execute a specific script
-<cat path_to_file.json> | jq --from-file <path_to_script.jq>
+<cat path_to_file.json> | jq <[-f|--from-file]> <path_to_script.jq>
 
 # Pass specific arguments
 <cat path_to_file.json> | jq <--arg "name1" "value1" --arg "name2" "value2" ...> '<. + $ARGS.named>'

@@ -13,10 +13,10 @@ hledger import <path_to_bank1.csv> <path_to_bank2.csv> --dry-run
 hledger import --rules-file <common.rules> *.csv
 
 # Show conversion errors or results while editing `bank.csv.rules`
-watchexec -- hledger -f <path_to_bank.csv> print
+watchexec -- hledger <[-f|--file]> <path_to_bank.csv> print
 
 # Mark `bank.csv`'s current data as seen, as if already imported
 hledger import --catchup <path_to_bank.csv>
 
 # Mark `bank.csv` as all new, as if not yet imported
-rm -f .latest.bank.csv
+rm <[-f|--force]> .latest.bank.csv

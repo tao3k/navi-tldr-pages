@@ -4,7 +4,7 @@
 % gdrive, common
 
 # Upload a local path to the parent folder with the specified ID
-gdrive upload -p <id> <path_to_file_or_folder>
+gdrive upload <[-p|--parent]> <id> <path_to_file_or_folder>
 
 # Download file or directory by ID to current directory
 gdrive download <id>

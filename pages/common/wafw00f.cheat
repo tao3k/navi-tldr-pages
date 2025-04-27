@@ -12,7 +12,7 @@ wafw00f <[-a|--findall]> <https:__www.example.com>
 # Pass requests through a proxy (such as BurpSuite)
 wafw00f <[-p|--proxy]> <http:__localhost:8080> <https:__www.example.com>
 
-# Test for a specific WAF product (run `wafw00f -l` to get list of all supported WAFs)
+# Test for a specific WAF product (run `wafw00f --list` to get list of all supported WAFs)
 wafw00f <[-t|--test]> <Cloudflare|Cloudfront|Fastly|ZScaler|...> <https:__www.example.com>
 
 # Pass custom headers from a file

@@ -13,4 +13,4 @@ echo "example" | tee <[-a|--append]> <path_to_file>
 echo "example" | tee <dev_tty> | <xargs printf "[%s]">
 
 # Create a directory called "example", count the number of characters in "example" and write "example" to the terminal
-echo "example" | tee >(xargs mkdir) >(wc -c)
+echo "example" | tee >(xargs mkdir) >(wc <[-c|--bytes]>)

@@ -10,7 +10,7 @@
 <seq 10000000> | tqdm --total <10000000> | <command>
 
 # Create an archive out of a directory and use the file count of that directory to create a progress bar
-zip -r <path_to_archive.zip> <path_to_directory> | tqdm --total $(find <path_to_directory> | wc -l) --unit files --null
+zip <[-r|--recurse-paths]> <path_to_archive.zip> <path_to_directory> | tqdm --total $(find <path_to_directory> | wc <[-l|--lines]>) --unit files --null
 
 # Create an archive with tar and create a progress bar (system agnostic, GNU tar uses `stdout` while BSD tar uses `stderr`)
-tar vzcf <path_to_archive.tar.gz> <path_to_directory> 2>&1 | tqdm --total $(find <path_to_directory> | wc -l) --unit files --null
+tar vzcf <path_to_archive.tar.gz> <path_to_directory> 2>&1 | tqdm --total $(find <path_to_directory> | wc <[-l|--lines]>) --unit files --null

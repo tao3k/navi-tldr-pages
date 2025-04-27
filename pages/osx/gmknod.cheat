@@ -4,4 +4,4 @@
 % gmknod, osx
 
 # View documentation for the original command
-tldr -p linux mknod
+tldr <[-p|--platform]> linux mknod

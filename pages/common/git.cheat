@@ -13,10 +13,10 @@ git -C <path_to_repo> <subcommand>
 git -c '<config.key>=<value>' <subcommand>
 
 # Display help
-git --help
+git <[-h|--help]>
 
 # Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.)
 git help <subcommand>
 
 # Display version
-git --version
+git <[-v|--version]>

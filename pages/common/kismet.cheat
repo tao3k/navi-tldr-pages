@@ -13,7 +13,7 @@ sudo kismet -c <wlan0,wlan1> -m
 sudo kismet -c <wlan0> -d <path_to_output>
 
 # Start Kismet with a specific configuration file
-sudo kismet -c <wlan0> -f <path_to_config.conf>
+sudo kismet -c <wlan0> <[-f|--config-file]> <path_to_config.conf>
 
 # Monitor and log data to an SQLite database
 sudo kismet -c <wlan0> --log-to-db

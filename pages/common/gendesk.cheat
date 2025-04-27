@@ -10,4 +10,4 @@ gendesk -n --name "<app>" --exec "<path_to_app>" --icon "<path_to_icon.png>" --c
 gendesk -q -f -n --name "<app>" --exec "<path_to_app>" --icon "<path_to_icon.png>" --comment "<This is application>"
 
 # Display help
-gendesk -h
+gendesk <[-h|--help]>

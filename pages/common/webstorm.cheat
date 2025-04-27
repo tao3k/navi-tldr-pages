@@ -9,7 +9,7 @@ webstorm
 # Open a specific directory in WebStorm
 webstorm <path_to_directory>
 
-# Open specific files in the LightEdit mode﻿
+# Open specific files in the LightEdit mode
 webstorm -e <path_to_file1 path_to_file2 ...>
 
 # Open and wait until done editing a specific file in the LightEdit mode

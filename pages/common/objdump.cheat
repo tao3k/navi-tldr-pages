@@ -4,16 +4,16 @@
 % objdump, common
 
 # Display the file header information
-objdump -f <path_to_binary>
+objdump <[-f|--file-headers]> <path_to_binary>
 
 # Display all header information
-objdump -x <path_to_binary>
+objdump <[-x|--all-headers]> <path_to_binary>
 
 # Display the disassembled output of executable sections
-objdump -d <path_to_binary>
+objdump <[-d|--disassemble]> <path_to_binary>
 
 # Display the disassembled executable sections in Intel syntax
-objdump -M intel -d <path_to_binary>
+objdump <[-M|--disassembler-options]> intel <[-d|--disassemble]> <path_to_binary>
 
 # Display a complete binary hex dump of all sections
-objdump -s <path_to_binary>
+objdump <[-s|--full-contents]> <path_to_binary>

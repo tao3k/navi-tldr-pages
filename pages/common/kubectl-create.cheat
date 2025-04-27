@@ -4,10 +4,10 @@
 % kubectl-create, common
 
 # Create a resource using the resource definition file
-kubectl create -f <path_to_file.yml>
+kubectl create <[-f|--filename]> <path_to_file.yml>
 
 # Create a resource from `stdin`
-kubectl create -f -
+kubectl create <[-f|--filename]> -
 
 # Create a deployment
 kubectl create deployment <deployment_name> --image=<image>

@@ -9,5 +9,5 @@ resolveip <example.org>
 # Resolve an IP address to a hostname
 resolveip <1.1.1.1>
 
-# Silent mode. Produces less output
-resolveip --silent <example.org>
+# Resolve a hostname to an IP address with less output
+resolveip <[-s|--silent]> <example.org>

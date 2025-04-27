@@ -7,10 +7,10 @@
 drupal-check <path_to_directory>
 
 # Check the code excluding a comma-separated list of directories
-drupal-check --exclude-dir <path_to_excluded_directory>,<path_to_excluded_files_*.php> <path_to_directory>
+drupal-check <[-e|--exclude-dir]> <path_to_excluded_directory>,<path_to_excluded_files_*.php> <path_to_directory>
 
 # Don't show a progress bar
 drupal-check --no-progress <path_to_directory>
 
 # Perform static analysis to detect bad coding practices
-drupal-check --analysis <path_to_directory>
+drupal-check <[-a|--analysis]> <path_to_directory>

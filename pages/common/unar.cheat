@@ -7,13 +7,13 @@
 unar <path_to_archive>
 
 # Extract an archive to the specified directory
-unar -o <path_to_directory> <path_to_archive>
+unar <[-o|-output-directory]> <path_to_directory> <path_to_archive>
 
 # Force overwrite if files to be unpacked already exist
-unar -f <path_to_archive>
+unar <[-f|-force-overwrite]> <path_to_archive>
 
 # Force rename if files to be unpacked already exist
-unar -r <path_to_archive>
+unar <[-r|-force-rename]> <path_to_archive>
 
 # Force skip if files to be unpacked already exist
-unar -s <path_to_archive>
+unar <[-s|-force-skip]> <path_to_archive>

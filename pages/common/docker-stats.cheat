@@ -13,7 +13,7 @@ docker stats <container1 container2 ...>
 docker stats --format "<.Name>:\t<.CPUPerc>"
 
 # Display statistics for all containers (both running and stopped)
-docker stats --all
+docker stats <[-a|--all]>
 
 # Disable streaming stats and only pull the current stats
 docker stats --no-stream

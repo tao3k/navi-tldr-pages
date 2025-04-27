@@ -7,7 +7,7 @@
 trivy image <image:tag>
 
 # Scan a Docker image filtering the output by severity
-trivy image --severity <HIGH,CRITICAL> <alpine:3.15>
+trivy image <[-s|--severity]> <HIGH,CRITICAL> <alpine:3.15>
 
 # Scan a Docker image ignoring any unfixed/unpatched vulnerabilities
 trivy image --ignore-unfixed <alpine:3.15>
@@ -25,4 +25,4 @@ trivy repo <path_to_local_repository_directory|remote_repository_URL>
 trivy repo --commit <commit_hash> <repository>
 
 # Generate output with a SARIF template
-trivy image --format <template> --template "<@sarif.tpl>" -o <path_to_report.sarif> <image:tag>
+trivy image <[-f|--format]> <template> <[-t|--template]> "<@sarif.tpl>" <[-o|--output]> <path_to_report.sarif> <image:tag>

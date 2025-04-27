@@ -13,13 +13,13 @@ monop -r:<path_to_assembly.exe>
 monop -r:<path_to_assembly.dll> <Namespace.Path.To.Type>
 
 # Only show members defined in the specified Type
-monop -r:<path_to_assembly.dll> --only-declared <Namespace.Path.To.Type>
+monop -r:<path_to_assembly.dll> <[-d|--declared-only]> <Namespace.Path.To.Type>
 
 # Show private members
-monop -r:<path_to_assembly.dll> --private <Namespace.Path.To.Type>
+monop -r:<path_to_assembly.dll> <[-p|--private]> <Namespace.Path.To.Type>
 
 # Hide obsolete members
-monop -r:<path_to_assembly.dll> --filter-obsolete <Namespace.Path.To.Type>
+monop -r:<path_to_assembly.dll> <[-f|--filter-obsolete]> <Namespace.Path.To.Type>
 
 # List the other assemblies that a specified assembly references
 monop -r:<path_to_assembly.dll> --refs

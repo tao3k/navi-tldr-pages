@@ -4,4 +4,4 @@
 % glibtoolize, osx
 
 # View documentation for the original command
-tldr -p linux libtoolize
+tldr <[-p|--platform]> linux libtoolize

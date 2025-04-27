@@ -4,4 +4,4 @@
 % ghead, osx
 
 # View documentation for the original command
-tldr -p linux head
+tldr <[-p|--platform]> linux head

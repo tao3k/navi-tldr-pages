@@ -3,6 +3,9 @@
 
 % autojump, common
 
+# Add the autojump aliases to your shell
+source /usr/share/autojump/autojump.<bash|fish|zsh>
+
 # Jump to a directory that contains the given pattern
 j <pattern>
 
@@ -16,4 +19,4 @@ jo <pattern>
 j --purge
 
 # Show the entries in the autojump database
-j -s
+j <[-s|--stat]>

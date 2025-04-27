@@ -7,13 +7,13 @@
 phing
 
 # Initialize a new build file
-phing -i <path_to_build.xml>
+phing <[-i|--init]> <path_to_build.xml>
 
 # Perform a specific task
 phing <task_name>
 
 # Use the given build file path
-phing -f <path_to_build.xml> <task_name>
+phing <[-f|-buildfile]> <path_to_build.xml> <task_name>
 
 # Log to the given file
 phing -logfile <path_to_log_file> <task_name>

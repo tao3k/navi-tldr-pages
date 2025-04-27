@@ -7,13 +7,13 @@
 lilypond <path_to_file>
 
 # Compile into the specified format
-lilypond --formats=<format_dump> <path_to_file>
+lilypond <[-f|--format]> <format_dump> <path_to_file>
 
 # Compile the specified file, suppressing progress updates
-lilypond -s <path_to_file>
+lilypond <[-s|--silent]> <path_to_file>
 
 # Compile the specified file, and also specify the output filename
-lilypond --output=<path_to_output_file> <path_to_input_file>
+lilypond <[-o|--output]> <path_to_output_file> <path_to_input_file>
 
 # Show the current version of lilypond
-lilypond --version
+lilypond <[-v|--version]>

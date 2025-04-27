@@ -7,13 +7,13 @@
 pmount <dev_to_block_device>
 
 # Mount a device with a specific filesystem type to `/media/label`
-pmount --type <filesystem> <dev_to_block_device> <label>
+pmount <[-t|--type]> <filesystem> <dev_to_block_device> <label>
 
 # Mount a CD-ROM (filesystem type ISO9660) in read-only mode
-pmount --type <iso9660> --read-only <dev_cdrom>
+pmount <[-t|--type]> iso9660 <[-r|--read-only]> <dev_cdrom>
 
 # Mount an NTFS-formatted disk, forcing read-write access
-pmount --type <ntfs> --read-write <dev_sdX>
+pmount <[-t|--type]> ntfs <[-w|--read-write]> <dev_sdX>
 
 # Display all mounted removable devices
 pmount

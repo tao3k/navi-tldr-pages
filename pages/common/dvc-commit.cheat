@@ -10,4 +10,4 @@ dvc commit
 dvc commit <target>
 
 # Recursively commit all DVC-tracked files in a directory
-dvc commit --recursive <path_to_directory>
+dvc commit <[-R|--recursive]> <path_to_directory>

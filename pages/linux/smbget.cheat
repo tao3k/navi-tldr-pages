@@ -10,7 +10,7 @@ smbget <smb:__server_share_file>
 smbget --recursive <smb:__server_share>
 
 # Connect with a username and password
-smbget <smb:__server_share_file> --user <username%password>
+smbget <smb:__server_share_file> <[-U|--user]> <username%password>
 
 # Require encrypted transfers
-smbget <smb:__server_share_file> --encrypt
+smbget <smb:__server_share_file> <[-e|--encrypt]>

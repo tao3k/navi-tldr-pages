@@ -4,7 +4,7 @@
 % rar, common
 
 # Archive 1 or more files
-rar a <path_to_archive_name.rar> <path_to_file1> <path_to_file2> <path_to_file3>
+rar a <path_to_archive_name.rar> <path_to_file1 path_to_file2 path_to_file3 ...>
 
 # Archive a directory
 rar a <path_to_archive_name.rar> <path_to_directory>

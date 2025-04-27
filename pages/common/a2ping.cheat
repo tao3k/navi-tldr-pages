@@ -22,4 +22,4 @@ a2ping --gsextra <arguments> <path_to_file>
 a2ping --extra <arguments> <path_to_file>
 
 # Display help
-a2ping -h
+a2ping <[-h|--help]>

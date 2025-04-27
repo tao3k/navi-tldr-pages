@@ -10,7 +10,7 @@
 <echo 'cargo +nightly watch'> | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'
 
 # Find and replace in a specific file (output stream: `stdout`)
-sd -p <'window.fetch'> <'fetch'> <path_to_file.js>
+sd <[-p|--preview]> <'window.fetch'> <'fetch'> <path_to_file.js>
 
 # Find and replace in all files in the current project (output stream: `stdout`)
 sd <'from "react"'> <'from "preact"'> "$(find . -type f)"

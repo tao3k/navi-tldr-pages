@@ -19,4 +19,4 @@ r2e add <feed_address> <new_email@example.com>
 r2e delete <number_of_feed_in_list>
 
 # Display help
-r2e -h
+r2e <[-h|--help]>

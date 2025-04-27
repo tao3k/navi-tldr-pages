@@ -3,6 +3,9 @@
 
 % stty, common
 
+# Display current terminal size
+stty size
+
 # Display all settings for the current terminal
 stty <[-a|--all]>
 

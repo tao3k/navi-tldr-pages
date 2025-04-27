@@ -10,7 +10,7 @@ salt-call state.highstate
 salt-call state.highstate test=true
 
 # Perform a highstate with verbose debugging output
-salt-call -l debug state.highstate
+salt-call <[-l|--log-level]> debug state.highstate
 
 # List this minion's grains
 salt-call grains.items

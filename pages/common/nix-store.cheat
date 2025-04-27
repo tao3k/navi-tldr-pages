@@ -13,10 +13,10 @@ nix-store --optimise
 nix-store --delete <nix_store_...>
 
 # Show all dependencies of a store path (package), in a tree format
-nix-store --query --tree <nix_store_...>
+nix-store <[-q|--query]> --tree <nix_store_...>
 
 # Calculate the total size of a certain store path with all the dependencies
-du -cLsh $(nix-store --query --references <nix_store_...>)
+du <[-cLsh|--total --dereference --summarize --human-readable]> $(nix-store <[-q|--query]> --references <nix_store_...>)
 
 # Show all dependents of a particular store path
-nix-store --query --referrers <nix_store_...>
+nix-store <[-q|--query]> --referrers <nix_store_...>

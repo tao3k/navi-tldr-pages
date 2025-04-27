@@ -10,7 +10,7 @@ dstat
 dstat <5> <4>
 
 # Display CPU and memory statistics only
-dstat --cpu --mem
+dstat <[-c|--cpu]> <[-m|--mem]>
 
 # List all available dstat plugins
 dstat --list

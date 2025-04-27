@@ -10,7 +10,7 @@ glow
 glow <path_to_file>
 
 # View a Markdown file using a paginator
-glow -p <path_to_file>
+glow <[-p|--pager]> <path_to_file>
 
 # View a file from a URL
 glow <https:__example.com_file.md>

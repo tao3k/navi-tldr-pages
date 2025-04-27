@@ -6,10 +6,7 @@
 # Associate the local install of `asciinema` with an asciinema.org account
 asciinema auth
 
-# Make a new recording (finish it with `<Ctrl d>` or type `exit`)
-asciinema rec <path_to_file.cast>
-
-# Make a new recording and save it to a local file
+# Make a new recording and save it to a local file (finish it with `<Ctrl d>` or type `exit`)
 asciinema rec <path_to_recording.cast>
 
 # Replay a terminal recording from a local file

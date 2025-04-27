@@ -10,7 +10,7 @@ nimble search <search_string>
 nimble install <package>
 
 # List installed packages
-nimble list -i
+nimble list <[-i|--installed]>
 
 # Create a new Nimble package in the current directory
 nimble init

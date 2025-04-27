@@ -16,4 +16,4 @@ kubectl edit svc/<service_name>
 KUBE_EDITOR=<nano> kubectl edit <resource>/<resource_name>
 
 # Edit a resource in JSON format
-kubectl edit <resource>/<resource_name> --output json
+kubectl edit <resource>/<resource_name> <[-o|--output]> json

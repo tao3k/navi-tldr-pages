@@ -15,5 +15,5 @@ circup show <partial_name>
 # List all libraries on a connected device in `requirements.txt` format
 circup freeze
 
-# Save all libraries on a connected device in the current directory
-circup freeze -r
+# Save all libraries on a connected device in `requirements.txt` in current directory
+circup freeze <[-r|--requirement]>

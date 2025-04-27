@@ -10,7 +10,7 @@ dolt clone <repository_url> <path_to_directory>
 dolt clone --remote <remote_name> <repository_url>
 
 # Clone an existing repository only fetching a specific branch (defaults to all branches)
-dolt clone --branch <branch_name> <repository_url>
+dolt clone <[-b|--branch]> <branch_name> <repository_url>
 
 # Clone a repository, using an AWS region (uses the profile's default region if none is provided)
 dolt clone --aws-region <region_name> <repository_url>

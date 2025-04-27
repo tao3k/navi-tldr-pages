@@ -4,4 +4,4 @@
 % gmktemp, osx
 
 # View documentation for the original command
-tldr -p linux mktemp
+tldr <[-p|--platform]> linux mktemp

@@ -7,7 +7,7 @@
 transmission-show <path_to_file.torrent>
 
 # Generate a magnet link for a specific torrent
-transmission-show --magnet <path_to_file.torrent>
+transmission-show <[-m|--magnet]> <path_to_file.torrent>
 
 # Query a torrent's trackers and print the current number of peers
-transmission-show --scrape <path_to_file.torrent>
+transmission-show <[-s|--scrape]> <path_to_file.torrent>

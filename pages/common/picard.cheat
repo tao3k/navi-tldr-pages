@@ -10,4 +10,4 @@ picard
 picard <path_to_file1.mp3> <path_to_file2.mp3>
 
 # Display the version of Picard installed
-picard --long-version
+picard <[-V|--long-version]>

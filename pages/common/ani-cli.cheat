@@ -6,7 +6,7 @@
 # Search anime by name
 ani-cli "<anime_name>"
 
-# Download episode
+# Download an episode
 ani-cli <[-d|--download]> "<anime_name>"
 
 # Download a range of episodes

@@ -10,10 +10,10 @@ pip install <package>
 pip install <package>==<version>
 
 # Install packages listed in a file
-pip install -r <path_to_requirements.txt>
+pip install <[-r|--requirement]> <path_to_requirements.txt>
 
 # Install packages from an URL or local file archive (.tar.gz | .whl)
-pip install --find-links <url|path_to_file>
+pip install <[-f|--find-links]> <url|path_to_file>
 
 # Install the local package in the current directory in develop (editable) mode
-pip install --editable <.>
+pip install <[-e|--editable]> <.>

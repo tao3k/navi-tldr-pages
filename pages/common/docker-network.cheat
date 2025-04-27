@@ -7,7 +7,7 @@
 docker network ls
 
 # Create a user-defined network
-docker network create --driver <driver_name> <network_name>
+docker network create <[-d|--driver]> <driver_name> <network_name>
 
 # Display detailed information about one or more networks
 docker network inspect <network_name1 network_name2 ...>

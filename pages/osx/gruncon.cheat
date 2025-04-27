@@ -4,4 +4,4 @@
 % gruncon, osx
 
 # View documentation for the original command
-tldr -p linux runcon
+tldr <[-p|--platform]> linux runcon

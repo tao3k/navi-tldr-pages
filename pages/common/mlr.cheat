@@ -21,5 +21,5 @@ mlr --icsv --ojson put '$<newField1> = $<oldFieldA>/$<oldFieldB>' <example.csv>
 # Receive JSON and format the output as vertical JSON
 echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat
 
-# Filter lines of a compressed CSV file treating numbers as strings
-mlr --prepipe 'gunzip' --csv filter -S '$<fieldName> =~ "<regular_expression>"' <example.csv.gz>
+# Filter lines of a compressed CSV file treating numbers as [S]trings
+mlr --prepipe 'gunzip' <[-c|--csv]> filter <[-S|--infer-none]> '$<fieldName> =~ "<regular_expression>"' <example.csv.gz>

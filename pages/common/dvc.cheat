@@ -7,10 +7,10 @@
 dvc <subcommand>
 
 # Display general help
-dvc --help
+dvc <[-h|--help]>
 
 # Display help about a specific subcommand
-dvc <subcommand> --help
+dvc <subcommand> <[-h|--help]>
 
 # Display version
 dvc --version

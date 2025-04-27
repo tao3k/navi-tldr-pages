@@ -16,4 +16,4 @@ onionsearch "<string>" --exclude <candle ahmia ...>
 onionsearch "<stuxnet>" --engines <tor66 deeplink phobos ...> --limit <3>
 
 # List all supported search engines
-onionsearch --help | grep -A1 -i "supported engines"
+onionsearch --help | grep <[-A|--after-context]> 1 <[-i|--ignore-case]> "supported engines"

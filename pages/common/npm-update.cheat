@@ -10,7 +10,7 @@ npm update
 npm update <package>
 
 # Update a package globally
-npm update -g <package>
+npm update <[-g|--global]> <package>
 
 # Update multiple packages at once
 npm update <package1 package2 ...>

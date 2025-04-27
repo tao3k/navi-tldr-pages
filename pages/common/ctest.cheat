@@ -3,11 +3,11 @@
 
 % ctest, common
 
-# Run all tests defined in the CMake project, executing 4 jobs at a time in parallel
-ctest -j<4> --output-on-failure
+# Run all tests defined in the CMake project, executing 4 [j]obs at a time in parallel
+ctest <[-j|--parallel]> <4> --output-on-failure
 
 # List available tests
-ctest -N
+ctest <[-N|--show-only]>
 
 # Run a single test based on its name, or filter on a regular expression
-ctest --output-on-failure -R '^<test_name>$'
+ctest --output-on-failure <[-R|--tests-regex]> '^<test_name>$'

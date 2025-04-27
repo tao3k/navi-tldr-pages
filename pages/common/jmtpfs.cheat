@@ -10,7 +10,7 @@ jmtpfs <path_to_directory>
 jmtpfs -o <allow_other,auto_unmount> <path_to_directory>
 
 # List available MTP devices
-jmtpfs --listDevices
+jmtpfs <[-l|--listDevices]>
 
 # If multiple devices are present, mount a specific device
 jmtpfs -device=<bus_id>,<device_id> <path_to_directory>

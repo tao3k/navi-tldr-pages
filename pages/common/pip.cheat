@@ -10,7 +10,7 @@ pip install <package>
 pip install --user <package>
 
 # Upgrade a package
-pip install --upgrade <package>
+pip install <[-U|--upgrade]> <package>
 
 # Uninstall a package
 pip uninstall <package>
@@ -22,4 +22,4 @@ pip freeze > <requirements.txt>
 pip show <package>
 
 # Install packages from a file
-pip install --requirement <requirements.txt>
+pip install <[-r|--requirement]> <requirements.txt>

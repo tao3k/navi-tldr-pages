@@ -10,13 +10,13 @@ olevba <path_to_file>
 olevba -r <path_to_directory>
 
 # Provide a password for encrypted Microsoft Office files (may be repeated)
-olevba --password <password> <path_to_encrypted_file>
+olevba <[-p|--password]> <password> <path_to_encrypted_file>
 
 # Display only analysis results, without showing macro source code
-olevba -a <path_to_file>
+olevba <[-a|--analysis]> <path_to_file>
 
 # Display only macro source code
-olevba -c <path_to_file>
+olevba <[-c|--code]> <path_to_file>
 
 # Show obfuscated strings and their decoded content
 olevba --decode <path_to_file>

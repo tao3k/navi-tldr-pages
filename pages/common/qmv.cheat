@@ -10,7 +10,7 @@ qmv <source_file>
 qmv <*.jpg>
 
 # Move multiple directories
-qmv <[-d|--directory]> <path_to_directory1> <path_to_directory2> <path_to_directory3>
+qmv <[-d|--directory]> <path_to_directory1 path_to_directory2 path_to_directory3 ...>
 
 # Move all files and directories inside a directory
 qmv <[-R|--recursive]> <path_to_directory>

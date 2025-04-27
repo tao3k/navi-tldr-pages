@@ -4,10 +4,10 @@
 % xmlto, common
 
 # Convert a DocBook XML document to PDF format
-xmlto <pdf> <document.xml>
+xmlto pdf <document.xml>
 
 # Convert a DocBook XML document to HTML format and store the resulting files in a separate directory
-xmlto -o <path_to_html_files> <html> <document.xml>
+xmlto -o <path_to_html_files> html <document.xml>
 
 # Convert a DocBook XML document to a single HTML file
 xmlto <html-nochunks> <document.xml>

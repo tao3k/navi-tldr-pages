@@ -7,10 +7,10 @@
 flac <path_to_file.wav>
 
 # Encode a WAV file to FLAC, specifying the output file
-flac -o <path_to_output.flac> <path_to_file.wav>
+flac <[-o|--output-name]> <path_to_output.flac> <path_to_file.wav>
 
 # Decode a FLAC file to WAV, specifying the output file
-flac -d -o <path_to_output.wav> <path_to_file.flac>
+flac <[-d|--decode]> <[-o|--output-name]> <path_to_output.wav> <path_to_file.flac>
 
 # Test a FLAC file for the correct encoding
-flac -t <path_to_file.flac>
+flac <[-t|--test]> <path_to_file.flac>

@@ -4,4 +4,4 @@
 % grsh, osx
 
 # View documentation for the original command
-tldr -p linux rsh
+tldr <[-p|--platform]> linux rsh

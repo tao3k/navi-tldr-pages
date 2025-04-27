@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jc.json.md
+
+% jc.json, common
+
+# Convert command output to JSON via pipe
+<ifconfig> | jc <--ifconfig>
+
+# Convert command output to JSON via magic syntax
+jc <ifconfig>
+
+# Output pretty JSON via pipe
+<ifconfig> | jc <--ifconfig> <[-p|--pretty]>
+
+# Output pretty JSON via magic syntax
+jc <[-p|--pretty]> <ifconfig>
