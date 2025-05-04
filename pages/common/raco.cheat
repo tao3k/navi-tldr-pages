@@ -16,7 +16,7 @@ raco setup <collection1 collection2 ...>
 raco test <path_to_tests1.rkt path_to_tests2.rkt ...>
 
 # Search local documentation
-raco docs <search_terms ...>
+raco docs <search_terms>
 
 # Display help
 raco help

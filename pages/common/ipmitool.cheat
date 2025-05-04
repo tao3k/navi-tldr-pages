@@ -3,7 +3,7 @@
 
 % ipmitool, common
 
-# Open IPMI shell on the local hardware 
+# Open IPMI shell on the local hardware
 sudo ipmitool shell
 
 # Open IPMI shell on a remote host

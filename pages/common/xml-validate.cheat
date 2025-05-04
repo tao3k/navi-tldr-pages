@@ -4,16 +4,16 @@
 % xml-validate, common
 
 # Validate one or more XML documents for well-formedness only
-xml validate <path_to_input1.xml|URI> <input2.xml ...>
+xml validate <path_to_input1.xml|URI1 path_to_input2.xml|URI2 ...>
 
 # Validate one or more XML documents against a Document Type Definition (DTD)
-xml validate --dtd <path_to_schema.dtd> <path_to_input1.xml|URI> <input2.xml ...>
+xml validate --dtd <path_to_schema.dtd> <path_to_input1.xml|URI1 path_to_input2.xml|URI2 ...>
 
 # Validate one or more XML documents against an XML Schema Definition (XSD)
-xml validate --xsd <path_to_schema.xsd> <path_to_input1.xml|URI> <input2.xml ...>
+xml validate --xsd <path_to_schema.xsd> <path_to_input1.xml|URI1 path_to_input2.xml|URI2 ...>
 
 # Validate one or more XML documents against a Relax NG schema (RNG)
-xml validate --relaxng <path_to_schema.rng> <path_to_input1.xml|URI> <input2.xml ...>
+xml validate --relaxng <path_to_schema.rng> <path_to_input1.xml|URI1 path_to_input2.xml|URI2 ...>
 
 # Display help
 xml validate --help

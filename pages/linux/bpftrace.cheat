@@ -4,7 +4,7 @@
 % bpftrace, linux
 
 # Display bpftrace version
-bpftrace -V
+bpftrace <[-V|--version]>
 
 # List all available probes
 sudo bpftrace -l

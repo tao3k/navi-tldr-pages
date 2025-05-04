@@ -3,26 +3,26 @@
 
 % rg, common
 
-# Recursively search the current directory for a regular expression
-rg <regular_expression>
+# Recursively search current directory for a pattern (regular expression)
+rg <pattern>
 
-# Search for regular expressions recursively in the current directory, including hidden files and files listed in `.gitignore`
-rg --no-ignore --hidden <regular_expression>
+# Recursively search for a pattern in a file or directory
+rg <pattern> <path_to_file_or_directory>
 
-# Search for a regular expression only in a subset of directories
-rg <regular_expression> <set_of_subdirs>
+# Include hidden files and entries listed in `.gitignore`
+rg <[-.|--hidden]> --no-ignore <pattern>
 
-# Search for a regular expression in files matching a glob (e.g. `README.*`)
-rg <regular_expression> --glob <glob>
+# Only search the files whose names match the glob pattern(s) (e.g. `README.*`)
+rg <pattern> <[-g|--glob]> <filename_glob_pattern>
 
-# Search for filenames that match a regular expression
-rg --files | rg <regular_expression>
+# Recursively list filenames in the current directory that match a pattern
+rg --files | rg <pattern>
 
 # Only list matched files (useful when piping to other commands)
-rg --files-with-matches <regular_expression>
+rg <[-l|--files-with-matches]> <pattern>
 
-# Show lines that do not match the given regular expression
-rg --invert-match <regular_expression>
+# Show lines that do not match the pattern
+rg <[-v|--invert-match]> <pattern>
 
-# Search a literal string pattern
-rg --fixed-strings -- <string>
+# Search for a literal string pattern
+rg <[-F|--fixed-strings]> -- <string>

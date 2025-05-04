@@ -7,10 +7,10 @@
 virt-qemu-run <path_to_guest.xml>
 
 # Run a QEMU virtual machine and store the state in a specific directory
-virt-qemu-run --root=<path_to_directory> <path_to_guest.xml>
+virt-qemu-run <[-r|--root]> <path_to_directory> <path_to_guest.xml>
 
 # Run a QEMU virtual machine and display verbose information about the startup
-virt-qemu-run --verbose <path_to_guest.xml>
+virt-qemu-run <[-v|--verbose]> <path_to_guest.xml>
 
 # Display help
-virt-qemu-run --help
+virt-qemu-run <[-h|--help]>

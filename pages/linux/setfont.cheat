@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/setfont.md
+
+% setfont, linux
+
+# Change the terminal font
+setfont <font>.gz
+
+# Change the terminal font by specifying a path
+setfont /usr/share/kbd/<mapping>/<font.ext>
+
+# Double font size
+setfont <[-d|--double]>
+
+# Reset to the default font
+setfont

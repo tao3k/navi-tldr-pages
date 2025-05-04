@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ascii-image-converter.md
+
+% ascii-image-converter, common
+
+# Convert an image into ASCII
+ascii-image-converter <path_to_image|URL>
+
+# Colorize the output
+ascii-image-converter <[-C|--color]> <path_to_image|URL>
+
+# Create a tresholded image using braille (if the image is barely visible, try changing the terminal font)
+ascii-image-converter <[-b|--braille]> <path_to_image|URL>
+
+# Create a dithered image using braille (if the image is barely visible, try changing the terminal font)
+ascii-image-converter <[-b|--braille]> --dither <path_to_image|URL>
+
+# Display the image with negative colors
+ascii-image-converter <[-Cn|--color --negative]> <path_to_image|URL>
+
+# Use a wider range of characters to display an image (may improve image accuracy)
+ascii-image-converter <[-c|--complex]> <path_to_image|URL>

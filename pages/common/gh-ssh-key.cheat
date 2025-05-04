@@ -13,4 +13,4 @@ gh ssh-key list
 gh ssh-key add <path_to_key.pub>
 
 # Add an SSH key to the currently authenticated user's account with a specific title
-gh ssh-key add --title <title> <path_to_key.pub>
+gh ssh-key add <[-t|--title]> <title> <path_to_key.pub>

@@ -10,7 +10,7 @@ lambo new <app_name>
 lambo edit-config
 
 # Open the configuration in a specific editor
-lambo edit-config --editor="<path_to_editor>"
+lambo edit-config <[-e|--editor]> "<path_to_editor>"
 
 # Open the configuration file that is run after new applications have been scaffolded
 lambo edit-after

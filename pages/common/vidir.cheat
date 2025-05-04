@@ -7,7 +7,7 @@
 vidir <path_to_directory1 path_to_directory2 ...>
 
 # Display each action taken by the program
-vidir --verbose <path_to_directory1 path_to_directory2 ...>
+vidir <[-v|--verbose]> <path_to_directory1 path_to_directory2 ...>
 
 # Edit the contents of current directory
 vidir

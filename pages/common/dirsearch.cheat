@@ -10,7 +10,7 @@ dirsearch <[-u|--url]> <url> --extensions-list
 dirsearch <[-l|--url-list]> <path_to_url-list.txt> <[-e|--extensions]> <php,jsp,aspx,...>
 
 # Scan a web server for user-defined paths with common extensions
-dirsearch <[-u|--url]> <url> --extensions-list <[-w|--wordlists]> <path_to_url-paths.txt,path_to_url-paths.txt,...>
+dirsearch <[-u|--url]> <url> --extensions-list <[-w|--wordlists]> <path_to_url-paths1.txt,path_to_url-paths2.txt,...>
 
 # Scan a web server using a cookie
 dirsearch <[-u|--url]> <url> <[-e|--extensions]> <php> --cookie <cookie>

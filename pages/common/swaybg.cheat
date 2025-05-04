@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/swaybg.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swaybg.md
 
-% swaybg, linux
+% swaybg, common
 
 # Set the wallpaper to an image
 swaybg <[-i|--image]> <path_to_image>

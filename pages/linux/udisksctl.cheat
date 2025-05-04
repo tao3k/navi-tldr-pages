@@ -7,16 +7,19 @@
 udisksctl status
 
 # Show detailed information about a device
-udisksctl info --block-device <dev_sdX>
+udisksctl info <[-b|--block-device]> <dev_sdX>
 
 # Show detailed information about a device partition
-udisksctl info --block-device <dev_sdXN>
+udisksctl info <[-b|--block-device]> <dev_sdXN>
 
 # Mount a device partition and prints the mount point
-udisksctl mount --block-device <dev_sdXN>
+udisksctl mount <[-b|--block-device]> <dev_sdXN>
 
 # Unmount a device partition
-udisksctl unmount --block-device <dev_sdXN>
+udisksctl unmount <[-b|--block-device]> <dev_sdXN>
+
+# Power off a device to safely remove it
+udisksctl power-off <[-b|--block-device]> <dev_sdX>
 
 # Monitor the daemon for events
 udisksctl monitor

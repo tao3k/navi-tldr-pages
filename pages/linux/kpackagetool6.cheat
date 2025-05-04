@@ -7,13 +7,13 @@
 kpackagetool6 --list-types
 
 # Install the package from a directory
-kpackagetool6 --type <package_type> --install <path_to_directory>
+kpackagetool6 <[-t|--type]> <package_type> <[-i|--install]> <path_to_directory>
 
 # Update installed package from a directory
-kpackagetool6 --type <package_type> --upgrade <path_to_directory>
+kpackagetool6 <[-t|--type]> <package_type> <[-u|--upgrade]> <path_to_directory>
 
 # List installed plasmoids (`--global` for all users)
-kpackagetool6 --type Plasma/Applet --list --global
+kpackagetool6 <[-t|--type]> Plasma/Applet <[-l|--list]> <[-g|--global]>
 
 # Remove a plasmoid by name
-kpackagetool6 --type Plasma/Applet --remove "<name>"
+kpackagetool6 <[-t|--type]> Plasma/Applet <[-r|--remove]> "<name>"

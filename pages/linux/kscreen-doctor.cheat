@@ -4,7 +4,7 @@
 % kscreen-doctor, linux
 
 # Show display output information
-kscreen-doctor --outputs
+kscreen-doctor <[-o|--outputs]>
 
 # Set the rotation of a display output with an ID of 1 to the right
 kscreen-doctor <output.1.rotation.right>

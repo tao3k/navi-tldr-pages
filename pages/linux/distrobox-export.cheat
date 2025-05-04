@@ -9,7 +9,7 @@ distrobox-export <[-a|--app]> <package> <[-ef|--extra-flags]> "--foreground"
 # Export a binary from the container to the host
 distrobox-export <[-b|--bin]> <path_to_binary> <[-ep|--export-path]> <path_to_binary_on_host>
 
-# Export a binary from the container to the host (i.e.`$HOME/.local/bin`) 
+# Export a binary from the container to the host (i.e.`$HOME/.local/bin`)
 distrobox-export <[-b|--bin]> <path_to_binary> <[-ep|--export-path]> <path_to_export>
 
 # Export a service from the container to the host (`--sudo` will run the service as root inside the container)

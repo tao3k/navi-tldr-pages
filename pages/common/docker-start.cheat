@@ -4,7 +4,7 @@
 % docker-start, common
 
 # Display help
-docker start
+docker start --help
 
 # Start a Docker container
 docker start <container>

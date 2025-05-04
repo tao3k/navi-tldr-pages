@@ -7,7 +7,7 @@
 texdoc <search>
 
 # List the best search results
-texdoc --list <search>
+texdoc <[-l|--list]> <search>
 
 # Open full documentation of texdoc
 texdoc <texdoc>

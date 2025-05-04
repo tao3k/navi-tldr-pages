@@ -7,10 +7,10 @@
 delta <path_to_old_file_or_directory> <path_to_new_file_or_directory>
 
 # Compare files or directories, showing the line numbers
-delta --line-numbers <path_to_old_file_or_directory> <path_to_new_file_or_directory>
+delta <[-n|--line-numbers]> <path_to_old_file_or_directory> <path_to_new_file_or_directory>
 
 # Compare files or directories, showing the differences side by side
-delta --side-by-side <path_to_old_file_or_directory> <path_to_new_file_or_directory>
+delta <[-s|--side-by-side]> <path_to_old_file_or_directory> <path_to_new_file_or_directory>
 
 # Compare files or directories, ignoring any Git configuration settings
 delta --no-gitconfig <path_to_old_file_or_directory> <path_to_new_file_or_directory>

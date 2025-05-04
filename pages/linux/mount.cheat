@@ -7,7 +7,7 @@
 mount
 
 # Mount a device to a directory
-mount <[-t|--types]> <filesystem_type> <path_to_device_file> <path_to_target_directory>
+mount <path_to_device_file> <path_to_target_directory>
 
 # Create a specific directory if it does not exist and mount a device to it
 mount <[-m|--mkdir]> <path_to_device_file> <path_to_target_directory>
@@ -18,7 +18,7 @@ mount <[-o|--options]> uid=<user_id>,gid=<group_id> <path_to_device_file> <path_
 # Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly)
 mount <[-t|--types]> <iso9660> <[-o|--options]> ro <dev_cdrom> <cdrom>
 
-# Mount all the filesystem defined in `/etc/fstab`
+# Mount all the filesystems defined in `/etc/fstab`
 mount <[-a|--all]>
 
 # Mount a specific filesystem described in `/etc/fstab` (e.g. `/dev/sda1 /my_drive ext2 defaults 0 2`)

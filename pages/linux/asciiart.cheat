@@ -10,13 +10,13 @@ asciiart <path_to_image.jpg>
 asciiart <www.example.com_image.jpg>
 
 # Choose the output width (default is 100)
-asciiart --width <50> <path_to_image.jpg>
+asciiart <[-w|--width]> <50> <path_to_image.jpg>
 
 # Colorize the ASCII output
-asciiart --color <path_to_image.jpg>
+asciiart <[-c|--color]> <path_to_image.jpg>
 
 # Choose the output format (default format is text)
-asciiart --format <text|html> <path_to_image.jpg>
+asciiart <[-f|--format]> <text|html> <path_to_image.jpg>
 
 # Invert the character map
-asciiart --invert-chars <path_to_image.jpg>
+asciiart <[-i|--invert-chars]> <path_to_image.jpg>

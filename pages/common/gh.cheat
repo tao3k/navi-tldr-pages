@@ -13,13 +13,13 @@ gh issue create
 gh issue list
 
 # View an issue in the default web browser
-gh issue view --web <issue_number>
+gh issue view <[-w|--web]> <issue_number>
 
 # Create a pull request
 gh pr create
 
 # View a pull request in the default web browser
-gh pr view --web <pr_number>
+gh pr view <[-w|--web]> <pr_number>
 
 # Check out a specific pull request locally
 gh pr checkout <pr_number>

@@ -16,7 +16,7 @@ lxc profile edit <profile_name>
 lxc profile edit <profile_name> < <config.yaml>
 
 # Launch a new container with specific profiles
-lxc launch <container_image> <container_name> --profile <profile1> --profile <profile2>
+lxc launch <container_image> <container_name> <[-p|--profile]> <profile1> <[-p|--profile]> <profile2>
 
 # Change the profiles of a running container
 lxc profile assign <container_name> <profile1,profile2>

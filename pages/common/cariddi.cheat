@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/cariddi.md
+
+% cariddi, common
+
+# Hunt for secrets using custom regexes and output results in JSON
+cat <path_to_urls.txt> | cariddi -s -sf <path_to_custom_secrets.txt> -json
+
+# Hunt for juicy endpoints with high concurrency and timeout with plain output results
+cat <path_to_urls.txt> | cariddi -e -c <250> -t <15> -plain
+
+# Crawl with debug mode and store HTTP responses and output results in `txt` file
+cat <path_to_urls.txt> | cariddi -debug -sr -ot <path_to_debug_output.txt>
+
+# Perform an intensive crawl with a proxy and random user agent and output results in `html` file
+cat <path_to_urls.txt> | cariddi -intensive -proxy <http:__127.0.0.1:8080> -rua -oh <path_to_intensive_crawl.html>
+
+# Hunt for errors and useful information with a custom delay and use `.cariddi_cache` folder as cache
+cat <path_to_urls.txt> | cariddi -err -info -d <3> -cache
+
+# Show example uses
+cariddi -examples

@@ -7,7 +7,7 @@
 croc send <path_to_file_or_directory>
 
 # Send a file or directory with a specific passphrase
-croc send --code <passphrase> <path_to_file_or_directory>
+croc send <[-c|--code]> <passphrase> <path_to_file_or_directory>
 
 # Receive a file or directory on receiving machine
 croc <passphrase>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/localedef.md
+
+% localedef, linux
+
+# List compiled locales
+localedef --list-archive
+
+# Display help
+localedef <[-?|--help]>

@@ -7,7 +7,7 @@
 iwctl
 
 # Call general help
-iwctl --help
+iwctl <[-h|--help]>
 
 # Display your Wi-Fi stations
 iwctl station list

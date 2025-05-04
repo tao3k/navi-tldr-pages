@@ -16,4 +16,4 @@ autopkgtest <package> -- <null>
 autopkgtest -- <chroot> <path_to_new_root>
 
 # Test the package in the current directory without rebuilding it
-autopkgtest --no-built-binaries -- <null>
+autopkgtest <[-B|--no-built-binaries]> -- <null>

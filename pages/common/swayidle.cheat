@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/swayidle.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/swayidle.md
 
-% swayidle, linux
+% swayidle, common
 
 # Listen for idle activity using the configuration in `$XDG_CONFIG_HOME/swayidle/config` or `$HOME/swayidle/config`
 swayidle

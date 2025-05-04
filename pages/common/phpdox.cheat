@@ -10,10 +10,10 @@ phpdox --skel
 phpdox
 
 # Generate documentation using a specific configuration file
-phpdox --file <path_to_phpdox.xml>
+phpdox <[-f|--file]> <path_to_phpdox.xml>
 
 # Only run the metadata collection process
-phpdox --collector
+phpdox <[-c|--collector]>
 
 # Only run the documentation generator process
-phpdox --generator
+phpdox <[-g|--generator]>

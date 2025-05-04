@@ -4,10 +4,10 @@
 % bcomps, common
 
 # Decompose one or more graphs into their biconnected components
-bcomps <path_to_input1.gv> <path_to_input2.gv ...> > <path_to_output.gv>
+bcomps <path_to_input1.gv path_to_input2.gv ...> > <path_to_output.gv>
 
 # Print the number of blocks and cutvertices in one or more graphs
-bcomps -v -s <path_to_input1.gv> <path_to_input2.gv ...>
+bcomps -v -s <path_to_input1.gv path_to_input2.gv ...>
 
 # Write each block and block-cutvertex tree to multiple numbered filenames based on `output.gv`
 bcomps -x -o <path_to_output.gv> <path_to_input1.gv path_to_input2.gv ...>

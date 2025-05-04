@@ -4,10 +4,10 @@
 % jpegtran, linux
 
 # Mirror an image horizontally or vertically
-jpegtran -flip <horizontal|vertical> <path_to_image.jpg> > <path_to_output.jpg>
+jpegtran <[-f|-flip]> <horizontal|vertical> <path_to_image.jpg> > <path_to_output.jpg>
 
 # Rotate an image 90, 180 or 270 degrees clockwise
-jpegtran -rotate <90|180|270> <path_to_image.jpg> > <path_to_output.jpg>
+jpegtran <[-ro|-rotate]> <90|180|270> <path_to_image.jpg> > <path_to_output.jpg>
 
 # Transpose the image across the upper-left to lower right axis
 jpegtran -transpose <path_to_image.jpg> > <path_to_output.jpg>
@@ -16,7 +16,7 @@ jpegtran -transpose <path_to_image.jpg> > <path_to_output.jpg>
 jpegtran -transverse <path_to_image.jpg> > <path_to_output.jpg>
 
 # Convert the image to grayscale
-jpegtran -grayscale <path_to_image.jpg> > <path_to_output.jpg>
+jpegtran <[-g|-grayscale]> <path_to_image.jpg> > <path_to_output.jpg>
 
 # Crop the image to a rectangular region of width `W` and height `H` from the upper-left corner, saving the output to a specific file
 jpegtran -crop <W>x<H> -outfile <path_to_output.jpg> <path_to_image.jpg>

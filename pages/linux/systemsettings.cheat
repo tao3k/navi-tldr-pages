@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/systemsettings.md
+
+% systemsettings, linux
+
+# Open the settings GUI
+systemsettings
+
+# List all possible KCM modules for `systemsettings`
+systemsettings --list
+
+# Display help
+systemsettings <[-h|--help]>
