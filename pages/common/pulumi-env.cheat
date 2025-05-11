@@ -22,4 +22,4 @@ pulumi env rm <environment_name> <key>
 pulumi env rm <environment_name>
 
 # Display help
-pulumi env --help
+pulumi env <[-h|--help]>

@@ -19,4 +19,4 @@ abrt-cli report <problem_id>
 abrt-watch-log -F <error_string> <var_log_myapp.log> <notify-send "Crash detected">
 
 # Generate a report for debugging manually
-abrt-cli report --analyze <problem_id>
+abrt-cli report <[-a|--analyze]> <problem_id>

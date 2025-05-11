@@ -9,8 +9,8 @@ ykman oath info
 # Change the password used to protect OATH accounts (add `--clear` to remove it)
 ykman oath access change
 
-# Add a new account (`--issuer` is optional)
-ykman oath accounts add --issuer <issuer> <name>
+# Add a new account (the issuer is optional)
+ykman oath accounts add <[-i|--issuer]> <issuer> <name>
 
 # List all accounts (with their issuers)
 ykman oath accounts list

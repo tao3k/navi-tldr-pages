@@ -15,7 +15,7 @@ sudo btrfs scrub cancel <path_to_btrfs_mount>
 # Resume a previously cancelled scrub
 sudo btrfs scrub resume <path_to_btrfs_mount>
 
-# Start a scrub, but wait until the scrub finishes before exiting
+# Start a scrub, but do not put the program in the [B]ackground
 sudo btrfs scrub start -B <path_to_btrfs_mount>
 
 # Start a scrub in quiet mode (does not print errors or statistics)

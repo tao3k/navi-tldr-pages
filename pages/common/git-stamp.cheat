@@ -10,4 +10,4 @@ git stamp <issue_number>
 git stamp <Review https:__example.org_path_to_review>
 
 # Stamp the last commit message replacing previous issues with a new one
-git stamp --replace <issue_number>
+git stamp <[-r|--replace]> <issue_number>

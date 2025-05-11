@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/create-image.md
+
+% create-image, linux
+
+# Create a CPIO archive from the current directory
+create-image <[-o|--output]> <path_to_output.cpio>
+
+# Display help
+create-image <[-h|--help]>

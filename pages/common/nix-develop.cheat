@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-develop.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-develop.md
 
-% nix3-develop, common
+% nix-develop, common
 
 # Start a shell with all dependencies of a package from nixpkgs available
 nix develop <nixpkgs#pkg>

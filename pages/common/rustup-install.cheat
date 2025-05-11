@@ -3,5 +3,5 @@
 
 % rustup-install, common
 
-# Install or update a specific toolchain (see `rustup help toolchain` for more information)
-rustup install <toolchain>
+# View documentation for the original command
+tldr rustup toolchain

@@ -13,4 +13,4 @@ git feature finish <feature_branch>
 git feature finish --squash <feature_branch>
 
 # Send changes from a specific feature branch to its remote counterpart
-git feature <feature_branch> --remote <remote_name>
+git feature <feature_branch> <[-r|--remote]> <remote_name>

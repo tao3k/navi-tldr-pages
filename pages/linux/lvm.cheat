@@ -19,7 +19,7 @@ sudo lvm vgcreate <vg1> <dev_sdXY>
 sudo lvm vgdisplay
 
 # Create a logical volume with size 10G from volume group vg1
-sudo lvm lvcreate -L <10G> <vg1>
+sudo lvm lvcreate <[-L|--size]> <10G> <vg1>
 
 # Display information about logical volumes
 sudo lvm lvdisplay

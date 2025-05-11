@@ -19,4 +19,4 @@ pulumi state repair
 pulumi state edit --stack <stack_name>
 
 # Display help
-pulumi state --help
+pulumi state <[-h|--help]>

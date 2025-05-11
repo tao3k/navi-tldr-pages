@@ -7,7 +7,7 @@
 git extras update
 
 # Display help
-git extras --help
+git extras <[-h|--help]>
 
 # Display version
-git extras --version
+git extras <[-v|--version]>

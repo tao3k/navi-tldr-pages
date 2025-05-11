@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kiterunner-brute.md
+
+% kiterunner-brute, common
+
+# Bruteforce a target with an Assetnote wordlist (e.g., first 20,000 API routes)
+kiterunner brute <https:__example.com> <[-A|--assetnote-wordlist]> <apiroutes-210328:20000>
+
+# Bruteforce a target with a custom wordlist
+kiterunner brute <https:__example.com> <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Bruteforce using a dirsearch-style wordlist with extension substitution
+kiterunner brute <https:__example.com> <[-w|--wordlist]> <path_to_dirsearch.txt> <[-D|--dirsearch-compat]> <[-e|--extensions]> <json,txt>
+
+# Bruteforce with specific file extensions appended and output in JSON format
+kiterunner brute <https:__example.com> <[-w|--wordlist]> <path_to_wordlist.txt> <[-e|--extensions]> <aspx,ashx> <[-o|--output]> <json>
+
+# Bruteforce a list of targets from a file with custom concurrency settings for performance
+kiterunner brute <path_to_targets.txt> <[-w|--wordlist]> <path_to_wordlist.txt> <[-x|--max-connection-per-host]> <5> <[-j|--max-parallel-hosts]> <100>
+
+# Bruteforce and ignore specific content length responses
+kiterunner brute <https:__example.com> <[-w|--wordlist]> <path_to_wordlist.txt> --ignore-length <100-105>
+
+# Bruteforce with custom HTTP headers
+kiterunner brute <https:__example.com> <[-w|--wordlist]> <path_to_wordlist.txt> <[-H|--header]> "<Authorization: Bearer token>"
+
+# Bruteforce a list of targets from a file with fail status code filtering
+kiterunner brute <path_to_targets.txt> <[-w|--wordlist]> <path_to_wordlist.txt> --fail-status-codes <400,401,404>

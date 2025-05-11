@@ -3,17 +3,17 @@
 
 % nxc-ssh, common
 
-# Spray the specified [p]assword against a list of [u]sernames on the specified target
-nxc ssh <192.168.178.2> -u <path_to_usernames.txt> -p <password>
+# Spray the specified password against a list of usernames on the specified target
+nxc ssh <192.168.178.2> <[-u|--username]> <path_to_usernames.txt> <[-p|--password]> <password>
 
-# Search for valid credentials by trying out every combination in the specified lists of [u]sernames and [p]asswords
-nxc ssh <192.168.178.2> -u <path_to_usernames.txt> -p <path_to_passwords.txt>
+# Search for valid credentials by trying out every combination in the specified lists of usernames and passwords
+nxc ssh <192.168.178.2> <[-u|--username]> <path_to_usernames.txt> <[-p|--password]> <path_to_passwords.txt>
 
-# Use the specified private key for authentication, using the supplied [p]assword as the key's passphrase
-nxc ssh <192.186.178.2> -u <path_to_usernames.txt> -p <password> --key-file <path_to_id_rsa>
+# Use the specified private key for authentication, using the supplied password as the key's passphrase
+nxc ssh <192.186.178.2> <[-u|--username]> <path_to_usernames.txt> <[-p|--password]> <password> --key-file <path_to_id_rsa>
 
-# Try a combination of [u]sername and [p]assword on a number of targets
-nxc ssh <192.168.178.0_24> -u <username> -p <password>
+# Try a combination of username and password on a number of targets
+nxc ssh <192.168.178.0_24> <[-u|--username]> <username> <[-p|--password]> <password>
 
 # Check for `sudo` privileges on a successful login
-nxc ssh <192.168.178.2> -u <username> -p <path_to_passwords.txt> --sudo-check
+nxc ssh <192.168.178.2> <[-u|--username]> <username> <[-p|--password]> <path_to_passwords.txt> --sudo-check

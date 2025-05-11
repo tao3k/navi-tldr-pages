@@ -16,4 +16,4 @@ doctl auth switch --context <token_label>
 doctl auth remove --context <token_label>
 
 # Show available commands
-doctl auth --help
+doctl auth <[-h|--help]>

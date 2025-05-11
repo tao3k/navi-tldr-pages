@@ -3,16 +3,16 @@
 
 % abroot, linux
 
-# Add packages to the local image (Note: after executing this command, you need to apply these changes.)
+# Add packages to the local image (Note: After executing this command, you need to apply these changes.)
 sudo abroot pkg add <package>
 
-# Remove packages from the local image (Note: after executing this command, you need to apply these changes.)
+# Remove packages from the local image (Note: After executing this command, you need to apply these changes.)
 sudo abroot pkg remove <package>
 
 # List packages in the local image
 sudo abroot pkg list
 
-# Apply changes in the local image (Note: you need to reboot your system for these changes to be applied)
+# Apply changes in the local image (Note: You need to reboot your system for these changes to be applied)
 sudo abroot pkg apply
 
 # Rollback your system to previous state

@@ -4,7 +4,7 @@
 % lftp, linux
 
 # Connect to an FTP server
-lftp --user <username> <ftp.example.com>
+lftp <[-u|--user]> <username> <ftp.example.com>
 
 # Download multiple files (glob expression)
 mget <path_to_*.png>
@@ -22,4 +22,4 @@ mv <original_filename> <new_filename>
 mirror <path_to_remote_dir> <path_to_local_output_dir>
 
 # Upload or update an entire directory
-mirror -R <path_to_local_dir> <path_to_remote_output_dir>
+mirror <[-R|--reverse]> <path_to_local_dir> <path_to_remote_output_dir>

@@ -3,8 +3,8 @@
 
 % nix-build, common
 
-# Build a Nix expression
-nix-build '<nixpkgs>' <[-A|--attr]> <firefox>
+# View documentation for the traditional builder
+tldr nix-build.2
 
-# Build a sandboxed Nix expression (on non-NixOS)
-nix-build '<nixpkgs>' <[-A|--attr]> <firefox> --option sandbox true
+# View documentation for nix3 builder
+tldr nix build.3

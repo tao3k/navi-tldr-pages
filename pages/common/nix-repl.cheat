@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-repl.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-repl.md
 
-% nix3-repl, common
+% nix-repl, common
 
 # Start an interactive environment for evaluating Nix expressions
 nix repl

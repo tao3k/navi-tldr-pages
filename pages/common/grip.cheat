@@ -10,7 +10,7 @@ grip
 grip <path_to_file.md>
 
 # Start the server and open the `README` file of the current directory in the browser
-grip --browser
+grip <[-b|--browser]>
 
 # Start the server in the specified port and serve the rendered `README` file of the current directory
 grip <port>

@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-store.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-store.3.md
 
-% nix3-store, common
+% nix-store.3, common
 
 # Collect garbage, i.e. remove unused paths to reduce space usage
 nix store gc

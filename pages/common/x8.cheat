@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/x8.md
+
+% x8, common
+
+# Check hidden parameters in a URL query
+x8 <[-u|--url]> <https:__example.com_> <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Check parameters with a custom query injection point (`%s`)
+x8 <[-u|--url]> <https:__example.com_?something=1%26%s> <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Send parameters via POST body with JSON format
+x8 <[-u|--url]> <https:__example.com_> <[-X|--method]> <POST> <[-b|--body]> <'{"x":{%s>'}} <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Check parameters with a custom template (`%k` for key, `%v` for value)
+x8 <[-u|--url]> <https:__example.com_> <[-P|--param-template]> <user[%k]=%v> <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Encode parameters for special characters in queries
+x8 <[-u|--url]> <https:__example.com_?path=..%2faction.php%3f%s%23> --encode <[-w|--wordlist]> <path_to_wordlist.txt>
+
+# Discover hidden headers for a URL
+x8 <[-u|--url]> <https:__example.com_> --headers <[-w|--wordlist]> <path_to_headers.txt>
+
+# Check multiple URLs in parallel with high concurrency and verify found parameters
+x8 <[-u|--url]> <https:__example.com_> <https:__4rt.one_> <[-W|--workers]> <0> -c <3> --verify
+
+# Save request and response data for found parameters to a directory
+x8 <[-u|--url]> <https:__example.com_> <[-w|--wordlist]> <path_to_wordlist.txt> --save-responses <path_to_output_dir>

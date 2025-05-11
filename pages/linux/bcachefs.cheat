@@ -24,5 +24,5 @@ sudo bcachefs set-fs-option --metadata_replicas=<2> --data_replicas=<2> <path_to
 # Force `bcachefs` to ensure all files are replicated
 sudo bcachefs data rereplicate <path_to_mountpoint>
 
-# Display help
-bcachefs
+# Create a snapshot of a particular directory
+bcachefs subvolume snapshot <path_to_directory> <path_to_snapshot>

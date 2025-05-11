@@ -7,7 +7,7 @@
 obs
 
 # Launch OBS in portable mode
-obs --portable
+obs <[-p|--portable]>
 
 # Automatically start recording a video on launch
 obs --startrecording

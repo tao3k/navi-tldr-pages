@@ -10,16 +10,16 @@ kate <path_to_file1 path_to_file2 ...>
 kate <https:__example.com_path_to_file1 https:__example.com_path_to_file2 ...>
 
 # Create a new editor instance even if one is already open
-kate --new
+kate <[-n|--new]>
 
 # Open a file with the cursor at the specific line
-kate --line <line_number> <path_to_file>
+kate <[-l|--line]> <line_number> <path_to_file>
 
 # Open a file with the cursor at the specific line and column
-kate --line <line_number> --column <column_number> <path_to_file>
+kate <[-l|--line]> <line_number> <[-c|--column]> <column_number> <path_to_file>
 
 # Create a file from `stdin`
-cat <path_to_file> | kate --stdin
+cat <path_to_file> | kate <[-i|--stdin]>
 
 # Display help
-kate --help
+kate <[-h|--help]>

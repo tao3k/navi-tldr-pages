@@ -3,14 +3,17 @@
 
 % genfstab, linux
 
-# Display an fstab compatible output based on a volume label
-genfstab -L <path_to_mount_point>
-
-# Display an fstab compatible output based on a volume UUID
-genfstab -U <path_to_mount_point>
-
-# A usual way to generate an fstab file, requires root permissions
+# Generate the `/etc/fstab` file using volume UUIDs during an Arch Linux installation (requires root permissions)
 genfstab -U <mnt> >> <mnt_etc_fstab>
 
-# Append a volume into an fstab file to mount it automatically
+# Display fstab-compatible output based on volume labels
+genfstab -L <path_to_mount_point>
+
+# Display fstab-compatible output based on volume UUIDs
+genfstab -U <path_to_mount_point>
+
+# Display fstab-compatible output based on the specified identifier
+genfstab -t <LABEL|UUID|PARTLABEL|PARTUUID>
+
+# Append a volume into the `/etc/fstab` file to mount it automatically
 genfstab -U <path_to_mount_point> | sudo tee -a /etc/fstab

@@ -9,7 +9,7 @@ FileCheck --input-file=<path_to_input_file> <path_to_check_file>
 # Match input from the `stdin` with pattern file `check_file`
 echo "<some_text>" | FileCheck <path_to_check_file>
 
-# Match with the specified custom check `prefix` (Note: the default prefix is `CHECK`)
+# Match with the specified custom check `prefix` (Note: The default prefix is `CHECK`)
 echo "<some_text>" | FileCheck --check-prefix=<prefix> <path_to_check_file>
 
 # Print good directive pattern matches

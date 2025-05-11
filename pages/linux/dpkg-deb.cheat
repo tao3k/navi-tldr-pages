@@ -4,16 +4,16 @@
 % dpkg-deb, linux
 
 # Display information about a package
-dpkg-deb --info <path_to_file.deb>
+dpkg-deb <[-I|--info]> <path_to_file.deb>
 
 # Display the package's name and version on one line
-dpkg-deb --show <path_to_file.deb>
+dpkg-deb <[-W|--show]> <path_to_file.deb>
 
 # List the package's contents
-dpkg-deb --contents <path_to_file.deb>
+dpkg-deb <[-c|--contents]> <path_to_file.deb>
 
 # Extract package's contents into a directory
-dpkg-deb --extract <path_to_file.deb> <path_to_directory>
+dpkg-deb <[-x|--extract]> <path_to_file.deb> <path_to_directory>
 
 # Create a package from a specified directory
-dpkg-deb --build <path_to_directory>
+dpkg-deb <[-b|--build]> <path_to_directory>

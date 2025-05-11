@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-build.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-build.3.md
 
-% nix3-build, common
+% nix-build.3, common
 
 # Build a package from nixpkgs, symlinking the result to `./result`
 nix build <nixpkgs#pkg>

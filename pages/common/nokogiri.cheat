@@ -13,7 +13,7 @@ nokogiri <url|path_to_file> --type <xml|html>
 nokogiri <url|path_to_file> -C <path_to_config_file>
 
 # Parse using a specific encoding
-nokogiri <url|path_to_file> --encoding <encoding>
+nokogiri <url|path_to_file> <[-E|--encoding]> <encoding>
 
 # Validate using a RELAX NG file
 nokogiri <url|path_to_file> --rng <url|path_to_file>

@@ -7,13 +7,13 @@
 dysk
 
 # Sort by free size
-dysk --sort free
+dysk <[-s|--sort]> free
 
 # Include only HDD disks
-dysk --filter 'disk = HDD'
+dysk <[-f|--filter]> 'disk = HDD'
 
 # Exclude SSD disks
-dysk --filter 'disk <> SSD'
+dysk <[-f|--filter]> 'disk <> SSD'
 
 # Display disks with high utilization or low free space
-dysk --filter 'use > 65% | free < 50G'
+dysk <[-f|--filter]> 'use > 65% | free < 50G'

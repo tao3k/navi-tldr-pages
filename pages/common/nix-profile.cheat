@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-profile.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-profile.md
 
-% nix3-profile, common
+% nix-profile, common
 
 # Install some packages from nixpkgs into the default profile
 nix profile install <nixpkgs#pkg1 nixpkgs#pkg2 ...>

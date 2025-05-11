@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-registry.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-registry.md
 
-% nix3-registry, common
+% nix-registry, common
 
 # Pin the `nixpkgs` revision to the current version of the upstream repository
 nix registry pin <nixpkgs>

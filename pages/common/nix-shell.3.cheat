@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-shell.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-shell.3.md
 
-% nix3-shell, common
+% nix-shell.3, common
 
 # Start an interactive shell with some packages from `nixpkgs`
 nix shell <nixpkgs#pkg1 nixpkgs#packageSet.pkg2 ...>

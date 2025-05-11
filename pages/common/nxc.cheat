@@ -3,14 +3,14 @@
 
 % nxc, common
 
-# [L]ist available modules for the specified protocol
-nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> -L
+# List available modules for the specified protocol
+nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> <[-L|--list-modules]>
 
 # List the options available for the specified module
-nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> -M <module_name> --options
+nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> <[-M|--module]> <module_name> --options
 
-# Specify an option for a module
-nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> -M <module_name> -o <OPTION_NAME>=<option_value>
+# Specify an [o]ption for a module
+nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> <[-M|--module]> <module_name> -o <OPTION_NAME>=<option_value>
 
 # View the options available for the specified protocol
-nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> --help
+nxc <smb|ssh|ldap|ftp|wmi|winrm|rdp|vnc|mssql> <[-h|--help]>

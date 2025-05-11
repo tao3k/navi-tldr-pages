@@ -18,5 +18,5 @@ mqtt_check.py -port <port> <domain>/<username>:<password>@<targetName>
 # Enable debug output
 mqtt_check.py -debug <domain>/<username>:<password>@<targetName>
 
-# Display help message
+# Display help
 mqtt_check.py --help

@@ -3,7 +3,7 @@
 
 % ospp.vbs, windows
 
-# Install a product key (Note: it replaces the existing key)
+# Install a product key (Note: It replaces the existing key)
 cscript ospp.vbs /inpkey:<product_key>
 
 # Uninstall an installed product key with the last five digits of the product key

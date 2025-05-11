@@ -16,4 +16,4 @@ git check-ignore --stdin < <path_to_file_list>
 git check-ignore --no-index <path_to_file_or_directory1 path_to_file_or_directory2 ...>
 
 # Include details about the matching pattern for each path
-git check-ignore --verbose <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+git check-ignore <[-v|--verbose]> <path_to_file_or_directory1 path_to_file_or_directory2 ...>

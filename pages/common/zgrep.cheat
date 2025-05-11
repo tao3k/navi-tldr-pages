@@ -22,4 +22,4 @@ zgrep <[-e|--regexp]> "<pattern_1>" <[-e|--regexp]> "<pattern_2>" <path_to_compr
 zgrep <[-E|--extended-regexp]> <regular_expression> <path_to_file>
 
 # Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match
-zgrep --<context|before-context|after-context> <3> <pattern> <path_to_compressed_file>
+zgrep --<context|before-context|after-context> 3 <pattern> <path_to_compressed_file>

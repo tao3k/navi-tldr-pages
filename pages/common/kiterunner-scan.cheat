@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/kiterunner-scan.md
+
+% kiterunner-scan, common
+
+# Scan a target with an Assetnote wordlist (e.g., first 5000 API routes)
+kiterunner scan <https:__example.com> <[-A|--assetnote-wordlist]> <apiroutes-210228:5000>
+
+# Scan a target with a kitebuilder wordlist
+kiterunner scan <https:__example.com> <[-w|--kitebuilder-list]> <path_to_wordlist.kite>
+
+# Scan multiple hosts from a file with a kitebuilder wordlist
+kiterunner scan <path_to_hosts.txt> <[-w|--kitebuilder-list]> <path_to_wordlist.kite>
+
+# Scan with an Assetnote wordlist and JSON output
+kiterunner scan <https:__example.com> <[-A|--assetnote-wordlist]> <apiroutes-210228:5000> -o <json>
+
+# Scan with custom concurrency settings for performance
+kiterunner scan <https:__example.com> <[-w|--kitebuilder-list]> <path_to_wordlist.kite> <[-x|--max-connection-per-host]> <5> <[-j|--max-parallel-hosts]> <100>
+
+# Scan with a wordlist as a normal wordlist, disabling depth scanning
+kiterunner scan <https:__example.com> <[-w|--kitebuilder-list]> <path_to_rafter.txt> <[-d|--preflight-depth]> <0>
+
+# Scan with custom headers and ignore specific content length responses
+kiterunner scan <https:__example.com> <[-w|--kitebuilder-list]> <path_to_wordlist.kite> <[-H|--header]> "<Authorization: Bearer token>" --ignore-length <100-105>
+
+# Perform a full kitebuilder scan without phase scanning
+kiterunner scan <https:__example.com> <[-w|--kitebuilder-list]> <path_to_wordlist.kite> --kitebuilder-full-scan

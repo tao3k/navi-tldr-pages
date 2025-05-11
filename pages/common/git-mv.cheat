@@ -10,4 +10,4 @@ git mv <path_to_file> <new_path_to_file>
 git mv <path_to_file_or_directory> <path_to_destination>
 
 # Overwrite the file or directory in the target path if it exists
-git mv --force <path_to_file_or_directory> <path_to_destination>
+git mv <[-f|--force]> <path_to_file_or_directory> <path_to_destination>

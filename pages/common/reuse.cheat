@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/reuse.md
+
+% reuse, common
+
+# Lint for REUSE compliance for the current project (version control aware)
+reuse lint
+
+# Lint for REUSE compliance from the specified directory
+reuse --root <path_to_directory> lint
+
+# Download a license by its SPDX identifier and place it in the LICENSES directory
+reuse download <spdx-identifier>
+
+# Download all missing licenses detected in the project
+reuse download --all

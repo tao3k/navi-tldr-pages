@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-edit.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-edit.md
 
-% nix3-edit, common
+% nix-edit, common
 
 # Open the source of the Nix expression of a package from nixpkgs in your `$EDITOR`
 nix edit <nixpkgs#pkg>

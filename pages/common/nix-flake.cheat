@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix3-flake.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/nix-flake.md
 
-% nix3-flake, common
+% nix-flake, common
 
 # Create a new flake (just the `flake.nix` file) from the default template, in the current directory
 nix flake init

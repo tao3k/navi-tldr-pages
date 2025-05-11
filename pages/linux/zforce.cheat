@@ -3,5 +3,5 @@
 
 % zforce, linux
 
-# Add a `.gz` extension to the supplied Gzip files (Note: other files are ignored)
+# Add a `.gz` extension to the supplied Gzip files (Note: Other files are ignored)
 zforce <path_to_file1 path_to_file2 ...>

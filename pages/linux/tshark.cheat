@@ -16,7 +16,7 @@ tshark -Y '<http.request.method == "GET">'
 tshark -d tcp.port==<8888>,<http>
 
 # Specify the format of captured output
-tshark -T <json|text|ps|…>
+tshark -T <json|text|ps|...>
 
 # Select specific fields to output
 tshark -T <fields|ek|json|pdml> -e <http.request.method> -e <ip.src>
