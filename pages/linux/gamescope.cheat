@@ -3,8 +3,11 @@
 
 % gamescope, linux
 
-# Run a program with gamescope
-gamescope -- <command>
+# Run a program with gamescope on the terminal
+gamescope -- <program>
+
+# Run a game with gamescope through Steam
+gamescope -- %command%
 
 # Upscale a 720p game to 1440p with integer scaling
 gamescope <[-h|--nested-height]> 720 <[-H|--output-height]> 1440 <[-S|--scaler]> integer -- %command%

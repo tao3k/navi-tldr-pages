@@ -13,7 +13,7 @@ glab alias list
 glab alias set <mrv> '<mr view>'
 
 # Set a shell command as a `glab` subcommand
-glab alias set --shell <alias_name> <command>
+glab alias set <[-s|--shell]> <alias_name> <command>
 
 # Delete a command shortcut
 glab alias delete <alias_name>

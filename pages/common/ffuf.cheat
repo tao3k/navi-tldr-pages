@@ -4,22 +4,22 @@
 % ffuf, common
 
 # Enumerate directories using [c]olored output and a [w]ordlist specifying a target [u]RL
-ffuf -c -w <path_to_wordlist.txt> -u <http:__target_FUZZ>
+ffuf -c -w <path_to_wordlist.txt> -u <http:__example.com_FUZZ>
 
 # Enumerate webservers of subdomains by changing the position of the keyword
-ffuf -w <path_to_subdomains.txt> -u <http:__FUZZ.target.com>
+ffuf -w <path_to_subdomains.txt> -u <http:__FUZZ.example.com>
 
 # Fuzz with specified [t]hreads (default: 40) and pro[x]ying the traffic and save [o]utput to a file
-ffuf -o -w <path_to_wordlist.txt> -u <http:__target_FUZZ> -t <500> -x <http:__127.0.0.1:8080>
+ffuf -o -w <path_to_wordlist.txt> -u <http:__example.com_FUZZ> -t <500> -x <http:__127.0.0.1:8080>
 
 # Fuzz a specific [H]eader ("Name: Value") and [m]atch HTTP status [c]odes
-ffuf -w <path_to_wordlist.txt> -u <http:__target.com> -H "<Host: FUZZ>" -mc <200>
+ffuf -w <path_to_wordlist.txt> -u <http:__example.com> -H "<Host: FUZZ>" -mc <200>
 
 # Fuzz with specified HTTP method and [d]ata, while [f]iltering out comma separated status [c]odes
-ffuf -w <path_to_postdata.txt> -X <POST> -d "<username=admin\&password=FUZZ>" -u <http:__target_login.php> -fc <401,403>
+ffuf -w <path_to_postdata.txt> -X <POST> -d "<username=admin\&password=FUZZ>" -u <http:__example.com_login.php> -fc <401,403>
 
 # Fuzz multiple positions with multiple wordlists using different modes
-ffuf -w <path_to_keys:KEY> -w <path_to_values:VALUE> -mode <pitchfork|clusterbomb> -u <http:__target.com_id?KEY=VALUE>
+ffuf -w <path_to_keys:KEY> -w <path_to_values:VALUE> -mode <pitchfork|clusterbomb> -u <http:__example.com_id?KEY=VALUE>
 
 # Proxy requests through a HTTP MITM pro[x]y (such as Burp Suite or `mitmproxy`)
-ffuf -w <path_to_wordlist> -x <http:__127.0.0.1:8080> -u <http:__target.com_FUZZ>
+ffuf -w <path_to_wordlist> -x <http:__127.0.0.1:8080> -u <http:__example.com_FUZZ>

@@ -7,7 +7,7 @@
 sudo btrfs inspect-internal dump-super <path_to_partition>
 
 # Print superblock's and all of its copies' information
-sudo btrfs inspect-internal dump-super --all <path_to_partition>
+sudo btrfs inspect-internal dump-super <[-a|--all]> <path_to_partition>
 
 # Print filesystem's metadata information
 sudo btrfs inspect-internal dump-tree <path_to_partition>

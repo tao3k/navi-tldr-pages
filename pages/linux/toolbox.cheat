@@ -10,7 +10,7 @@ toolbox <subcommand>
 toolbox help <subcommand>
 
 # Display help
-toolbox --help
+toolbox <[-h|--help]>
 
 # Display version
 toolbox --version

@@ -4,10 +4,10 @@
 % xml-escape, common
 
 # Escape special XML characters in a string
-xml escape "<<a1>>"
+xml <[esc|escape]> "<<a1>>"
 
 # Escape special XML characters from `stdin`
-echo "<<a1>>" | xml escape
+echo "<<a1>>" | xml <[esc|escape]>
 
 # Display help
-xml escape --help
+xml <[esc|escape]> --help

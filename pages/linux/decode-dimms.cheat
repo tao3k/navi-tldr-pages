@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/decode-dimms.md
+
+% decode-dimms, linux
+
+# Display DIMM information
+decode-dimms
+
+# Display help
+decode-dimms <[-h|--help]>

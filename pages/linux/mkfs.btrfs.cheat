@@ -11,3 +11,6 @@ sudo mkfs.btrfs <[-m|--metadata]> raid1 <[-d|--data]> raid1 <dev_sdX _dev_sdY _d
 
 # Set a label for the filesystem
 sudo mkfs.btrfs <[-L|--label]> "<label>" <dev_sdX _dev_sdY ...>
+
+# Overwrite existing filesystem if one is detected
+sudo mkfs.btrfs <[-f|--force]> <dev_sdX>

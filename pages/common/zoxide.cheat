@@ -18,5 +18,5 @@ zoxide add <path_to_directory>
 # Remove a directory from `zoxide`'s database
 zoxide remove <path_to_directory>
 
-# Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`)
-zoxide init <bash|fish|zsh>
+# Generate shell configuration for command aliases (`z`, `zi`)
+zoxide init <bash|elvish|fish|nushell|posix|powershell|tcsh|xonsh|zsh>

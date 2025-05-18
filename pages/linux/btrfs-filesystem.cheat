@@ -20,3 +20,6 @@ sudo btrfs filesystem sync <path_to_btrfs_mount>
 
 # Summarize disk usage for the files in a directory recursively
 sudo btrfs filesystem du <[-s|--summarize]> <path_to_directory>
+
+# Create a swap file
+sudo btrfs filesystem mkswapfile --size <8g> --uuid <clear|random|time|UUID_value> <path_to_swapfile>

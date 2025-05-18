@@ -7,7 +7,7 @@
 ptargrep "<search_pattern>" <path_to_file1 path_to_file2 ...>
 
 # Extract to the current directory using the basename of the file from the archive
-ptargrep --basename "<search_pattern>" <path_to_file>
+ptargrep <[-b|--basename]> "<search_pattern>" <path_to_file>
 
 # Search for a case-insensitive pattern matching within a tar archive
-ptargrep --ignore-case "<search_pattern>" <path_to_file>
+ptargrep <[-i|--ignore-case]> "<search_pattern>" <path_to_file>

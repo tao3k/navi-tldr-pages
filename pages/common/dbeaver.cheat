@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dbeaver.md
+
+% dbeaver, common
+
+# Open `DBeaver`
+dbeaver
+
+# Open `DBeaver` connecting to a specific database
+dbeaver <[-con|--connect]> <database>
+
+# Force the creation of a new instance
+dbeaver --newInstance
+
+# Stop the running instance
+dbeaver --quit
+
+# Close all tabs within dbeaver
+dbeaver --closeTabs
+
+# Bring `DBeaver` to the top of applications
+dbeaver --bringToFront
+
+# Display help
+dbeaver --help

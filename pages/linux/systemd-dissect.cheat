@@ -7,13 +7,13 @@
 systemd-dissect <path_to_image.raw>
 
 # Mount an OS image
-systemd-dissect --mount <path_to_image.raw> <mnt_image>
+systemd-dissect <[-m|--mount]> <path_to_image.raw> <mnt_image>
 
 # Unmount an OS image
-systemd-dissect --umount <mnt_image>
+systemd-dissect <[-u|--umount]> <mnt_image>
 
 # List files in an image
-systemd-dissect --list <path_to_image.raw>
+systemd-dissect <[-l|--list]> <path_to_image.raw>
 
 # Attach an OS image to an automatically allocated loopback block device and print its path
 systemd-dissect --attach <path_to_image.raw>

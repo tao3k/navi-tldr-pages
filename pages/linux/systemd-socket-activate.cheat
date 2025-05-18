@@ -16,4 +16,4 @@ systemd-socket-activate <path_to_socket1.service> <path_to_socket2.service>
 systemd-socket-activate <path_to_socket.socket> <path_to_service.service>
 
 # Activate a service with a specified port
-systemd-socket-activate <path_to_socket.service> <{[-l|--listen]>} <8080>
+systemd-socket-activate <path_to_socket.service> <[-l|--listen]> <8080>

@@ -13,7 +13,7 @@ sudo efibootmgr <[-c|--create]> <[-d|--disk]> <dev_sda> <[-p|--part]> <1> <[-l|-
 sudo efibootmgr <[-c|--create]> <[-d|--disk]> <dev_sda> <[-p|--part]> <1> <[-l|--loader]> "<\vmlinuz>" <[-u|--unicode]> "<kernel_cmdline>" <[-L|--label]> "<Linux>"
 
 # Change the current boot order
-sudo efibootmgr <[-o|--bootorder]> <0002,0008,0001,0005>
+sudo efibootmgr <[-o|--bootorder]> <0002,0008,0001,001A,...>
 
 # Delete a boot option
 sudo efibootmgr <[-b|--bootnum]> <0008> <[-B|--delete-bootnum]>
