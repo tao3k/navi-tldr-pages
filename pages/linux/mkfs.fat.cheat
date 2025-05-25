@@ -14,3 +14,6 @@ mkfs.fat -i <volume_id> <dev_sdXY>
 
 # Use 5 instead of 2 file allocation tables
 mkfs.fat -f 5 <dev_sdXY>
+
+# Specify filesystem type
+mkfs.fat -F <12|16|32> <dev_sdXY>

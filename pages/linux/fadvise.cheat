@@ -3,8 +3,8 @@
 
 % fadvise, linux
 
-# Preload a file into cache
-fadvise <[-a|--advice]> willneeded <path_to_file>
+# Preload a file or directory into cache
+fadvise <[-a|--advice]> willneeded <path_to_file_or_directory>
 
 # Suggest dropping a file from cache
 fadvise <path_to_file>

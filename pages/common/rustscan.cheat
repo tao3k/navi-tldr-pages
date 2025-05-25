@@ -13,10 +13,10 @@ rustscan --top <[-a|--addresses]> <address_or_addresses>
 rustscan <[-p|--ports]> <port1,port2,...> <[-a|--addresses]> <address_or_addresses>
 
 # Scan a specific range of ports
-rustscan <[-r|--range]> <start-end> <[-a|--addresses]> <address_or_addresses>
+rustscan <[-r|--range]> <start>-<end> <[-a|--addresses]> <address_or_addresses>
 
-# Add script arguments to `nmap`
-rustscan <[-a|--addresses]> <address_or_addresses> -- -A -sC
+# Invoke `nmap` functionalities (Nmap's OS detection and default scripts)
+rustscan <[-a|--addresses]> <address_or_addresses> -- -O <[-sC|--script=default]>
 
 # Scan with custom batch size (default: 4500) and timeout (default: 1500ms)
 rustscan <[-b|--batch-size]> <batch_size> <[-t|--timeout]> <timeout> <[-a|--addresses]> <address_or_addresses>

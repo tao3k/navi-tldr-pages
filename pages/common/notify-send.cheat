@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/notify-send.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/notify-send.md
 
-% notify-send, linux
+% notify-send, common
 
 # Show a notification with the title "Test" and the content "This is a test"
 notify-send "<Test>" "<This is a test>"
@@ -11,6 +11,9 @@ notify-send <[-i|--icon]> <icon.png> "<Test>" "<This is a test>"
 
 # Show a notification for 5 seconds
 notify-send <[-t|--expire-time]> 5000 "<Test>" "<This is a test>"
+
+# Show a notification with the specified urgency level (default: normal)
+notify-send <[-u|--urgency]> <low|normal|critical> "<Test>" "<This is a test>"
 
 # Show a notification with an app's icon and name
 notify-send "<Test>" <[-i|--icon]> <google-chrome> <[-a|--app-name]> "<Google Chrome>"

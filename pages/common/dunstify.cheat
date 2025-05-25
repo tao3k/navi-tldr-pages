@@ -1,12 +1,12 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/dunstify.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/dunstify.md
 
-% dunstify, linux
+% dunstify, common
 
 # Show a notification with a given title and message
 dunstify "<Title>" "<Message>"
 
-# Show a notification with specified urgency
+# Show a notification with the specified urgency
 dunstify "<Title>" "<Message>" <[-u|--urgency]> <low|normal|critical>
 
 # Specify a message ID (overwrites any previous messages with the same ID)

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/osx/mac-cleanup.md
+
+% mac-cleanup, osx
+
+# Start the cleanup process
+mac-cleanup
+
+# Open the module configuration screen
+mac-cleanup <[-c|--configure]>
+
+# Perform a dry-ru[n], showing what will be removed without actually deleting it
+mac-cleanup <[-n|--dry-run]>
+
+# Specify the directory with custom cleanup [p]ath
+mac-cleanup <[-p|--custom-path]> <path_to_directory>
+
+# Automatically acknowledge all warnings and continue with [f]orce
+mac-cleanup -f
