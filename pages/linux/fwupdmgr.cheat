@@ -3,7 +3,7 @@
 
 % fwupdmgr, linux
 
-# Display all devices detected by fwupd
+# Display all devices detected by `fwupd`
 fwupdmgr get-devices
 
 # Download the latest firmware metadata from LVFS
@@ -14,3 +14,6 @@ fwupdmgr get-updates
 
 # Install firmware updates
 fwupdmgr update
+
+# Remount `/boot` with more privileges if update complains about a read-only filesystem
+sudo mount <[-o|--options]> uid=1000,gid=1000,umask=0022 <dev_sdX> /boot

@@ -7,7 +7,7 @@
 paste <[-s|--serial]> <path_to_file>
 
 # Join all the lines into a single line, using the specified delimiter
-paste <[-s|--serial]> <[-d|--delimiters]> <delimiter> <path_to_file>
+paste <[-sd|--serial --delimiters]> <delimiter> <path_to_file>
 
 # Merge two files side by side, each in its column, using TAB as delimiter
 paste <path_to_file1> <path_to_file2>

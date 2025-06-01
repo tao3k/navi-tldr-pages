@@ -7,4 +7,4 @@
 sudo sniff.py
 
 # Capture packets and save output to a file while displaying it on the terminal
-sudo sniff.py | sudo tee <output_file>
+sudo sniff.py | sudo tee <path_to_output_file>

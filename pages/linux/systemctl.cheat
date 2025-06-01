@@ -24,5 +24,5 @@ systemctl <is-active|is-enabled|is-failed> <unit>
 # List all service/socket/automount units filtering by running/failed state
 systemctl list-units <[-t|--type]> <service|socket|automount> --state <failed|running>
 
-# Show the contents & absolute path of a unit file
-systemctl cat <unit>
+# Show the contents & absolute path of a unit file or edit it
+systemctl <cat|edit> <unit>

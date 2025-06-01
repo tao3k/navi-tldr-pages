@@ -10,7 +10,7 @@ GetUserSPNs.py <domain>/<username>:<password> -dc-ip <domain_controller_ip>
 GetUserSPNs.py <domain>/<username> -hashes <LM_Hash>:<NT_Hash> -dc-ip <domain_controller_ip>
 
 # Save the output to a file
-GetUserSPNs.py <domain>/<username>:<password> -dc-ip <domain_controller_ip> -outputfile <output_file>
+GetUserSPNs.py <domain>/<username>:<password> -dc-ip <domain_controller_ip> -outputfile <path_to_output_file>
 
 # Request only TGS tickets
 GetUserSPNs.py <domain>/<username>:<password> -dc-ip <domain_controller_ip> -request

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/gio.md
+
+% gio, linux
+
+# Open a file with the default application (e.g. PDF, image)
+gio open <path_to_file>
+
+# List files in a directory
+gio list <path_to_directory>
+
+# Show information about a file
+gio info <path_to_file>
+
+# Copy a file
+gio copy <path_to_source> <path_to_destination>
+
+# Send a file to the trash (reversible)
+gio trash <path_to_file>
