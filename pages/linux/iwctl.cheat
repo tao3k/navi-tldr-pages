@@ -6,9 +6,6 @@
 # Start the interactive mode, in this mode you can enter the commands directly, with autocompletion
 iwctl
 
-# Call general help
-iwctl <[-h|--help]>
-
 # Display your Wi-Fi stations
 iwctl station list
 
@@ -20,3 +17,6 @@ iwctl station <station> get-networks
 
 # Connect to a network with a station, if credentials are needed they will be asked
 iwctl station <station> connect <network_name>
+
+# Display help
+iwctl <[-h|--help]>

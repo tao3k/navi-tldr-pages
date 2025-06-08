@@ -3,9 +3,6 @@
 
 % bpftrace, linux
 
-# Display bpftrace version
-bpftrace <[-V|--version]>
-
 # List all available probes
 sudo bpftrace -l
 
@@ -20,3 +17,6 @@ sudo bpftrace -e '<tracepoint:raw_syscalls:sys_enter _pid == 123_ { @[comm] = co
 
 # Do a dry run and display the output in eBPF format
 sudo bpftrace -d -e '<one_line_program>'
+
+# Display version
+bpftrace <[-V|--version]>

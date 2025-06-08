@@ -11,3 +11,9 @@ chattr -i <path_to_file_or_directory>
 
 # Recursively make an entire directory and contents immutable
 chattr -R +i <path_to_directory>
+
+# Mark a directory and its files to be interpreted in a case-insensitive manner
+chattr +F <path_to_directory>
+
+# Set a file to only allow appending
+chattr +a <path_to_file>
