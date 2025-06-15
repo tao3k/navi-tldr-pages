@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-teardown.md
+
+% aa-teardown, linux
+
+# Disable all AppArmor profiles and stop enforcement
+sudo aa-teardown
+
+# Display help
+aa-teardown <[-h|--help]>

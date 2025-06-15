@@ -11,3 +11,6 @@ mitmdump <[-nr|--no-server --read-flows]> <input_filename> <[-w|--wfile]> <outpu
 
 # Replay a saved traffic file
 mitmdump <[-nc|--no-server --client-replay]> <path_to_file>
+
+# Intercept DNS traffic (starts an intercepting DNS server on 127.0.0.1:53)
+sudo mitmdump <[-m|--mode]> dns

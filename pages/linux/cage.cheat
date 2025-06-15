@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/cage.md
+
+% cage, linux
+
+# Run an application
+cage <application>
+
+# Give the application arguments
+cage -- <application> <arguments>
+
+# Display help
+cage -h

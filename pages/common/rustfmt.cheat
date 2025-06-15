@@ -11,3 +11,9 @@ rustfmt --check <path_to_source.rs>
 
 # Backup any modified files before formatting (the original file is renamed with a `.bk` extension)
 rustfmt --backup <path_to_source.rs>
+
+# Format code using a specific Rust style edition (formatting rules) verbosely
+rustfmt --style-edition <2015|2018|2021|2024> <[-v|--verbose]> <path_to_source1.rs path_to_source2.rs ...>
+
+# Format code using a specific Rust edition (language features and parsing)
+rustfmt --edition <2015|2018|2021|2024> <path_to_source1.rs path_to_source2.rs ...>

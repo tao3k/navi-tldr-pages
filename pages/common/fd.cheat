@@ -10,13 +10,13 @@ fd "<string|regex>"
 fd "<^string>"
 
 # Find files with a specific extension
-fd --extension <txt>
+fd <[-e|--extension]> <txt>
 
 # Find files in a specific directory
 fd "<string|regex>" <path_to_directory>
 
 # Include ignored and hidden files in the search
-fd --hidden --no-ignore "<string|regex>"
+fd <[-H|--hidden]> <[-I|--no-ignore]> "<string|regex>"
 
 # Execute a command on each search result returned
-fd "<string|regex>" --exec <command>
+fd "<string|regex>" <[-x|--exec]> <command>

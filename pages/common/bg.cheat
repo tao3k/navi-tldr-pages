@@ -6,5 +6,5 @@
 # Resume the most recently suspended job and run it in the background
 bg
 
-# Resume a specific job (use `jobs -l` to get its ID) and run it in the background
-bg %<job_id>
+# Resume a specific job and run it in the background (run `jobs` to find the job number)
+bg %<job_number>

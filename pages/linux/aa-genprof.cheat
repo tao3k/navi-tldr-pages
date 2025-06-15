@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-genprof.md
+
+% aa-genprof, linux
+
+# Start generating a profile for a program
+sudo aa-genprof <program_path>
+
+# Specify a custom directory for profiles
+sudo aa-genprof <[-d|--dir]> <path_to_profiles> <program_path>
+
+# Specify a custom logfile for profiling
+sudo aa-genprof <[-f|--file]> <path_to_logfile> <program_path>
+
+# Display help
+aa-genprof <[-h|--help]>

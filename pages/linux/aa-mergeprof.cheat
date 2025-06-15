@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-mergeprof.md
+
+% aa-mergeprof, linux
+
+# Merge one or more profile files into the default profile directory
+sudo aa-mergeprof <file1 file2 ...>
+
+# Merge profile files into a specific directory
+sudo aa-mergeprof <[-d|--dir]> <path_to_profiles> <file1 file2 ...>
+
+# Display help
+aa-mergeprof <[-h|--help]>

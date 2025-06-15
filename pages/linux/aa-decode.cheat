@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/aa-decode.md
+
+% aa-decode, linux
+
+# Decode a hex string
+aa-decode <hexstring>
+
+# Decode a log file
+sudo aa-decode <logfile>
+
+# Decode logs from standard input (e.g., redirected file)
+sudo aa-decode - < <logfile>
+
+# Display help
+aa-decode <[-h|--help]>
