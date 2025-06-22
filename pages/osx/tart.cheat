@@ -10,7 +10,7 @@ tart pull <acme.io_org_name:tag>
 tart clone <source-vm> <vm-name>
 
 # Create a new Mac VM from a specific ipsw file
-tart create --from-ipsw=<latest|path_to_file.ipsw> <vm-name>
+tart create --from-ipsw <latest|path_to_file.ipsw> <vm-name>
 
 # Run an existing VM
 tart run <vm-name>

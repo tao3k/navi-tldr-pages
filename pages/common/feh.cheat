@@ -12,8 +12,8 @@ feh --recursive <path_to_images>
 # View images without window borders
 feh --borderless <path_to_images>
 
-# Exit after the last image
-feh --cycle-once <path_to_images>
+# Set the behavior when reaching the beginning or end of the image list
+feh --on-last-slide <hold|quit|resume> <path_to_images>
 
 # Use a specific slideshow cycle delay
 feh --slideshow-delay <seconds> <path_to_images>

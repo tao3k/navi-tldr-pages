@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uv-build.md
+
+% uv-build, common
+
+# Build a package in the current directory
+uv build
+
+# Build a package from a specific directory
+uv build <path_to_directory>
+
+# Build only a wheel (skip source distribution)
+uv build --wheel
+
+# Build only a source distribution (skip wheel)
+uv build --sdist
+
+# Build and output to a specific directory
+uv build <[-o|--out-dir]> <path_to_output>
+
+# Build a specific package in a workspace
+uv build --package <package_name>
+
+# Build all packages in the workspace
+uv build <[--all|--all-packages]>
+
+# Build with a specific Python interpreter
+uv build <[-p|--python]> <python3.11>

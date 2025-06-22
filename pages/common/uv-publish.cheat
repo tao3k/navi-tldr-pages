@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/uv-publish.md
+
+% uv-publish, common
+
+# Publish packages from `dist/` directory (default behavior)
+uv publish
+
+# Publish to a specific repository URL
+uv publish --publish-url <https:__upload.pypi.org_legacy_>
+
+# Publish using a specific username and password
+uv publish <[-u|--username]> <username> <[-p|--password]> <password>
+
+# Publish using an API token
+uv publish <[-t|--token]> <your_api_token>
+
+# Publish specific distribution files
+uv publish <path_to_dist_*.whl> <path_to_dist_*.tar.gz>
+
+# Publish to TestPyPI for testing
+uv publish --publish-url https://test.pypi.org/legacy/

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/prowler-kubernetes.md
+
+% prowler-kubernetes, common
+
+# Run the default checks using the default kubeconfig location
+prowler kubernetes
+
+# Specify a custom kubeconfig file for scanning
+prowler kubernetes --kubeconfig-file <path_to_kubeconfig>
+
+# Specify a specific Kubernetes context to scan
+prowler kubernetes --context <my-context>
+
+# Scan specific namespaces only
+prowler kubernetes --namespaces <default> <kube-system>
+
+# Run checks for selected Kubernetes services
+prowler kubernetes <[-s|--services]> <ietcd apiserver ...>
+
+# Run a specific Kubernetes check
+prowler kubernetes <[-c|--checks]> <etcd_encryption>
+
+# Exclude specific checks or services
+prowler kubernetes <[-e|--excluded-checks]> <etcd_encryption> --exclude-services <ietcd apiserver ...>

@@ -13,16 +13,16 @@ msedge --inprivate <example.com>
 msedge --new-window <example.com>
 
 # Open in application mode (without toolbars, URL bar, buttons, etc.)
-msedge --app=<https:__example.com>
+msedge --app <https:__example.com>
 
 # Use a proxy server
-msedge --proxy-server="<socks5:__hostname:66>" <example.com>
+msedge --proxy-server "<socks5:__hostname:66>" <example.com>
 
 # Open with a custom profile directory
-msedge --user-data-dir=<path_to_directory>
+msedge --user-data-dir <path_to_directory>
 
 # Open without CORS validation (useful to test an API)
-msedge --user-data-dir=<path_to_directory> --disable-web-security
+msedge --user-data-dir <path_to_directory> --disable-web-security
 
 # Open with a DevTools window for each tab opened
 msedge --auto-open-devtools-for-tabs

@@ -7,13 +7,13 @@
 p7zip <path_to_file>
 
 # Archive a file keeping the input file
-p7zip <[-k|--heep]> <path_to_file>
+p7zip <[-k|--keep]> <path_to_file>
 
 # Decompress a file, replacing it with the original uncompressed version
 p7zip <[-d|--decompress]> <compressed.ext>.7z
 
 # Decompress a file keeping the input file
-p7zip <[-d|--decompress]> <[-k|--heep]> <compressed.ext>.7z
+p7zip <[-d|--decompress]> <[-k|--keep]> <compressed.ext>.7z
 
 # Skip some checks and force compression or decompression
 p7zip <[-f|--force]> <path_to_file>
