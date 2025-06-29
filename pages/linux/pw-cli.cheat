@@ -3,11 +3,17 @@
 
 % pw-cli, linux
 
-# Print all nodes (sinks and sources) along with their IDs
-pw-cli list-objects Node
+# Print information of all object of a specific type
+pw-cli <[ls|list-objects]> <Node|Link|Port|Client|Device|Metadata|Factory|Module|Profiler|SecurityContext|Core>
 
 # Print information about an object with a specific ID
-pw-cli info <4>
+pw-cli <[i|info]> <4>
 
 # Print all objects' information
-pw-cli info all
+pw-cli <[i|info]> all
+
+# Monitor for object changes
+pw-cli <[-m|--monitor]>
+
+# Display help
+pw-cli <[h|help]>

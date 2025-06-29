@@ -10,10 +10,10 @@ caja
 caja <path_to_directory1 path_to_directory2 ...>
 
 # Open specific directories in tabs
-caja --tabs <path_to_directory1 path_to_directory2 ...>
+caja <[-t|--tabs]> <path_to_directory1 path_to_directory2 ...>
 
 # Open a directory with a specific window size
-caja --geometry=<600>x<400> <path_to_directory>
+caja <[-g|--geometry]> <600>x<400> <path_to_directory>
 
 # Close all windows
-caja --quit
+caja <[-q|--quit]>

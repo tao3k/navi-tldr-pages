@@ -3,11 +3,11 @@
 
 % pihole, linux
 
-# Check the Pi-hole daemon's status
+# Check Pi-hole's status
 pihole status
 
 # Update Pi-hole and Gravity
-pihole <[-up|updatePihole]>
+sudo pihole <[-up|updatePihole]>
 
 # Start or stop the daemon
 pihole <enable|disable>
@@ -19,7 +19,7 @@ pihole reloaddns
 pihole <[-g|updateGravity]>
 
 # Allow or deny the specified domain
-pihole <allowlist|denylist> <example.com>
+pihole <allow|deny> <example.com>
 
 # Search the lists for a domain
 pihole <[-q|query]> <example.com>

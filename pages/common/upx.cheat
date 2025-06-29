@@ -9,5 +9,5 @@ upx <path_to_file>
 # Decompress executable
 upx -d <path_to_file>
 
-# Detailed help
+# Display help
 upx --help

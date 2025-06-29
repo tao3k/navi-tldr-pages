@@ -9,7 +9,7 @@ crond
 # Start daemon in the foreground and check for scheduled commands
 crond -n
 
-# Send job output from the daemon to the system log
+# Send job output from the daemon to the [s]ystem log
 crond -s
 
 # Override default limitations and accept custom crontables

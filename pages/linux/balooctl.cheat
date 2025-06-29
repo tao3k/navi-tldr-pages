@@ -25,4 +25,4 @@ balooctl indexSize
 balooctl check
 
 # Display help
-balooctl --help
+balooctl <[-h|--help]>

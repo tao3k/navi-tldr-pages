@@ -3,14 +3,11 @@
 
 % nano, common
 
-# Start the editor
-nano
+# Open specific files, moving to the next file after closing the previous one
+nano <path_to_file1 path_to_file2 ...>
 
 # Start the editor without using configuration files
 nano <[-I|--ignorercfiles]>
-
-# Open specific files, moving to the next file when closing the previous one
-nano <path_to_file1 path_to_file2 ...>
 
 # Open a file and position the cursor at a specific line and column
 nano +<line>,<column> <path_to_file>
@@ -23,6 +20,9 @@ nano <[-i|--autoindent]> <path_to_file>
 
 # Open a file and create a backup file (`path/to/file~`) on save
 nano <[-B|--backup]> <path_to_file>
+
+# Open a file in restricted mode (i.e. don't read/write to files not specified on the command-line)
+nano <[-R|--restricted]> <path_to_file>
 
 # Exit nano
 <Ctrl x>

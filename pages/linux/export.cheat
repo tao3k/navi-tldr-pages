@@ -9,7 +9,7 @@ export <VARIABLE>=<value>
 # Unset an environment variable
 export -n <VARIABLE>
 
-# Export a function to child processes
+# Export a [f]unction to child processes
 export -f <FUNCTION_NAME>
 
 # Append a pathname to the environment variable `PATH`

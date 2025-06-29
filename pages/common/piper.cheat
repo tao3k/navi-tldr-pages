@@ -3,7 +3,7 @@
 
 % piper, common
 
-# Output a WAV [f]ile using a text-to-speech [m]odel (assuming a config file at model_path + .json)
+# Output a WAV [f]ile using a text-to-speech [m]odel (assuming a configuration file at model_path + .json)
 echo <Thing to say> | piper -m <path_to_model.onnx> -f <outputfile.wav>
 
 # Output a WAV [f]ile using a [m]odel and specifying its JSON [c]onfig file

@@ -7,7 +7,7 @@
 immich login <server_url_api> <server_key>
 
 # Upload some image files
-immich upload <file1.jpg file2.jpg>
+immich upload <file1.jpg file2.jpg ...>
 
 # Upload a directory including subdirectories
 immich upload --recursive <path_to_directory>

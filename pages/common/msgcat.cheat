@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/msgcat.md
+
+% msgcat, common
+
+# Combine multiple `.po` files into one
+msgcat <file1.po file2.po ...> <[-o|--output-file]> <combined.po>
+
+# Combine input files listed in a text file
+msgcat <[-f|--files-from]> <path_to_file_list.txt> <[-o|--output-file]> <combined.po>
+
+# Set the output encoding (e.g. UTF-8)
+msgcat <[-t|--to-code]> <UTF-8> <input.po> <[-o|--output-file]> <output.po>
+
+# Output only unique messages (appearing in one file only)
+msgcat <[-u|--unique]> <file1.po file2.po ...> <[-o|--output-file]> <unique.po>
+
+# Use the first available translation for duplicate entries
+msgcat --use-first <file1.po file2.po ...> <[-o|--output-file]> <output.po>
+
+# Display help
+msgcat <[-h|--help]>

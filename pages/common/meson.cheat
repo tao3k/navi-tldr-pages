@@ -15,7 +15,7 @@ meson compile -C <path_to_build_dir>
 # Run all tests in the project
 meson test
 
-# Show the help
+# Display help
 meson <[-h|--help]>
 
 # Display version

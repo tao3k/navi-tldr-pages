@@ -18,5 +18,5 @@ ts-node --script-mode <path_to_file.ts>
 # Transpile a TypeScript file to JavaScript without executing it
 ts-node --transpile-only <path_to_file.ts>
 
-# Display TS-Node help
+# Display help
 ts-node --help

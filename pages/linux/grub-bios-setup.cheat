@@ -7,7 +7,7 @@
 grub-bios-setup <dev_sdX>
 
 # Install even if problems are detected
-grub-bios-setup --force <dev_sdX>
+grub-bios-setup <[-f|--force]> <dev_sdX>
 
 # Install GRUB in a specific directory
-grub-bios-setup --directory=<boot_grub> <dev_sdX>
+grub-bios-setup <[-d|--directory]> <boot_grub> <dev_sdX>

@@ -6,7 +6,7 @@
 # Setup Doppler CLI in the current directory
 doppler setup
 
-# Setup Doppler project and config in current directory
+# Setup Doppler project and configuration in current directory
 doppler setup
 
 # Run a command with secrets injected into the environment

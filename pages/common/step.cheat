@@ -24,5 +24,5 @@ step certificate <install|uninstall> <path_to_root-ca.crt>
 # Create a RSA/EC private and public keypair (append `--no-password --insecure` to skip private key password protection)
 step crypto keypair <path_to_public_key> <path_to_private_key> --kty <RSA|EC>
 
-# Show help for subcommands
+# Display help for subcommands
 step <path|base64|certificate|completion|context|crl|crypto|oauth|ca|beta|ssh> --help

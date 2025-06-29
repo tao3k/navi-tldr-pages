@@ -4,7 +4,7 @@
 % brightnessctl, linux
 
 # List devices with changeable brightness
-brightnessctl --list
+brightnessctl <[-l|--list]>
 
 # Print the current brightness of the display backlight
 brightnessctl get

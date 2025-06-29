@@ -3,5 +3,5 @@
 
 % cgexec, linux
 
-# Execute a process in a given cgroup with given controller
+# Execute a process in a given c[g]roup with given controller
 cgexec -g <controller>:<cgroup_name> <process_name>

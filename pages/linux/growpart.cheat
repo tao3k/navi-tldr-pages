@@ -7,4 +7,4 @@
 growpart <dev_sdX> <n>
 
 # Show what modifications would be made when growing partition `n` in a disk image
-growpart --dry-run <path_to_disk.img> <n>
+growpart <[-N|--dry-run]> <path_to_disk.img> <n>

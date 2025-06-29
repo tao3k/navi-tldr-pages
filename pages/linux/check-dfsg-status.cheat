@@ -7,4 +7,4 @@
 check-dfsg-status
 
 # Only output the package names
-check-dfsg-status --sparse
+check-dfsg-status <[-s|--sparse]>

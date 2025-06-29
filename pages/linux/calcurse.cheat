@@ -7,7 +7,7 @@
 calcurse
 
 # Print the appointments and events for the current day and exit
-calcurse --appointment
+calcurse <[-a|--appointment]>
 
 # Remove all local calcurse items and import remote objects
 calcurse-caldav --init=keep-remote

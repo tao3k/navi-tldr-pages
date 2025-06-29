@@ -16,13 +16,13 @@ hugo new <section_name>/<page_name>
 hugo
 
 # Build a site including pages that are marked as a "draft"
-hugo --buildDrafts
+hugo <[-D|--buildDrafts]>
 
 # Build a site on your local IP
 hugo server --bind <local_ip> --baseURL <http:__local_ip>
 
 # Build a site to a given directory
-hugo --destination <path_to_destination>
+hugo <[-d|--destination]> <path_to_destination>
 
 # Build a site, start up a webserver to serve it, and automatically reload when pages are edited
 hugo server

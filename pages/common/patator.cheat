@@ -18,5 +18,5 @@ patator ftp_login host=<ip_or_host> user=FILE0 password=FILE1 0=<path_to_users.t
 # List all available modules
 patator --help
 
-# Show help for a particular module
+# Display help for a particular module
 patator <module_name> --help

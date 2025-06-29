@@ -7,7 +7,7 @@
 hlint <path_to_file> options
 
 # Check all Haskell files and generate a report
-hlint <path_to_directory> --report
+hlint <path_to_directory> <[-r|--report]>
 
 # Automatically apply most suggestions
 hlint <path_to_file> --refactor

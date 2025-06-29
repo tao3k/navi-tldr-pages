@@ -6,5 +6,5 @@
 # Compress an executable file in-place
 gzexe <path_to_executable>
 
-# Decompress a compressed executable in-place (i.e. convert the shell script back to an uncompressed binary)
+# [d]ecompress a compressed executable in-place (i.e. convert the shell script back to an uncompressed binary)
 gzexe -d <path_to_compressed_executable>

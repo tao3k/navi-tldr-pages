@@ -25,4 +25,4 @@ sudo homectl <lock|unlock> <username>
 sudo homectl resize <username> <100G>
 
 # Display help
-homectl --help
+homectl <[-h|--help]>

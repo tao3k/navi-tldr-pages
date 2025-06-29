@@ -6,6 +6,9 @@
 # Print a variable
 echo $<VARIABLE>
 
+# Run variable contents as a command
+$<VARIABLE>
+
 # Print the exit status of the previous command
 echo $?
 

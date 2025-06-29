@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/wpexec.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/wpexec.md
 
-% wpexec, common
+% wpexec, linux
 
 # Run a WirePlumber script
 wpexec <path_to_file.lua>

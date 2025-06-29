@@ -25,4 +25,4 @@ sudo abroot kargs <edit|show>
 sudo abroot status
 
 # Display help
-abroot --help
+abroot <[-h|--help]>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jira.md
+
+% jira, common
+
+# List recent issues
+jira issue list
+
+# List issues from the current sprint, assigned to me
+jira sprint list --current -a$(jira me)
+
+# Create a new issue, optionally set a parent issue
+jira issue create --parent <parent>

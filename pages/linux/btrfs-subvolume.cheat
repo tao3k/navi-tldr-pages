@@ -12,7 +12,7 @@ sudo btrfs subvolume list <path_to_btrfs_filesystem>
 # Delete a subvolume
 sudo btrfs subvolume delete <path_to_subvolume>
 
-# Create a read-only snapshot of an existing subvolume
+# Create a [r]ead-only snapshot of an existing subvolume
 sudo btrfs subvolume snapshot -r <path_to_source_subvolume> <path_to_target>
 
 # Create a read-write snapshot of an existing subvolume

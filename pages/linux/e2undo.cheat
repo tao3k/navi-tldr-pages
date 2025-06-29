@@ -12,7 +12,7 @@ e2undo -nv <path_to_undo_file> <dev_sdXN>
 # Perform an undo operation
 e2undo <path_to_undo_file> <dev_sdXN>
 
-# Perform an undo operation and display verbose information
+# Perform an undo operation and display [v]erbose information
 e2undo -v <path_to_undo_file> <dev_sdXN>
 
 # Write the old contents of the block to an undo file before overwriting a file system block

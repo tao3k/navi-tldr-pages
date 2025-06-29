@@ -12,5 +12,5 @@ bpython <path_to_file.py>
 # Execute a specific Python file and start a REPL
 bpython <[-i|--interactive]> <path_to_file.py>
 
-# Use the specified config file instead of the default config
+# Use the specified configuration file instead of the default configuration
 bpython --config <path_to_file.conf>

@@ -7,13 +7,13 @@
 gdebi <path_to_package.deb>
 
 # Do not show progress information
-gdebi <path_to_package.deb> --quiet
+gdebi <path_to_package.deb> <[-q|--quiet]>
 
 # Set an APT configuration option
-gdebi <path_to_package.deb> --option=<APT_OPTS>
+gdebi <path_to_package.deb> <[-o|--option]> <APT_OPTS>
 
 # Use alternative root dir
-gdebi <path_to_package.deb> --root=<path_to_root_dir>
+gdebi <path_to_package.deb> --root <path_to_root_dir>
 
 # Display version
 gdebi --version
