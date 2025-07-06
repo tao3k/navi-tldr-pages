@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/spf.md
+
+% spf, common
+
+# Launch `spf` with a specific path
+spf <path_to_directory>
+
+# Launch `spf` with multiple paths
+spf <path_to_directory1 path_to_directory2 ...>
+
+# Fix hotkey settings by appending missing keys
+spf <[--fh|--fix-hotkeys]>
+
+# Fix the configuration file by appending missing entries
+spf <[--fch|--fix-config-file]>
+
+# Use specific configuration and hotkey files
+spf <[-c|--config-file]> <path_to_config.toml> <[--hf|--hotkey-file]> <path_to_hotkey.toml>
+
+# Write the path of the first selected file to this file and exit
+spf <[--cf|--chooser-file]> <tmp_chooser-result>
+
+# Show internal configuration and data directory paths
+spf <[pl|path-list]>

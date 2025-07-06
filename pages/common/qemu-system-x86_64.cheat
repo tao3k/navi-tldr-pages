@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/qemu-system-x86_64.md
+
+% qemu-system-x86_64, common
+
+# Boot from an image emulating the `x86_64` architecture
+qemu-system-x86_64 -hda <image_name.img> -m <4096>
+
+# Boot a QEMU instance from a live ISO image
+qemu-system-x86_64 -hda <image_name.img> -cdrom <os_image.iso> -boot d -m <4096>
+
+# Boot from a physical device (e.g. from USB to test a bootable medium)
+qemu-system-x86_64 -hda <dev_storage_device> -m <4096>
+
+# Do not launch a VNC server
+qemu-system-i386 -hda <image_name.img> -m <4096> -nographic
+
+# Exit non-graphical QEMU
+<Ctrl a><x>
+
+# List the supported machine types
+qemu-system-x86_64 <[-M|-machine]> help

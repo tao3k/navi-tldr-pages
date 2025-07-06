@@ -25,4 +25,4 @@ hledger <[is|incomestatement]> <[-M|--monthly]> <[-T|--row-total]> <[-A|--averag
 hledger <[areg|aregister]> assets:bank:checking
 
 # Show the amount spent on food from the `assets:cash` account
-hledger print assets:cash | hledger <-f|--file> - <[-I|--ignore-assertions]> aregister expenses:food
+hledger print assets:cash | hledger <[-f|--file]> - <[-I|--ignore-assertions]> aregister expenses:food

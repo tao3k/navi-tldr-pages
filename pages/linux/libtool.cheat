@@ -4,22 +4,22 @@
 % libtool, linux
 
 # Compile a source file into a `libtool` object
-libtool --mode=compile gcc <[-c|--compile]> <path_to_source.c> <[-o|--output]> <path_to_source.lo>
+libtool <[c|compile]> gcc <[-c|--compile]> <path_to_source.c> <[-o|--output]> <path_to_source.lo>
 
 # Create a library or an executable
-libtool --mode=link gcc <[-o|--output]> <path_to_library.lo> <path_to_source.lo>
+libtool <[l|link]> gcc <[-o|--output]> <path_to_library.lo> <path_to_source.lo>
 
 # Automatically set the library path so that another program can use uninstalled `libtool` generated programs or libraries
-libtool --mode=execute gdb <path_to_program>
+libtool <[e|execute]> gdb <path_to_program>
 
 # Install a shared library
-libtool --mode=install cp <path_to_library.la> <path_to_installation_directory>
+libtool <[i|install]> cp <path_to_library.la> <path_to_installation_directory>
 
 # Complete the installation of `libtool` libraries on the system
-libtool --mode=finish <path_to_installation_dir>
+libtool <[f|finish]> <path_to_installation_dir>
 
 # Delete installed libraries or executables
-libtool --mode=uninstall <path_to_installed_library.la>
+libtool <[u|uninstall]> <path_to_installed_library.la>
 
 # Delete uninstalled libraries or executables
-libtool --mode=clean rm <path_to_source.lo> <path_to_library.la>
+libtool <[cl|clean]> rm <path_to_source.lo> <path_to_library.la>

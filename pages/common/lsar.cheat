@@ -19,4 +19,4 @@ lsar <[-t|--test]> <path_to_archive>
 lsar <[-j|--json]> <path_to_archive>
 
 # Display help
-lsar <-h|--help>
+lsar <[-h|--help]>

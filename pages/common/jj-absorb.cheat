@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jj-absorb.md
+
+% jj-absorb, common
+
+# Move all changes from a revision to other revisions automatically
+jj absorb <[-f|--from]> <revset> <[-t|--into]> <revsets>
+
+# Move only changes in given files from a revision to other revisions
+jj absorb <[-f|--from]> <revset> <[-t|--into]> <revsets> <filesets>

@@ -3,20 +3,26 @@
 
 % git, common
 
-# Execute a Git subcommand
-git <subcommand>
+# Create an empty Git repository
+git init
 
-# Execute a Git subcommand on a custom repository root path
-git -C <path_to_repo> <subcommand>
+# Clone a remote Git repository from the internet
+git clone <https:__example.com_repo.git>
 
-# Execute a Git subcommand with a given configuration set
-git -c '<config.key>=<value>' <subcommand>
+# View the status of the local repository
+git status
 
-# Display help
-git <[-h|--help]>
+# Stage all changes for a commit
+git add <[-A|--all]>
 
-# Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.)
-git help <subcommand>
+# Commit changes to version history
+git commit <[-m|--message]> <message_text>
 
-# Display version
-git <[-v|--version]>
+# Push local commits to a remote repository
+git push
+
+# Pull any changes made to a remote
+git pull
+
+# Reset everything the way it was in the latest commit
+git reset --hard; git clean <[-f|--force]>

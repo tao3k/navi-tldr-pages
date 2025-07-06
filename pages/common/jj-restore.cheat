@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jj-restore.md
+
+% jj-restore, common
+
+# Restore files from a revision into another revision
+jj restore <[-f|--from]> <revset> <[-t|--into]> <revset> <filesets>
+
+# Undo the changes in a revision as compared to the merge of its parents
+jj restore <[-c|--changes-in]> <revset> <filesets>
+
+# Interactively choose what parts to restore
+jj restore <[-f|--from]> <revset> <[-t|--into]> <revset> <[-i|--interactive]>

@@ -12,7 +12,7 @@ xhost +<hostname>
 # Deny a specific host from connecting to the X server
 xhost -<hostname>
 
-# Allow all hosts to connect (disable access control — insecure)
+# Allow all hosts to connect (disable access control - insecure)
 xhost +
 
 # Deny all hosts except those explicitly allowed (enable access control)

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jj-describe.md
+
+% jj-describe, common
+
+# Update the description of the current change
+jj <[desc|describe]>
+
+# Update the description of given revsets
+jj <[desc|describe]> <revsets>
+
+# Update the description to the given message
+jj <[desc|describe]> <[-m|--message]> <message>

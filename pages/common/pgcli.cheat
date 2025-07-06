@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/pgcli.md
+
+% pgcli, common
+
+# Connect to a PostgreSQL database using a connection string
+pgcli postgresql://<user>@<host>/<database>
+
+# Connect to a database using flags
+pgcli <[-h|--host]> <host> <[-U|--username]> <username> <[-d|--dbname]> <database>
+
+# Display help
+pgcli --help

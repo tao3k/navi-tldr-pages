@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/jj-show.md
+
+% jj-show, common
+
+# Show commit description and changes in a revision
+jj show <revset>
+
+# Show a summary of changes in a revision
+jj show <[-s|--summary]> <revset>
+
+# Show a histogram of changes in a revision
+jj show --stat <revset>

@@ -4,7 +4,7 @@
 % id3v2, linux
 
 # List all genres
-id3v2 <-L|--list-genres>
+id3v2 <[-L|--list-genres]>
 
 # List all tags of specific files
 id3v2 <[-l|--list]> <path_to_file1 path_to_file2 ...>

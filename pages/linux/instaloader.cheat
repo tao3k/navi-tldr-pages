@@ -25,4 +25,4 @@ instaloader <[-F|--fast-update]> <profile_name>
 instaloader <[-l|--login]> <username> <[-p|--password]> <password> <[-s|--stories]> --igtv <profile_name>
 
 # Download all types of posts (login required)
-instaloader <[-l|--login]> <username> <[-p|--password]> <password> {[-s|--stories]}} --igtv --highlights <profile_name>
+instaloader <[-l|--login]> <username> <[-p|--password]> <password> <[-s|--stories]> --igtv --highlights <profile_name>

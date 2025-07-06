@@ -24,5 +24,5 @@ pico -o <path_to_directory>
 # Enable "view only" mode, which disallows any edits
 pico -v <path_to_file>
 
-# Displays all files including those beginning with a period
+# Display all files including those beginning with a period
 pico -a

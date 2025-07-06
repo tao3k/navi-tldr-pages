@@ -7,7 +7,7 @@
 dracut
 
 # Generate an initramfs image for the current kernel and overwrite the existing one
-dracut --force
+dracut <[-f|--force]>
 
 # Generate an initramfs image for a specific kernel
 dracut --kver <kernel_version>
