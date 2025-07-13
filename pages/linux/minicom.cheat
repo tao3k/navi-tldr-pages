@@ -12,6 +12,9 @@ sudo minicom <[-D|--device]> <dev_ttyXYZ> <[-b|--baudrate]> <115200>
 # Enter the configuration menu before communicating with a given serial port
 sudo minicom <[-D|--device]> <dev_ttyXYZ> <[-s|--setup]>
 
+# Capture the output of a serial port to a file
+sudo minicom <[-D|--device]> <dev_ttyXYZ> <[-C|--capturefile]> <path_to_file>
+
 # Exit minicom
 <Ctrl a><x><Enter>
 

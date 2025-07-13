@@ -3,7 +3,7 @@
 
 % jj-absorb, common
 
-# Move all changes from a revision to other revisions automatically
+# Move all eligible and unambiguous changes from a revision to other revisions automatically
 jj absorb <[-f|--from]> <revset> <[-t|--into]> <revsets>
 
 # Move only changes in given files from a revision to other revisions

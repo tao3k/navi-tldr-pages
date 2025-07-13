@@ -3,17 +3,26 @@
 
 % deno, common
 
-# Run a JavaScript or TypeScript file
-deno run <path_to_file.ts>
-
-# Start a REPL (interactive shell)
+# Start a REPL (interactive shell, also known as Read-Eval-Print Loop)
 deno
 
-# Run a file with network access enabled
-deno run --allow-net <path_to_file.ts>
+# Start a new project named sample and test it
+deno init sample && cd sample && deno test
 
-# Run a file from a URL
-deno run <https:__deno.land_std_examples_welcome.ts>
+# Run a file securely. It will ask (if needed) to allow net, read, etc
+deno run <path_to_file.ts>
 
-# Install an executable script from a URL
-deno install <https:__deno.land_std_examples_colors.ts>
+# Run a file with explicit permissions or allow all (only if you trust the source)
+deno run <[--allow-env|--allow-net|--allow-write|--allow-all]> <jsr:@deno_deployctl>
+
+# List and run tasks from `deno.json` or scripts from `package.json`
+deno task
+
+# Install dependencies listed in `deno.json` or `package.json` (also lock files)
+deno install
+
+# Check types, format, and lint (fix if possible)
+deno check && deno fmt && deno lint --fix
+
+# Compile the script, imported dependencies, and runtime into a self contained executable
+deno compile <path_to_file.ts>

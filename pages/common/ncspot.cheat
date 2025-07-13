@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/ncspot.md
+
+% ncspot, common
+
+# Start `ncspot`
+ncspot
+
+# Enable logging to the specified file
+ncspot <[-d|--debug]> <path_to_file>
+
+# Display paths to the configuration and cache
+ncspot info
+
+# Use a different configuration file (in the directory reported by `ncspot info`; default: `config.toml`)
+ncspot <[-c|--config]> <file_name>
+
+# Display a list of keybindings
+<?>

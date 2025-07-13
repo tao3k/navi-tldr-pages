@@ -3,5 +3,14 @@
 
 % dtc, common
 
-# Decompile a `.dtb` file into a readable `.dts` file
+# Compile a device tree source `.dts` file into a binary device tree blob `.dtb` file
+dtc -I dts -O dtb -o <path_to_output_file.dtb> <path_to_input_file.dts>
+
+# Compile a device tree source `.dts` file into a binary device tree blob overlay `.dtbo` file
+dtc -@ -I dts -O dtb -o <path_to_output_file.dtbo> <path_to_input_file.dts>
+
+# Decompile a device tree blob `.dtb` file into a readable device tree source `.dts` file
 dtc -I dtb -O dts -o <path_to_output_file.dts> <path_to_input_file.dtb>
+
+# Decompile the current device tree from the system into a readable device tree source `.dts` file
+dtc -I fs -O dts /proc/device-tree

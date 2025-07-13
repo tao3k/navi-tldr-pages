@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/sccache.md
+
+% sccache, common
+
+# Show compilation statistics
+sccache <[-s|--show-stats]>
+
+# Run `gcc` (or any compiler command) through `sccache`
+sccache gcc <path_to_file.c>
+
+# Start `sccache` server in the foreground and print logs
+sccache --stop-server; SCCACHE_LOG=trace SCCACHE_START_SERVER=1 SCCACHE_NO_DAEMON=1 sccache
+
+# Ask scheduler for distributed compilation status
+sccache --dist-status

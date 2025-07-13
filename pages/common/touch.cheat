@@ -17,3 +17,9 @@ touch <[-c|--no-create]> <[-r|--reference]> <path_to_reference_file> <path_to_fi
 
 # Set the timestamp by parsing a string
 touch <[-d|--date]> "<last year|5 hours|next thursday|nov 14|...>" <path_to_file>
+
+# Create multiple files with an increasing number
+touch <path_to_file{1..10>}
+
+# Create multiple files with a letter range
+touch <path_to_file{a..z>}

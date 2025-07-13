@@ -15,7 +15,7 @@ ollama run <model> <prompt>
 # List downloaded models
 ollama list
 
-# Pull/Update a specific model
+# Pull a specific model
 ollama pull <model>
 
 # List running models

@@ -3,8 +3,8 @@
 
 % mc, common
 
-# Start Midnight Commander
-mc
+# View documentation for MinIO client
+tldr mc.cli
 
-# Start Midnight Commander in black and white
-mc <[-b|--nocolor]>
+# View documentation for Midnight Commander
+tldr mc.fm
