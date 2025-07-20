@@ -22,4 +22,4 @@ screenkey --mods-mode <normal|emacs|mac|win|tux>
 screenkey --bg-color "<#a1b2c3>" <[-f|--font]> <Hack> --font-color <yellow> --opacity <0.8>
 
 # Drag and select a window on screen to display screenkey
-screenkey <[-p|--position]> fixed <[-g|--geometry]> <$(slop {{[-n|--nodecorations]> <[-f|--format]> '%g')}}
+screenkey <[-p|--position]> fixed <[-g|--geometry]> <$(slop --nodecorations --format '%g')>

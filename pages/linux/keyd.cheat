@@ -16,4 +16,4 @@ sudo keyd reload
 keyd list-keys
 
 # Create a temporary binding
-sudo keyd bind "<pressed_key> = <output_key>
+sudo keyd bind "<pressed_key> = <output_key>"

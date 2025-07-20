@@ -13,7 +13,7 @@ linode-cli linodes create --type <linode_type> --region <region> --image <image_
 linode-cli linodes view <linode_id>
 
 # Update settings for a Linode
-linode-cli linodes update <linode_id> --label <[new_label>
+linode-cli linodes update <linode_id> --label <new_label>
 
 # Delete a Linode
 linode-cli linodes delete <linode_id>

@@ -12,5 +12,8 @@ pulumi preview <[-j|--json]>
 # Preview updates as a rich diff showing overall changes
 pulumi preview --diff
 
+# Preview updates using a Policy Pack (without Pulumi Cloud, best on CI/CD)
+pulumi preview --policy-pack <path_to_directory>
+
 # Display help
 pulumi preview <[-h|--help]>

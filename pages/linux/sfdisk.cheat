@@ -10,7 +10,7 @@ sudo sfdisk <[-d|--dump]> <path_to_device> > <path_to_file.dump>
 sudo sfdisk <path_to_device> < <path_to_file.dump>
 
 # Set the type of a partition
-sfdisk --part-type <path_to_device>} <partition_number> <swap>
+sfdisk --part-type <path_to_device> <partition_number> <swap>
 
 # Delete a partition
 sfdisk --delete <path_to_device> <partition_number>

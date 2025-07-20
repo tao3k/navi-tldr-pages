@@ -13,4 +13,4 @@ in-toto-run <[-n|--step-name]> <package> <[-m|--materials]> <project> <[-p|--pro
 in-toto-run <[-n|--step-name]> <review> -k <key_file> <[-m|--materials]> <document.pdf> <[-x|--no-command]>
 
 # Scan the image using Trivy and generate link file
-in-toto-run <[-n|--step-name]> <scan> -k <key_file> <[-p|--products]> <report.json> -- <bin_sh -c "trivy {{[-o|--output]> report.json <[-f|--format]> json <IMAGE>"}}
+in-toto-run <[-n|--step-name]> <scan> -k <key_file> <[-p|--products]> <report.json> -- <bin_sh -c "trivy --output report.json --format json <IMAGE>">

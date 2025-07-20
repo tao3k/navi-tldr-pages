@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/zed.md
+
+% zed, common
+
+# Open specific paths in Zed
+zed <path_to_file_or_directory1 path_to_file_or_directory2 ...>
+
+# Open a path in foreground and display logs
+zed <path_to_project> --foreground
+
+# Open a path in new window
+zed <path_to_project> <[-n|--new]>
+
+# Open a file at the given line number and column
+zed <path_to_file>:<line_number>:<column_number>
+
+# Open a diff tab in Zed for two versions of a file
+zed --diff <path_to_old_file> <path_to_new_file>

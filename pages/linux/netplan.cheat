@@ -13,7 +13,7 @@ sudo netplan generate
 sudo netplan set ethernets.<interface_name>.dhcp4=true
 
 # Try configuration changes without applying them permanently
-sudo netplan try --timeout=<seconds>
+sudo netplan try --timeout <seconds>
 
 # Return to previous working configuration after failed apply
 sudo netplan --debug apply

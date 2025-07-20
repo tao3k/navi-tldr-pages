@@ -10,7 +10,7 @@ x8 <[-u|--url]> <https:__example.com_> <[-w|--wordlist]> <path_to_wordlist.txt>
 x8 <[-u|--url]> <https:__example.com_?something=1%26%s> <[-w|--wordlist]> <path_to_wordlist.txt>
 
 # Send parameters via POST body with JSON format
-x8 <[-u|--url]> <https:__example.com_> <[-X|--method]> <POST> <[-b|--body]> <'{"x":{%s>'}} <[-w|--wordlist]> <path_to_wordlist.txt>
+x8 <[-u|--url]> <https:__example.com_> <[-X|--method]> <POST> <[-b|--body]> {{'{"x":{%s\}\}'}} <[-w|--wordlist]> <path_to_wordlist.txt>
 
 # Check parameters with a custom template (`%k` for key, `%v` for value)
 x8 <[-u|--url]> <https:__example.com_> <[-P|--param-template]> <user[%k]=%v> <[-w|--wordlist]> <path_to_wordlist.txt>

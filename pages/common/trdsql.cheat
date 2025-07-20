@@ -7,7 +7,7 @@
 trdsql -ocsv -oh "SELECT * FROM <path_to_file_*.json>" | sed 's/\([^,]*\)/"&"/g' > <path_to_file.csv>
 
 # Interpret JSON list as a table and put objects inside as columns (path/to/file.json: `{"list":[{"age":"26","name":"Tanaka"}]}`)
-trdsql "SELECT * FROM <path_to_file.json>::.list
+trdsql "SELECT * FROM <path_to_file.json>::.list"
 
 # Manipulate complex SQL query with data from multiple CSV files with first line is header (`-ih`)
 trdsql -icsv -ih "SELECT <column1,column2> FROM <path_to_file*.csv> WHERE column2 != '' ORDER BY column1 GROUP BY column1"

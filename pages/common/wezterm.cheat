@@ -6,7 +6,7 @@
 # Start a new Wezterm process and create a window
 wezterm
 
-# Establish an `ssh` session
+# Establish an `ssh` session in a new Wezterm window
 wezterm ssh <user>@<host>:<port>
 
 # Connect to the multiplexer (`wezterm-mux-server`)
@@ -15,10 +15,10 @@ wezterm connect <domain_name>
 # Output an image to the terminal
 wezterm imgcat <path_to_image>
 
-# Record a terminal session as an asciicat (by default recordings are found in `/tmp`)
+# Record a terminal session as an asciicast (by default recordings are saved to `/tmp`)
 wezterm record
 
-# Replay an asciicat terminal session
+# Replay an asciicast terminal session
 wezterm replay <path_to_cast_file>
 
 # Specify the configuration file to use (overrides the normal configuration file resolution)

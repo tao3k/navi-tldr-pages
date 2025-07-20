@@ -24,5 +24,5 @@ git lfs push --all <remote_name> <branch_name>
 # Fetch all Git LFS objects
 git lfs fetch
 
-# Checkout all Git LFS objects
+# Replace pointer files with actual Git LFS objects
 git lfs checkout

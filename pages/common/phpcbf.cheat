@@ -16,7 +16,7 @@ phpcbf <path_to_directory> --standard <standard>
 phpcbf <path_to_directory> --extensions <file_extension1,file_extension2,...>
 
 # A comma-separated list of files to load before processing
-phpcbf <path_to_directory> --bootstrap <path_to_file1,path_to_file2,...)>
+phpcbf <path_to_directory> --bootstrap <path_to_file1,path_to_file2,...>
 
 # Don't recurse into subdirectories
 phpcbf <path_to_directory> -l

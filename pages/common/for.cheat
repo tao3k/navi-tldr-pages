@@ -10,7 +10,7 @@ for <variable>; do <echo $variable>; done
 for <variable> in <item1 item2 ...>; do <echo "Loop is executed">; done
 
 # Iterate over a given range of numbers
-for <variable> in <{from>..<to>..<step>}; do <echo "Loop is executed">; done
+for <variable> in <{from..to..step>}; do <echo "Loop is executed">; done
 
 # Iterate over a given list of files
 for <variable> in <path_to_file1 path_to_file2 ...>; do <echo "Loop is executed">; done

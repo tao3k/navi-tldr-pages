@@ -3,14 +3,14 @@
 
 % hwinfo, linux
 
-# Get graphics card information
-hwinfo --gfxcard
+# Display all available hardware information
+hwinfo
 
-# Get network device information
-hwinfo --network
+# Display information about a specific hardware component
+hwinfo --<cpu|memory|disk|gfxcard|network|usb|pci|keyboard|mouse|monitor|sound|fingerprint|...>
 
-# List disks and CD-ROM drives, abbreviating the output
-hwinfo --short --disk --cdrom
+# Display information about a specific hardware component succinctly
+hwinfo <--component> --short
 
 # Write all hardware information to a file
 hwinfo --all --log <path_to_file>

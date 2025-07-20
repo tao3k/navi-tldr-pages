@@ -7,7 +7,7 @@
 <path_to_cs2> -dedicated +map <de_dust2>
 
 # Run a game with specified maximum number of players
-<path_to_cs2>  -dedicated +map <de_dust2> -maxplayers <64>
+<path_to_cs2> -dedicated +map <de_dust2> -maxplayers <64>
 
 # Run a game with specified server IP and port
 <path_to_cs2> -dedicated +map <de_dust2> -ip <1.2.3.4> -port <27015>

@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/acpi_listen.md
+
+% acpi_listen, linux
+
+# Listen to any ACPI event while the daemon is running
+acpi_listen
+
+# Display help
+acpi_listen <[-h|--help]>

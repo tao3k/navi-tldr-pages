@@ -10,7 +10,7 @@ quarto create-project <path_to_destination_directory> --type <book|default|websi
 quarto create-project <path_to_destination_directory> --type <website> --template <blog>
 
 # Render input file(s) to different formats
-quarto render <path_to_file.{{qmd|rmd|ipynb>}} --to <html|pdf|docx>
+quarto render <path_to_file.[qmd|rmd|ipynb]> --to <html|pdf|docx>
 
 # Render and preview a document or a website
 quarto preview <path_to_destination_directory|path_to_file>

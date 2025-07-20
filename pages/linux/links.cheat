@@ -13,10 +13,10 @@ links -anonymous <https:__example.com>
 links -enable-cookies <0|1> <https:__example.com>
 
 # Navigate forwards and backwards through the links on a page
-<ArrowUp|ArrowDown>
+<<ArrowUp>|<ArrowDown>>
 
 # Go forwards and backwards one page
-<ArrowLeft|ArrowRight>
+<<ArrowLeft>|<ArrowRight>>
 
 # Exit
 <q><y>

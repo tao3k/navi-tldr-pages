@@ -4,13 +4,13 @@
 % nmcli-networking, linux
 
 # Show the networking status of NetworkManager
-nmcli networking
+nmcli <[n|networking]>
 
 # Enable or disable networking and all interfaces managed by NetworkManager
-nmcli networking <on|off>
+nmcli <[n|networking]> <on|off>
 
 # Show the last known connectivity state
-nmcli networking connectivity
+nmcli <[n|networking]> <[c|connectivity]>
 
 # Show the current connectivity state
-nmcli networking connectivity check
+nmcli <[n|networking]> <[c|connectivity]> <[c|check]>

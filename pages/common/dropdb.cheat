@@ -13,7 +13,7 @@ dropdb <[-i|--interactive]> <database_name>
 dropdb <[-U|--username]> <username> <dbname>
 
 # Force a password prompt before connecting to the database
-dropdb <[-W|--password]> <dbname>}}
+dropdb <[-W|--password]> <dbname>
 
 # Suppress a password prompt before connecting to the database
 dropdb <[-w|--no-password]> <database_name>

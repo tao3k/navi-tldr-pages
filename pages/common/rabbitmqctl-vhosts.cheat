@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/rabbitmqctl-vhosts.md
+
+% rabbitmqctl-vhosts, common
+
+# List all virtual hosts
+rabbitmqctl list_vhosts
+
+# Add a new virtual host
+rabbitmqctl add_vhost <vhost_name>
+
+# Delete a virtual host
+rabbitmqctl delete_vhost <vhost_name>
+
+# Set permissions for a user on a specific virtual host
+rabbitmqctl set_permissions <[-p|--vhost]> <vhost_name> <username> <read> <write> <configure>
+
+# Clear permissions for a user on a specific virtual host
+rabbitmqctl clear_permissions <[-p|--vhost]> <vhost_name> <username>
