@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/audit2allow.md
+
+% audit2allow, common
+
+# Show all generated messages in audit and message logs
+audit2allow <[-a|--all]>
+
+# Show all generated messages since last boot
+audit2allow <[-b|--boot]>
+
+# Display detailed information around generated messages
+audit2allow <[-e|--explain]>
+
+# Enable verbose output mode
+audit2allow <[-v|--verbose]>
+
+# Use installed macros to generate a reference policy
+audit2allow <[-R|--reference]>
+
+# Specify a policy file for further analysis
+audit2allow <[-p|--policy]> <path_to_policyfile>
+
+# Limit analysis to messages with a type specified in `regex`
+audit2allow <[-t|--type]> <type_regex>
+
+# Display help
+audit2allow <[-h|--help]>

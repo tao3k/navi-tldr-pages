@@ -10,7 +10,7 @@ mutt -f <mailbox>
 mutt -s <subject> -c <cc@example.com> <recipient@example.com>
 
 # Send an email with files attached
-mutt -a <file1> <file2> -- <recipient@example.com>
+mutt -a <file1 file2 ...> -- <recipient@example.com>
 
 # Specify a file to include as the message body
 mutt -i <path_to_file> <recipient@example.com>

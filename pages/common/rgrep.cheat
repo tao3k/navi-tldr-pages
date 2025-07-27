@@ -9,10 +9,10 @@ rgrep "<search_pattern>"
 # Recursively search for a case-insensitive pattern in the current working directory
 rgrep <[-i|--ignore-case]> "<search_pattern>"
 
-# Recursively search for an extended regular expression pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory
+# Recursively search for an extended `regex` pattern (supports `?`, `+`, `{}`, `()` and `|`) in the current working directory
 rgrep <[-E|--extended-regexp]> "<search_pattern>"
 
-# Recursively search for an exact string (disables regular expressions) in the current working directory
+# Recursively search for an exact string (disables `regex`) in the current working directory
 rgrep <[-F|--fixed-strings]> "<exact_string>"
 
 # Recursively search for a pattern in a specified directory (or file)

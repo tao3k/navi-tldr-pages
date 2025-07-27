@@ -25,4 +25,4 @@ cargo rustc --lib -- -D unsafe-code
 cargo rustc <[-p|--package]> <package>
 
 # Build only the specified binary
-cargo --bin <name>
+cargo rustc --bin <name>

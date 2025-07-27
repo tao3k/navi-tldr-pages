@@ -7,7 +7,7 @@
 jdupes <path_to_directory>
 
 # Search multiple directories
-jdupes <directory1> <directory2>
+jdupes <directory1 directory2 ...>
 
 # Search all directories recursively
 jdupes <[-r|--recurse]> <path_to_directory>

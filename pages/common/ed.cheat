@@ -22,7 +22,7 @@ ed <[-l|--loose-exit-status]>
 ed <path_to_file>
 
 # Replace a string with a specific replacement for all lines
-,s/<regular_expression>/<replacement>/g<Enter>
+,s/<regex>/<replacement>/g<Enter>
 
 # Exit `ed`
 q<Enter>

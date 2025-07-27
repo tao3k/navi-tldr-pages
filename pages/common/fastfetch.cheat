@@ -13,7 +13,7 @@ fastfetch <[-c|--config]> all
 fastfetch <[-c|--config]> <path_to_config_file>
 
 # Fetch a specific structure
-fastfetch <[-s|--structure]> <structure>
+fastfetch <[-s|--structure]> <os:kernel:de:cpu:gpu>
 
 # Use a specific logo
 fastfetch <[-l|--logo]> <logo>

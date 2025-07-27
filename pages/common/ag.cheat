@@ -18,7 +18,7 @@ ag <[-i|--ignore-case]> <[-o|--only-matching]> FOO
 # Find "foo" in files with a name matching "bar"
 ag foo <[-G|--file-search-regex]> bar
 
-# Find files whose contents match a regular expression
+# Find files whose contents match a `regex`
 ag '<^ba(r|z)$>'
 
 # Find files with a name matching "foo"

@@ -6,8 +6,8 @@
 # Search for a file or folder by name
 es <search_term>
 
-# Search using a regular expression
-es -r <regex_pattern>
+# Search using a `regex`
+es -r <regex>
 
 # Match whole words
 es -w <search_term>

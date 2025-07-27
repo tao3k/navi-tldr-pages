@@ -12,7 +12,7 @@ tac <path_to_file1 path_to_file2 ...>
 # Use a specific separator
 tac <[-s|--separator]> <separator> <path_to_file1 path_to_file2 ...>
 
-# Use a specific regex as a separator
+# Use a specific `regex` as a separator
 tac <[-r|--regex]> <[-s|--separator]> <separator> <path_to_file1 path_to_file2 ...>
 
 # Use a separator before each file

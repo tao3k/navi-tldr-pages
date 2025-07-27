@@ -12,7 +12,7 @@ nl <path_to_file>
 # Number [a]ll [b]ody lines including blank lines or do [n]ot number [b]ody lines
 nl -b <a|n> <path_to_file>
 
-# Number only the [b]ody lines that match a basic regular expression (BRE) [p]attern
+# Number only the [b]ody lines that match a basic `regex` (BRE) [p]attern
 nl -b p'FooBar[0-9]' <path_to_file>
 
 # Use a specific [i]ncrement for line numbering

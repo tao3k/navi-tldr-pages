@@ -10,13 +10,13 @@ tar cf <path_to_target.tar> <path_to_file1 path_to_file2 ...>
 tar czf <path_to_target.tar.gz> <path_to_file1 path_to_file2 ...>
 
 # [c]reate a g[z]ipped (compressed) archive from a directory using relative paths
-tar czf <path_to_target.tar.gz> --directory=<path_to_directory> .
+tar czf <path_to_target.tar.gz> <[-C|--directory]> <path_to_directory> .
 
 # E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely
 tar xvf <path_to_source.tar[.gz|.bz2|.xz]>
 
 # E[x]tract a (compressed) archive [f]ile into the target directory
-tar xf <path_to_source.tar[.gz|.bz2|.xz]> --directory=<path_to_directory>
+tar xf <path_to_source.tar[.gz|.bz2|.xz]> <[-C|--directory]> <path_to_directory>
 
 # [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program
 tar caf <path_to_target.tar.xz> <path_to_file1 path_to_file2 ...>

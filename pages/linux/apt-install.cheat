@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/apt-install.md
+
+% apt-install, linux
+
+# Install a package, or update it to the latest version
+sudo apt install <package>
+
+# Display verbose package version information during installation or update
+sudo apt install <[-V|--verbose-versions]> <package>

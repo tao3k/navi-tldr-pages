@@ -13,7 +13,7 @@ qemu-system-x86_64 -hda <image_name.img> -cdrom <os_image.iso> -boot d -m <4096>
 qemu-system-x86_64 -hda <dev_storage_device> -m <4096>
 
 # Do not launch a VNC server
-qemu-system-i386 -hda <image_name.img> -m <4096> -nographic
+qemu-system-x86_64 -hda <image_name.img> -m <4096> -nographic
 
 # Exit non-graphical QEMU
 <Ctrl a><x>

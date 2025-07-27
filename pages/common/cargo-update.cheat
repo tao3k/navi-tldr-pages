@@ -7,7 +7,7 @@
 cargo update
 
 # Display what would be updated, but don't actually write the lockfile
-cargo update --dry-run
+cargo update <[-n|--dry-run]>
 
 # Update only the specified dependencies
 cargo update --package <dependency1> --package <dependency2> --package <dependency3>

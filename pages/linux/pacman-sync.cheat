@@ -12,7 +12,7 @@ sudo pacman -Syu
 # Update and [u]pgrade all packages and install a new one without prompting
 sudo pacman -Syu --noconfirm <package>
 
-# [s]earch the package database for a regular expression or keyword
+# [s]earch the package database for a `regex` or keyword
 pacman -Ss "<search_pattern>"
 
 # Display [i]nformation about a package

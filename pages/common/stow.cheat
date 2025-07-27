@@ -15,5 +15,5 @@ stow <[-n|--simulate]> <[-t|--target]> <path_to_target_directory> <file1 directo
 # Delete and resymlink
 stow <[-R|--restow]> <[-t|--target]> <path_to_target_directory> <file1 directory1 file2 directory2>
 
-# Exclude files matching a regular expression
-stow --ignore=<regular_expression> <[-t|--target]> <path_to_target_directory> <file1 directory1 file2 directory2>
+# Exclude files matching a `regex`
+stow --ignore=<regex> <[-t|--target]> <path_to_target_directory> <file1 directory1 file2 directory2>

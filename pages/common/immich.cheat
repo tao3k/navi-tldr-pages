@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/immich-cli.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/immich.md
 
-% immich-cli, common
+% immich, common
 
 # Authenticate to Immich server
 immich login <server_url_api> <server_key>

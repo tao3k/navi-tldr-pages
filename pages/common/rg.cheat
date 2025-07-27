@@ -3,7 +3,7 @@
 
 % rg, common
 
-# Recursively search current directory for a pattern (regular expression)
+# Recursively search current directory for a pattern (`regex`)
 rg <pattern>
 
 # Recursively search for a pattern in a file or directory

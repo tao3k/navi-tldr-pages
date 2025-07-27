@@ -6,13 +6,13 @@
 # Search for a pattern within a file
 xzgrep "<search_pattern>" <path_to_file>
 
-# Search for an exact string (disables regular expressions)
+# Search for an exact string (disables `regex`)
 xzgrep <[-F|--fixed-strings]> "<exact_string>" <path_to_file>
 
 # Search for a pattern in all files showing line numbers of matches
 xzgrep <[-n|--line-number]> "<search_pattern>" <path_to_file>
 
-# Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
+# Use extended `regex` (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
 xzgrep <[-E|--extended-regexp]> <[-i|--ignore-case]> "<search_pattern>" <path_to_file>
 
 # Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match

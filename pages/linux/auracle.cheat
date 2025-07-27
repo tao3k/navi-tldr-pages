@@ -3,8 +3,8 @@
 
 % auracle, linux
 
-# Display AUR packages that match a regular expression
-auracle search '<regular_expression>'
+# Display AUR packages that match a `regex`
+auracle search '<regex>'
 
 # Display information about one or more AUR packages
 auracle info <package1 package2 ...>

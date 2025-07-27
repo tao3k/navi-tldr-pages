@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/sc-im.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/scim.md
 
-% sc-im, common
+% scim, common
 
 # Start SC-IM
 scim <path_to_file.csv>

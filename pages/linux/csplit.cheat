@@ -15,5 +15,5 @@ csplit <[-k|--keep-files]> <path_to_file> 5 {*}
 # Split a file at line 5 and use a custom prefix for the output files
 csplit <path_to_file> 5 <[-f|--prefix]> <prefix>
 
-# Split a file at a line matching a regular expression
-csplit <path_to_file> /<regular_expression>/
+# Split a file at a line matching a `regex`
+csplit <path_to_file> /<regex>/

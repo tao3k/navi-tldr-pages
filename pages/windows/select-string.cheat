@@ -6,7 +6,7 @@
 # Search for a pattern within a file
 Select-String -Path "<path\to\file>" -Pattern '<search_pattern>'
 
-# Search for an exact string (disables regular expressions)
+# Search for an exact string (disables `regex`)
 Select-String -SimpleMatch "<exact_string>" <path\to\file>
 
 # Search for pattern in all `.ext` files in current dir

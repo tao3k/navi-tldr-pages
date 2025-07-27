@@ -3,7 +3,7 @@
 
 % git-mktree, common
 
-# Build a tree object and verify that each tree entry’s hash identifies an existing object
+# Build a tree object and verify that each tree entry's hash identifies an existing object
 git mktree
 
 # Allow missing objects

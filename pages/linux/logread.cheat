@@ -9,7 +9,7 @@ logread
 # Print `n` messages
 logread -l <n>
 
-# Filter messages by (Keyword/Regular Expression)
+# Filter messages by (Keyword/`regex`)
 logread -e <pattern>
 
 # Print log messages as they happen

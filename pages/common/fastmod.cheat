@@ -3,19 +3,19 @@
 
 % fastmod, common
 
-# Replace a regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore
-fastmod <regex_pattern> <replacement>
+# Replace a `regex` in all files of the current directory, ignoring files on .ignore and .gitignore
+fastmod <regex> <replacement>
 
-# Replace a regex pattern in case-insensitive mode in specific files or directories
-fastmod --ignore-case <regex_pattern> <replacement> -- <path_to_file path_to_directory ...>
+# Replace a `regex` in case-insensitive mode in specific files or directories
+fastmod --ignore-case <regex> <replacement> -- <path_to_file path_to_directory ...>
 
-# Replace a regex pattern in a specific directory in files filtered with a case-insensitive glob pattern
+# Replace a `regex` in a specific directory in files filtered with a case-insensitive glob pattern
 fastmod <regex> <replacement> --dir <path_to_directory> --iglob {{'**/*.{js,json}'}}
 
 # Replace for an exact string in `.js` or JSON files
 fastmod --fixed-strings <exact_string> <replacement> --extensions <json,js>
 
-# Replace for an exact string without prompt for a confirmation (disables regular expressions)
+# Replace for an exact string without prompt for a confirmation (disables `regex`)
 fastmod --accept-all --fixed-strings <exact_string> <replacement>
 
 # Replace for an exact string without prompt for a confirmation, printing changed files

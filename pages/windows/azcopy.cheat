@@ -4,7 +4,7 @@
 % azcopy, windows
 
 # Log in to an Azure Tenant
-azopy login
+azcopy login
 
 # Upload a local file
 azcopy copy '<path\to\source_file>' 'https://<storage_account_name>.blob.core.windows.net/<container_name>/<blob_name>'

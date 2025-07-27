@@ -3,7 +3,7 @@
 
 % npm-audit, common
 
-# Scan the project’s dependencies for known vulnerabilities
+# Scan the project's dependencies for known vulnerabilities
 npm audit
 
 # Automatically fix vulnerabilities in the project's dependencies

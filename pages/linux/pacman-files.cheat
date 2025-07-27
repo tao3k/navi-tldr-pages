@@ -9,8 +9,8 @@ sudo pacman -Fy
 # Find the package that owns a specific [F]ile
 pacman -F <filename>
 
-# Find the package that owns a specific [F]ile, using a regular e[x]pression
-pacman -Fx '<regular_expression>'
+# Find the package that owns a specific [F]ile, using a `rege[x]`
+pacman -Fx '<regex>'
 
 # List only the package names
 pacman -Fq <filename>

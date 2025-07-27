@@ -6,7 +6,7 @@
 # Search for a pattern within a compressed file
 bzgrep "<search_pattern>" <path_to_file>
 
-# Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
+# Use extended `regex` (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode
 bzgrep <[-E|--extended-regexp]> <[-i|--ignore-case]> "<search_pattern>" <path_to_file>
 
 # Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match

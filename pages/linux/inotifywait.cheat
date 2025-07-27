@@ -12,8 +12,8 @@ inotifywait <[-m|--monitor]> <path_to_file>
 # Watch a directory recursively for events
 inotifywait <[-m|--monitor]> <[-r|--recursive]> <path_to_directory>
 
-# Watch a directory for changes, excluding files, whose names match a regular expression
-inotifywait <[-m|--monitor]> <[-r|--recursive]> --exclude "<regular_expression>" <path_to_directory>
+# Watch a directory for changes, excluding files, whose names match a `regex`
+inotifywait <[-m|--monitor]> <[-r|--recursive]> --exclude "<regex>" <path_to_directory>
 
 # Watch a file for changes, exiting when no event occurs for 30 seconds
 inotifywait <[-m|--monitor]> <[-t|--timeout]> <30> <path_to_file>

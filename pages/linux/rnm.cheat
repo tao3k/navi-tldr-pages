@@ -6,7 +6,7 @@
 # Replace a search string with a replacement string in filenames
 rnm -ss <old> -rs <new> <path_to_directory>
 
-# Use a fixed (literal) search and replace string instead of regex
+# Use a fixed (literal) search and replace string instead of `regex`
 rnm -ssf <old> -rs <new> <path_to_files>
 
 # Add an auto-incremented index to filenames starting from 1

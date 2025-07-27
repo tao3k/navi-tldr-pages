@@ -9,8 +9,8 @@ logcat
 # Write system logs to a [f]ile
 logcat -f <path_to_file>
 
-# Display lines that match a regular expression
-logcat --regex <regular_expression>
+# Display lines that match a `regex`
+logcat --regex <regex>
 
 # Display logs for a specific PID
 logcat --pid <pid>

@@ -3,7 +3,7 @@
 
 % zmv, common
 
-# Move files using a regular expression-like pattern
+# Move files using a `regex`-like pattern
 zmv '<(*).log>' '<$1.txt>'
 
 # Preview the result of a move, without making any actual changes

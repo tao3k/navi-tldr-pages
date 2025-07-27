@@ -18,8 +18,8 @@ sudo aide <[-u|--update]>
 # Define a config file to override the default <._aide.conf>
 sudo aide <[-c|--config]> <path_to_config_file>
 
-# Use REGEX to limit AIDE to a specific string
-sudo aide <[-l|--limit]> <REGEX>
+# Use `regex` to limit AIDE to a specific string
+sudo aide <[-l|--limit]> <regex>
 
 # Send reporter results to a URL
 sudo aide <[-r|--report]> <reporterurl>

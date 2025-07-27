@@ -4,7 +4,7 @@
 % checkinstall, linux
 
 # Create and install a package with default settings
-sudo checkinstall --default
+sudo checkinstall <[-y|--default]>
 
 # Create a package but don't install it
 sudo checkinstall --install=<no>

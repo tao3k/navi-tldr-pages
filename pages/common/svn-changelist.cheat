@@ -4,10 +4,10 @@
 % svn-changelist, common
 
 # Add files to a changelist, creating the changelist if it does not exist
-svn changelist <changelist_name> <path_to_file1> <path_to_file2>
+svn changelist <changelist_name> <path_to_file1 path_to_file2 ...>
 
 # Remove files from a changelist
-svn changelist --remove <path_to_file1> <path_to_file2>
+svn changelist --remove <path_to_file1 path_to_file2 ...>
 
 # Remove the whole changelist at once
 svn changelist --remove --recursive --changelist <changelist_name> .

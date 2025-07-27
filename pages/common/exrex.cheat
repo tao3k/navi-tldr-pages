@@ -3,23 +3,23 @@
 
 % exrex, common
 
-# Generate all possible strings that match a regular expression
-exrex '<regular_expression>'
+# Generate all possible strings that match a `regex`
+exrex '<regex>'
 
-# Generate a random string that matches a regular expression
-exrex --random '<regular_expression>'
+# Generate a random string that matches a `regex`
+exrex <[-r|--random]> '<regex>'
 
-# Generate at most 100 strings that match a regular expression
-exrex --max-number <100> '<regular_expression>'
+# Generate at most 100 strings that match a `regex`
+exrex <[-m|--max-number]> <100> '<regex>'
 
-# Generate all possible strings that match a regular expression, joined by a custom delimiter string
-exrex --delimiter "<, >" '<regular_expression>'
+# Generate all possible strings that match a `regex`, joined by a custom delimiter string
+exrex <[-d|--delimiter]> "<, >" '<regex>'
 
-# Print count of all possible strings that match a regular expression
-exrex --count '<regular_expression>'
+# Print count of all possible strings that match a `regex`
+exrex <[-c|--count]> '<regex>'
 
-# Simplify a regular expression
-exrex --simplify '<ab|ac>'
+# Simplify a `regex`
+exrex <[-s|--simplify]> '<ab|ac>'
 
 # Print eyes
 exrex '<[oO0](_)[oO0]>'

@@ -13,4 +13,4 @@ eslint <path_to_file1.js path_to_file2.js ...>
 eslint --fix
 
 # Lint using the specified configuration file
-eslint <[-c|--config]> <path_to_config_file> <path_to_file1.js path_to_file2.js>
+eslint <[-c|--config]> <path_to_config_file> <path_to_file1.js path_to_file2.js ...>
