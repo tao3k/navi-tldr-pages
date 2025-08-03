@@ -13,7 +13,7 @@ lzop <[-d|--decompress]> <path_to_file.lzo>
 lzop -<level> <path_to_file>
 
 # Compress a file with the best compression level
-lzop <[-9|--best]> <[path_to_file]>
+lzop <[-9|--best]> <path_to_file>
 
 # Compress a file with the fastest compression level
-lzop <[-1|--fast]> <[path_to_file]>
+lzop <[-1|--fast]> <path_to_file>

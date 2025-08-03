@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/openrgb.md
+
+% openrgb, common
+
+# Start the OpenRGB GUI
+openrgb
+
+# List devices supported by OpenRGB
+openrgb --noautoconnect <[-l|--list-devices]>
+
+# Set the mode and color of a device
+openrgb <[-m|--mode]> <off|static|breathing|rainbow|flashing|...> <[-c|--color]> <random|red|00AAFF|...>
+
+# Display help
+openrgb <[-h|--help]>

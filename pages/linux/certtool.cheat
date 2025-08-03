@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/certtool.md
+
+% certtool, linux
+
+# Generate a private key and save it to a file
+certtool <[-p|--generate-privkey]> --outfile <path_to_private.key>
+
+# Generate a self-signed certificate using a private key and a template file
+certtool <[-s|--generate-self-signed]> --load-privkey <path_to_private.key> --template <path_to_info.template> --outfile <path_to_certificate.crt>
+
+# Generate a certificate signing request (CSR)
+certtool <[-q|--generate-request]> --load-privkey <path_to_private.key> --template <path_to_info.template> --outfile <path_to_request.csr>
+
+# Generate a certificate authority (CA) certificate
+certtool <[-s|--generate-self-signed]> --load-privkey <path_to_ca.key> --template <path_to_ca.template> --outfile <path_to_ca.crt>
+
+# Verify a certificate against a CA certificate
+certtool --verify --infile <path_to_certificate.crt> --load-ca-certificate <path_to_ca.crt>

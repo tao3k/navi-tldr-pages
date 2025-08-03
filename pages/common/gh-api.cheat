@@ -16,7 +16,7 @@ gh api graphql <[-f|--field]> <name=':repo'> <[-f|--raw-field]> '<query>'
 gh api <[-X|--method]> <POST> <endpoint>
 
 # Include the HTTP response headers in the output
-gh api <[--include]> <endpoint>
+gh api <[-i|--include]> <endpoint>
 
 # Do not print the response body
 gh api --silent <endpoint>

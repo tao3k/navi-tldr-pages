@@ -16,7 +16,7 @@ pct <[en|enter]> <100>
 pct <[cr|create]> <100> <var_lib_vz_template_cache_distro-name.tar.zst> -hostname <hostname> -password <password> --rootfs <local-lvm> --on-boot
 
 # Resize the container's disk to 20G
-pct {{[resi|resize]]} <100> <rootfs|mpX> <20G>
+pct <[resi|resize]> <100> <rootfs|mpX> <20G>
 
 # Show the configuration of a container, specifying its ID
 pct <[conf|config]> <100>

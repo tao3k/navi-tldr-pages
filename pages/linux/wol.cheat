@@ -16,7 +16,7 @@ wol <[-h|--host]> <hostname> <mac_address>
 wol <[-p|--port]> <port_number> <mac_address>
 
 # Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file
-wol {{[-f|--file]]} <path_to_file>
+wol <[-f|--file]> <path_to_file>
 
 # Turn on verbose output
 wol <[-v|--verbose]> <mac_address>

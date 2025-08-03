@@ -19,7 +19,7 @@ bzip3 <[-t|--test]> <path_to_compressed_file.bz3>
 bzip3 <[-v|--verbose]> <path_to_compressed_files.bz3>
 
 # Decompress a file overwriting existing files
-bzip3 <[-d|--decode]> <[-f--force]> <path_to_compressed_file.bz3>
+bzip3 <[-d|--decode]> <[-f|--force]> <path_to_compressed_file.bz3>
 
 # Display help
 bzip3 <[-h|--help]>

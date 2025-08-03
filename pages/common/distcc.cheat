@@ -1,0 +1,22 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/distcc.md
+
+% distcc, common
+
+# Compile a source file using a compiler like `gcc`
+distcc <gcc> -c <path_to_source.c> -o <path_to_output.o>
+
+# Set remote hosts to distribute compilation
+export DISTCC_HOSTS="localhost <ip1 ip2 ...>"
+
+# Compile a project with `make` using `distcc`
+make <[-j|--jobs]> <parallel_jobs> CC="distcc <gcc>"
+
+# Show the list of current `distcc` hosts
+distcc --show-hosts
+
+# Display help
+distcc --help
+
+# Display version
+distcc --version

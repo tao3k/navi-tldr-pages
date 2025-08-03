@@ -3,11 +3,17 @@
 
 % cmus, linux
 
-# Open cmus into the specified directory (this will become your new working directory)
+# Open `cmus` into the specified directory (this will become your new working directory)
 cmus <path_to_directory>
 
 # Add file/directory to library
 <:>add <path_to_file_or_directory>
+
+# Refresh the metadata of songs in the library
+<:>update-cache
+
+# Search for songs, albums, or artists
+</><something>
 
 # Pause/unpause current song
 <c>
@@ -15,5 +21,5 @@ cmus <path_to_directory>
 # Toggle shuffle mode on/off
 <s>
 
-# Quit cmus
+# Quit `cmus`
 <q>

@@ -1,0 +1,19 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/trunk.md
+
+% trunk, common
+
+# Start local/production server with hot reloading
+trunk serve --port <port> --release --proxy-backend <URL>
+
+# Build for production at root or subdirectory
+trunk build --release --dist <path_to_distribution> --public-url <path_to_app_subdir>
+
+# List all available tools in the repo and if they are enabled
+trunk tools list
+
+# Enable/disable a tool at a specific version
+trunk tools <enable|disable> <tool>@<version>
+
+# Print an action's execution history
+trunk actions history <action>

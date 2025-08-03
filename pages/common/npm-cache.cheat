@@ -22,7 +22,7 @@ npm cache ls
 npm cache verify
 
 # Show the cache path
-npm config get cache
+npm <[c|config]> get cache
 
 # Change the cache path
-npm config set cache <path_to_directory>
+npm <[c|config]> set cache <path_to_directory>

@@ -3,7 +3,7 @@
 
 % iw-dev, linux
 
-# Set device to monitor mode (interface must be down first. See also `ip link`)
+# Set device to monitor mode (interface must be down first. See also: `ip link`)
 sudo iw dev <wlp> set type monitor
 
 # Set device to managed mode (interface must be down first)

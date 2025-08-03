@@ -10,4 +10,4 @@ sudo grub-mkconfig
 sudo grub-mkconfig <[-o|--output]> <boot_grub_grub.cfg>
 
 # Display help
-grub-mkconfig --help
+grub-mkconfig <[-h|--help]>
