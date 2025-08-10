@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pct-set.md
+
+% pct-set, linux
+
+# Set container to start automatically on boot
+pct set <100> --onboot
+
+# Set a container to have a static IP
+pct set <100> --net0 name=eth0,bridge=vmbr0,ip=<10.0.0.100_24>,gw=<10.0.0.1>
+
+# Set container memory limit
+pct set <100> --memory <8192>

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pveum.md
+
+% pveum, linux
+
+# List users
+pveum user list
+
+# Add a user
+pveum user add <username>@pve
+
+# Delete a user
+pveum user delete <username>@pve

@@ -1,0 +1,13 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/partclone.md
+
+% partclone, linux
+
+# Copy a partition into an image
+sudo partclone.<ext4|btrfs|fat32|xfs|...> <[-c|--clone]> <[-s|--source]> <dev_sdXY> <[-o|--output]> <path_to_backup.img>
+
+# Restore a partition from an image
+sudo partclone.<ext4|btrfs|fat32|xfs|...> <[-c|--clone]> <[-s|--source]> <path_to_backup.img> <[-o|--output]> <dev_sdXY>
+
+# Display help
+partclone.<ext4|btrfs|fat32|xfs|...> <[-h|--help]>

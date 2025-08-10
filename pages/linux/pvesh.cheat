@@ -1,0 +1,10 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pvesh.md
+
+% pvesh, linux
+
+# List available nodes
+pvesh get /nodes
+
+# Discover API paths
+pvesh ls <>

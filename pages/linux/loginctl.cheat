@@ -4,7 +4,7 @@
 % loginctl, linux
 
 # Print all current sessions
-loginctl list-sessions
+loginctl
 
 # Print all properties of a specific session
 loginctl show-session <session_id> <[-a|--all]>

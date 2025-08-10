@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/linux/esa-snap.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/snap.esa.md
 
-% esa-snap, linux
+% snap.esa, linux
 
 # Display all updates
 snap --nosplash --nogui --modules --list --refresh

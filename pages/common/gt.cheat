@@ -3,7 +3,7 @@
 
 % gt, common
 
-# Initialise `gt` for the repository in the current directory
+# Initialize `gt` for the repository in the current directory
 gt init
 
 # Create a new branch stacked on top of the current branch and commit staged changes

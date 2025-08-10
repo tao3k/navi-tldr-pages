@@ -3,11 +3,14 @@
 
 % aur, linux
 
+# Initialize the repository that matches the path in `/etc/pacman.conf`
+repo-add <path_to_database.db.tar.gz>
+
 # Search the AUR database for a package
 aur search <keyword>
 
-# Download a package and its dependencies from AUR, build them and add them to a local repository
-aur sync <package>
+# Download one or more packages and their dependencies from the AUR, build them, and add them to a local repository
+aur sync <package1 package2 ...>
 
 # List packages available in your local repository
 aur repo <[-l|--list]>

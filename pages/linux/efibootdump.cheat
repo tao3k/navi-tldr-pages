@@ -1,0 +1,7 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/efibootdump.md
+
+% efibootdump, linux
+
+# Dump boot entries from a file
+efibootdump <[-f|--file]> <sys_firmware_efi_efivars_Boot0000-8be4df61-93ca-11d2-aa0d-00e098032b8c>

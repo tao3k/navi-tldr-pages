@@ -12,8 +12,8 @@ pct <start|stop|reboot> <100>
 # Access a specific container's shell
 pct <[en|enter]> <100>
 
-# Create a container from template
-pct <[cr|create]> <100> <var_lib_vz_template_cache_distro-name.tar.zst> -hostname <hostname> -password <password> --rootfs <local-lvm> --on-boot
+# Create a container from template with 4GB size
+pct <[cr|create]> <100> <local:vztmpl_distro-name.tar.zst> --rootfs <local-lvm>:4
 
 # Resize the container's disk to 20G
 pct <[resi|resize]> <100> <rootfs|mpX> <20G>

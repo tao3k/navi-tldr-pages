@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/b2-tools.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/b2.md
 
-% b2-tools, common
+% b2, common
 
 # Access your account
 b2 authorize_account <key_id>

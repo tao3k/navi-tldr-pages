@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pvesm.md
+
+% pvesm, linux
+
+# Get status for all datastores
+pvesm status
+
+# List storage contents
+pvesm list <storage_name>
+
+# Add a directory storage
+pvesm add dir <storage_name> --path <path_to_directory>
+
+# Remove a storage
+pvesm remove <storage_name>

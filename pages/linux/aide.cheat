@@ -15,7 +15,7 @@ sudo aide <[-E|--compare]>
 # Check and update the database non-interactively
 sudo aide <[-u|--update]>
 
-# Define a config file to override the default <._aide.conf>
+# Define a config file to override the default `./aide.conf`
 sudo aide <[-c|--config]> <path_to_config_file>
 
 # Use `regex` to limit AIDE to a specific string

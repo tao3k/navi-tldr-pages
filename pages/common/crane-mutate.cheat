@@ -12,7 +12,7 @@ crane mutate <--append>/<--cmd>/<--entrypoint>/<[-e|--env]>/<--exposed-ports> <v
 # Path to new tarball of resulting image
 crane mutate <[-o|--output]> <path_to_tarball>
 
-# Repository in the form os/arch<variant><:osversion><,<platform>> to push mutated image
+# Repository in the form `os/arch/variant:osversion,platform` to push mutated image
 crane mutate --set-platform <platform_name>
 
 # New tag reference to apply to mutated image

@@ -17,3 +17,6 @@ qm <[cr|create]> <100> --archive <path_to_backup_file.tar> --force 1
 
 # Specify a script that is executed automatically depending on the state of the virtual machine
 qm <[cr|create]> <100> --hookscript <path_to_script.pl>
+
+# Create a VM that bridges itself to the host network
+qm <[cr|create]> <100> --net<0> virtio,bridge=vmbr<0>

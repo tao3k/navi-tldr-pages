@@ -1,7 +1,7 @@
 ; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/osx/whence.md
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/whence.md
 
-% whence, osx
+% whence, common
 
 # Interpret `command`, with expansion if defined as an `alias` (similar to the `command -v` builtin)
 whence "<command>"

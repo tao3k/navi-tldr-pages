@@ -3,8 +3,8 @@
 
 % kpartx, linux
 
-# Add partition mappings
-kpartx -a <whole_disk.img>
+# Add partition mappings and print created mappings
+kpartx -av <whole_disk.img>
 
 # Delete partition mappings
 kpartx -d <whole_disk.img>

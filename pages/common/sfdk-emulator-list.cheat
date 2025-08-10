@@ -1,7 +1,0 @@
-; This has been extracted from
-; https://github.com/tldr-pages/tldr/blob/master/pages/common/sfdk-emulator-list.md
-
-% sfdk-emulator-list, common
-
-# View documentation for `sfdk emulator install`
-tldr sfdk emulator install

@@ -1,0 +1,16 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/linux/pveam.md
+
+% pveam, linux
+
+# Update container template database
+pveam update
+
+# List available templates
+pveam available
+
+# Download a template
+pveam download <local> <template_name>
+
+# List downloaded templates
+pveam list <local>
